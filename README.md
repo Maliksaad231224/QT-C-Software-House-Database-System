@@ -2,7 +2,7 @@
 
 **Framework and Language Used**
 
-The project has been developed using QT framework. The backend is written using C++ and SQL. We are connecting the App with MYSQL database.
+The project has been developed using QT framework. The backend is written using C++ and SQL. We are connecting the App with MYSQL database. All the frontend was written in QML i.e the descriptive language of QT framework. 
 
 **Total Pages**
 
