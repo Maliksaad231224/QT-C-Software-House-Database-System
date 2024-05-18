@@ -4,6 +4,10 @@
 
 The project has been developed using QT framework. The backend is written using C++ and SQL. We are connecting the App with MYSQL database. All the frontend was written in QML i.e the descriptive language of QT framework. 
 
+**Files Description**
+
+The project files are in QtPro folder. It cantains a main.cpp file where the objects are called and the main application is shown, a mainwindow.h file cantaining the class mainwindow cantaining the memebr variables and function definitions, and finally a mainwindow.cpp file where the fucntion declarations are written. It is the same file where the backend code will be written. 
+
 **Total Pages**
 
 This application consists of a total of 19 pages all stacked on top of each other using QT stacked widgets. The buttons are connected using Qt Signals and Slots.
