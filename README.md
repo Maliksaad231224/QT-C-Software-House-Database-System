@@ -6,7 +6,7 @@ The project has been developed using QT framework. The backend is written using 
 
 **Files Description**
 
-The project files are in QtPro folder. It cantains a main.cpp file where the objects are called and the main application is shown, a mainwindow.h file cantaining the class mainwindow cantaining the memebr variables and function definitions, and finally a mainwindow.cpp file where the fucntion declarations are written. It is the same file where the backend code will be written. 
+The project files are in QtPro folder. It cantains a main.cpp file where the objects are called and the main application is shown, a mainwindow.h file cantaining the class mainwindow cantaining the memebr variables and function definitions, and finally a mainwindow.cpp file where the fucntion declarations are written. It is the same file where the backend code will be written. In case anyone faces issues in compiling the app, disable your antivirus. if he problem persists, simply delete the "qtPro.pro" file only . this will solve the problem. 
 
 **Total Pages**
 
