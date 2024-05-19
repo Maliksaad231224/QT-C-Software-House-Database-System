@@ -40,7 +40,7 @@ connect(ui->pushButton_2, &QPushButton::clicked, this, &MainWindow::on_pushButto
 
     }
 
-ui->stackedWidget->setCurrentIndex(7);
+ui->stackedWidget->setCurrentIndex(0);
 
 }
 
@@ -277,6 +277,9 @@ void MainWindow::on_pushButton_9_clicked()
     }
     else if(dept==true&&upd==true){
            ui->stackedWidget->setCurrentIndex(13);
+    }
+    else if(dept==true&&del==true){
+        QMessageBox::warning(this, "Deletion Error", "You Cannot Delete a Department");
     }
 }
 
