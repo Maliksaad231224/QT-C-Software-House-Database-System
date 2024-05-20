@@ -14,8 +14,10 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    connect(ui->pushButton_7, &QPushButton::clicked, this, &MainWindow::on_pushButton_7_clicked);
-     connect(ui->pushButton, &QPushButton::clicked, this, &MainWindow::on_pushButton_clicked);
+
+
+    connect(ui->pushButton_80, &QPushButton::clicked, this, &MainWindow::on_pushButton_80_clicked);
+
  connect(ui->pushButton_6, &QPushButton::clicked, this, &MainWindow::on_pushButton_6_clicked);
 connect(ui->pushButton_2, &QPushButton::clicked, this, &MainWindow::on_pushButton_2_clicked);
     QDir databasePath;
@@ -67,13 +69,13 @@ void MainWindow::on_conn_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(1);
+    ui->stackedWidget->setCurrentIndex(3);
 }
 
 
 void MainWindow::on_pushButton_7_clicked()
 {
-     ui->stackedWidget->setCurrentIndex(0);
+     ui->stackedWidget->setCurrentIndex(17);
 }
 
 
@@ -82,29 +84,15 @@ void MainWindow::on_pushButton_7_clicked()
 
 void MainWindow::on_pushButton_clicked()
 {
-     ui->stackedWidget->setCurrentIndex(2);
-    ins=true;
+     ui->stackedWidget->setCurrentIndex(6);
 
 }
 
 
 void MainWindow::on_pushButton_6_clicked()
 {
-emp=true;
-    if(emp==true&&ins==true){
-     ui->stackedWidget->setCurrentIndex(3);
-    }
-    else if(emp==true&&upd==true){
-          ui->stackedWidget->setCurrentIndex(4);
-    }
-     else if(emp==true&&del==true)
-   {
-     ui->stackedWidget->setCurrentIndex(5);
-    }
-    else if(emp==true&&dis==true)
-    {
-        ui->stackedWidget->setCurrentIndex(6);
-    }
+ ui->stackedWidget->setCurrentIndex(4);
+
 
 }
 
@@ -112,21 +100,14 @@ emp=true;
 void MainWindow::on_pushButton_3_clicked()
 {
 
-    ui->stackedWidget->setCurrentIndex(2);
-upd=true;
+    ui->stackedWidget->setCurrentIndex(7);
+
 }
 
 void MainWindow::homenaviagte()
 {
-    ui->stackedWidget->setCurrentIndex(1);
-    emp=false;
-    dept=false;
-    team=false;
-    proj=false;
-    upd=false;
-    ins=false;
-    dis=false;
-    del=false;
+    ui->stackedWidget->setCurrentIndex(3);
+
 }
 
 void MainWindow::on_homebutton_clicked()
@@ -137,56 +118,54 @@ void MainWindow::on_homebutton_clicked()
 
 void MainWindow::on_homebutton_2_clicked()
 {
-    homenaviagte();
+    employeeview();
 }
 
 
 void MainWindow::on_homebutton_3_clicked()
 {
-    homenaviagte();
+    employeeview();
 }
 
 
 void MainWindow::on_homebutton_4_clicked()
 {
-    homenaviagte();
+    employeeview();
 }
 
 
 void MainWindow::on_pushButton_4_clicked()
 {
-    del=true;
-      ui->stackedWidget->setCurrentIndex(2);
+
+      ui->stackedWidget->setCurrentIndex(3);
 }
 
 
 void MainWindow::on_homebutton_5_clicked()
 {
     if(manager==true){
-        ui->stackedWidget->setCurrentIndex(7);
-        manager=false;
+        managerview();
     }
     else{
-        homenaviagte();}
-}
+
+
+    employeeview();
+    }}
 
 
 void MainWindow::on_pushButton_5_clicked()
 {
-    dis=true;
-       ui->stackedWidget->setCurrentIndex(2);
+       ui->stackedWidget->setCurrentIndex(9);
 }
 
 
 void MainWindow::on_homebutton_32_clicked()
 {
     if(manager==true){
-        ui->stackedWidget->setCurrentIndex(7);
-        manager=false;
+          ui->stackedWidget->setCurrentIndex(12);
     }
     else{
-        homenaviagte();
-    }
+        teamview();}
 }
 
 
@@ -198,152 +177,425 @@ void MainWindow::on_homebutton_31_clicked()
 
 void MainWindow::on_homebutton_15_clicked()
 {
-    homenaviagte();
+    teamview();
 }
 
 
 void MainWindow::on_homebutton_14_clicked()
 {
-    homenaviagte();
+    teamview();
 }
 
 
 void MainWindow::on_homebutton_13_clicked()
 {
     if(manager==true){
-         ui->stackedWidget->setCurrentIndex(7);
-        manager=false;
+     ui->stackedWidget->setCurrentIndex(12);
     }
     else{
-        homenaviagte();}
+        departmentview();}
 }
-
 
 void MainWindow::on_homebutton_12_clicked()
 {
-    homenaviagte();
+    departmentview();
 }
 
 
 void MainWindow::on_homebutton_11_clicked()
 {
-    homenaviagte();
+    departmentview();
 }
 
 void MainWindow::on_homebutton_10_clicked()
 {
     if(manager==true){
-        ui->stackedWidget->setCurrentIndex(7);
-        manager=false;
+        ui->stackedWidget->setCurrentIndex(12);
     }
     else{
-    homenaviagte();
-    }
+        projectview();}
 }
 
 
 void MainWindow::on_homebutton_9_clicked()
 {
-    homenaviagte();
+    projectview();
 }
 
 
 void MainWindow::on_homebutton_8_clicked()
 {
-    homenaviagte();
+    projectview();
 }
 
 
 void MainWindow::on_homebutton_6_clicked()
 {
-    homenaviagte();
+    projectview();
 }
 
 
 void MainWindow::on_pushButton_79_clicked()
 {
 ui->stackedWidget->setCurrentIndex(0);
+    manager=false;
 }
 
 
 void MainWindow::on_pushButton_9_clicked()
 {
-    dept=true;
-    if(dept==true&&dis==true){
-        ui->stackedWidget->setCurrentIndex(14);
-    }
-    else if(dept==true&&ins==true){
-          ui->stackedWidget->setCurrentIndex(12);
-    }
-    else if(dept==true&&upd==true){
-           ui->stackedWidget->setCurrentIndex(13);
-    }
-    else if(dept==true&&del==true){
-        QMessageBox::warning(this, "Deletion Error", "You Cannot Delete a Department");
-    }
+    ui->stackedWidget->setCurrentIndex(5);
+
 }
 
 
 void MainWindow::on_pushButton_10_clicked()
 {
-    team=true;
-    if(team==true&&dis==true){
-        ui->stackedWidget->setCurrentIndex(18);
-    }
-    else if(team==true&&ins==true){
-        ui->stackedWidget->setCurrentIndex(15);
-    }
-    else if(team==true&&upd==true){
-        ui->stackedWidget->setCurrentIndex(16);
-    }
-    else if(team==true&&del==true){
-      ui->stackedWidget->setCurrentIndex(17);
-    }
+       ui->stackedWidget->setCurrentIndex(11);
+
+
 }
 
 
 void MainWindow::on_pushButton_8_clicked()
 {
-    proj=true;
-    if(proj==true&&dis==true){
-        ui->stackedWidget->setCurrentIndex(11);
-    }
-    else if(proj==true&&ins==true){
-        ui->stackedWidget->setCurrentIndex(8);
-    }
-    else if(proj==true&&upd==true){
-        ui->stackedWidget->setCurrentIndex(9);
-    }
-    else if(proj==true&&del==true){
-        ui->stackedWidget->setCurrentIndex(10);
-    }
+     ui->stackedWidget->setCurrentIndex(10);
 }
 
 
 void MainWindow::on_pushButton_19_clicked()
 {
     manager=true;
-       ui->stackedWidget->setCurrentIndex(6);
+       ui->stackedWidget->setCurrentIndex(9);
 }
 
 
 void MainWindow::on_pushButton_20_clicked()
 {
     manager=true;
-    ui->stackedWidget->setCurrentIndex(11);
+    ui->stackedWidget->setCurrentIndex(16);
 }
 
 
 void MainWindow::on_pushButton_21_clicked()
 {
     manager=true;
-    ui->stackedWidget->setCurrentIndex(14);
+    ui->stackedWidget->setCurrentIndex(19);
 }
 
 
 void MainWindow::on_pushButton_22_clicked()
 {
+    ui->stackedWidget->setCurrentIndex(23);
     manager=true;
-    ui->stackedWidget->setCurrentIndex(18);
+}
+
+
+void MainWindow::on_pushButton_80_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(0);
+}
+
+
+void MainWindow::on_pushButton_30_clicked()
+{
+      ui->stackedWidget->setCurrentIndex(1);
+}
+
+
+void MainWindow::on_pushButton_29_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+void MainWindow::on_pushButton_14_clicked()
+{
+     departmentview();
+}
+
+
+void MainWindow::on_pushButton_15_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(18);
+}
+
+
+void MainWindow::on_pushButton_12_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(19);
+}
+
+
+void MainWindow::on_pushButton_16_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(13);
+}
+
+
+void MainWindow::on_pushButton_23_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(14);
+}
+
+
+void MainWindow::on_pushButton_18_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(15);
+}
+
+
+void MainWindow::on_pushButton_17_clicked()
+{
+      ui->stackedWidget->setCurrentIndex(16);
+}
+
+
+void MainWindow::on_pushButton_24_clicked()
+{
+      ui->stackedWidget->setCurrentIndex(20);
+}
+
+
+void MainWindow::on_pushButton_28_clicked()
+{
+      ui->stackedWidget->setCurrentIndex(21);
+}
+
+
+void MainWindow::on_pushButton_27_clicked()
+{
+      ui->stackedWidget->setCurrentIndex(22);
+}
+
+
+void MainWindow::on_pushButton_25_clicked()
+{
+      ui->stackedWidget->setCurrentIndex(23);
+}
+
+
+void MainWindow::on_pushButton_32_clicked()
+{
+     projectview();
+}
+
+
+void MainWindow::on_pushButton_31_clicked()
+{
+     teamview();
+}
+
+
+void MainWindow::on_pushButton_33_clicked()
+{
+     projectview();
+}
+
+void MainWindow::projectview()
+{
+    ui->stackedWidget->setCurrentIndex(10);
+}
+void MainWindow::employeeview()
+{
+    ui->stackedWidget->setCurrentIndex(4);
+}
+void MainWindow::departmentview()
+{
+    ui->stackedWidget->setCurrentIndex(5);
+}
+void MainWindow::teamview()
+{
+    ui->stackedWidget->setCurrentIndex(11);
+}
+
+void MainWindow::on_pushButton_37_clicked()
+{
+    employeeview();
+}
+
+
+void MainWindow::on_pushButton_40_clicked()
+{
+    teamview();
+}
+
+
+void MainWindow::on_pushButton_41_clicked()
+{
+    departmentview();
+}
+
+
+void MainWindow::on_pushButton_42_clicked()
+{
+    teamview();
+}
+
+
+void MainWindow::on_pushButton_43_clicked()
+{
+    employeeview();
+}
+
+
+void MainWindow::on_pushButton_44_clicked()
+{
+    employeeview();
+}
+
+
+void MainWindow::on_pushButton_45_clicked()
+{
+    departmentview();
+}
+
+
+void MainWindow::on_pushButton_46_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_16_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_17_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_18_clicked()
+{
+    if(manager==true){
+        managerview();
+
+    }
+    else{
+    homenaviagte();
+    }}
+
+
+void MainWindow::on_homebutton_20_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_21_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_19_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_22_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_23_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_24_clicked()
+{
+    if(manager==true){
+        managerview();
+    }
+    else{
+        homenaviagte();
+    }
+}
+
+
+void MainWindow::on_homebutton_25_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_26_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_27_clicked()
+{
+    if(manager==true){
+        managerview();
+    }
+    else{
+        homenaviagte();}
+}
+
+
+void MainWindow::on_homebutton_28_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_29_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_homebutton_30_clicked()
+{
+    teamview();
+}
+
+
+void MainWindow::on_homebutton_33_clicked()
+{
+    if(manager==true){
+        managerview();
+    }
+    else{
+    homenaviagte();
+    }}
+
+
+void MainWindow::managerview()
+{
+    ui->stackedWidget->setCurrentIndex(12);
+}
+void MainWindow::on_pushButton_47_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_pushButton_48_clicked()
+{
+    homenaviagte();
+}
+
+
+void MainWindow::on_pushButton_49_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+
+}
+
+
+void MainWindow::on_pushButton_50_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
 }
 
