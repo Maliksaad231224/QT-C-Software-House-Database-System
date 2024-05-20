@@ -10,7 +10,7 @@ The project files are in QtPro folder. It cantains a main.cpp file where the obj
 
 **Total Pages**
 
-This application consists of a total of 19 pages all stacked on top of each other using QT stacked widgets. The buttons are connected using Qt Signals and Slots.
+This application consists of a total of 24 pages all stacked on top of each other using QT stacked widgets. The buttons are connected using Qt Signals and Slots.
 
 **End Users of DBMS**
 
