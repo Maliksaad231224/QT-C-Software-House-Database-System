@@ -3,5 +3,14 @@
         <file>picture/d.jpg</file>
         <file>picture/person.png</file>
         <file>picture/people.png</file>
+        <file>picture/bottom right.png</file>
+        <file>picture/bottom.png</file>
+        <file>picture/top_left.png</file>
+        <file>picture/top_right.png</file>
+        <file>picture/cpp.png</file>
+        <file>picture/css.png</file>
+        <file>picture/mysql.png</file>
+        <file>picture/qt.png</file>
+        <file>picture/top_bar.png</file>
     </qresource>
 </RCC>
