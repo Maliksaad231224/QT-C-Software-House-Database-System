@@ -106,7 +106,16 @@ compiler_rcc_clean:
 	-$(DEL_FILE) debug\qrc_resource.cpp debug\qrc_pictures.cpp
 debug/qrc_resource.cpp: ../../../resource.qrc \
 		C:/Qt/6.7.0/mingw_64/bin/rcc.exe \
+		../../../picture/bottom.png \
+		../../../picture/top_right.png \
+		../../../picture/top_left.png \
+		../../../picture/qt.png \
 		../../../picture/people.png \
+		../../../picture/bottom\ right.png \
+		../../../picture/css.png \
+		../../../picture/top_bar.png \
+		../../../picture/cpp.png \
+		../../../picture/mysql.png \
 		../../../picture/d.jpg \
 		../../../picture/person.png
 	C:\Qt\6.7.0\mingw_64\bin\rcc.exe -name resource --no-zstd ..\..\..\resource.qrc -o debug\qrc_resource.cpp
@@ -335,7 +344,7 @@ debug/moc_mainwindow.cpp: ../../mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qtimezone.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.7.0/mingw_64/bin/moc.exe
-	C:\Qt\6.7.0\mingw_64\bin\moc.exe $(DEFINES) --include F:/dbproject1/dbproject1/qtPro/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -IF:/dbproject1/dbproject1/qtPro -IC:/Qt/6.7.0/mingw_64/include -IC:/Qt/6.7.0/mingw_64/include/QtWidgets -IC:/Qt/6.7.0/mingw_64/include/QtGui -IC:/Qt/6.7.0/mingw_64/include/QtSql -IC:/Qt/6.7.0/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\..\mainwindow.h -o debug\moc_mainwindow.cpp
+	C:\Qt\6.7.0\mingw_64\bin\moc.exe $(DEFINES) --include "F:/QT DATABASE/qtPro/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -I"F:/QT DATABASE/qtPro" -IC:/Qt/6.7.0/mingw_64/include -IC:/Qt/6.7.0/mingw_64/include/QtWidgets -IC:/Qt/6.7.0/mingw_64/include/QtGui -IC:/Qt/6.7.0/mingw_64/include/QtSql -IC:/Qt/6.7.0/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\..\mainwindow.h -o debug\moc_mainwindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -786,25 +795,55 @@ debug/mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QDateEdit \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdatetimeedit.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/qregularexpression.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QFrame \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QHeaderView \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qheaderview.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.7.0/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qrubberband.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QPlainTextEdit \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qplaintextedit.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtextedit.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qabstracttextdocumentlayout.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextlayout.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qglyphrun.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qrawfont.h \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qfontdatabase.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QPushButton \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qpushbutton.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QStackedWidget \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qstackedwidget.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTableWidget \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtablewidget.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtableview.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTextEdit \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtextedit.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.7.0/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
+		C:/Qt/6.7.0/mingw_64/include/QtSql/QSqlDriver \
+		C:/Qt/6.7.0/mingw_64/include/QtSql/qsqldriver.h \
+		C:/Qt/6.7.0/mingw_64/include/QtSql/QSql
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\..\mainwindow.cpp
 
 debug/qrc_resource.o: debug/qrc_resource.cpp 

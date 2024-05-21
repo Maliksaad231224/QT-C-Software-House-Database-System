@@ -21,9 +21,11 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+//    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+   QSqlDatabase db;
 
 private slots:
-
+//where?
 
     void on_pushButton_2_clicked();
 
@@ -194,8 +196,11 @@ private slots:
 
     void on_pushButton_29_clicked();
 
+    void on_pushButton_11_clicked();
+
 private:
     Ui::MainWindow *ui;
+
 
 };
 #endif
