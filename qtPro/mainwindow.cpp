@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QtSql/QSqlQuery>
+#include <QDebug>
 bool emp=false;
 bool dept=false;
 bool team=false;
@@ -24,7 +26,7 @@ connect(ui->pushButton_2, &QPushButton::clicked, this, &MainWindow::on_pushButto
     QString path = databasePath.currentPath()+"/database.db"; // Not "myDb.db"
     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
     db.setHostName("localhost");
-    db.setDatabaseName("qtdb");//replace with the databse file name
+    db.setDatabaseName("project");//replace with the databse file name
     db.setUserName("root");
     db.setPassword("231224");//replace with password of db
 
@@ -69,8 +71,53 @@ void MainWindow::on_conn_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(3);
+
+/*
+QSqlQuery query;
+    QString username = ui->loginuser->toPlainText();
+    QString password = ui->loginpassword->toPlainText();
+    QString HR = "HR";
+    QString M = "Manager";
+
+    // Prepare the SQL query with placeholders for username and password
+    QString sql = "SELECT username,password,user FROM project WHERE username = :username AND password = :password";
+    query.prepare(sql);
+
+
+    // Bind username and password values to prevent SQL injection vulnerabilities
+    query.bindValue(":username", username);
+    query.bindValue(":password", password);
+
+
+    // Execute the query and check for success
+
+
+      bool isValidLogin = query.next();   // Flag to indicate successful login
+
+    if(isValidLogin)
+    {
+        QString inputUsername = query.value("username").toString();
+        QString inputPassword = query.value("password").toString();
+      QString user = query.value("user").toString();
+
+        if (username == inputUsername && password == inputPassword) {
+            if (user == HR) {
+                ui->stackedWidget->setCurrentIndex(3); // HR dashboard
+            } else if (user == M) {
+                ui->stackedWidget->setCurrentIndex(12); // Manager dashboard
+            } else {
+                // Invalid user type (not HR or Manager)
+                QMessageBox::warning(this, "Invalid User Type", "Your account does not have the required permissions.");
+            }
+            isValidLogin = true;
+
+         // Exit the loop after successful login
+        }
+
+    } */
+  ui->stackedWidget->setCurrentIndex(3);
 }
+
 
 
 void MainWindow::on_pushButton_7_clicked()
@@ -132,14 +179,14 @@ void MainWindow::on_homebutton_4_clicked()
 {
     employeeview();
 }
-
+/*
 
 void MainWindow::on_pushButton_4_clicked()
 {
 
       ui->stackedWidget->setCurrentIndex(3);
 }
-
+*/
 
 void MainWindow::on_homebutton_5_clicked()
 {
@@ -299,14 +346,11 @@ void MainWindow::on_pushButton_80_clicked()
 
 void MainWindow::on_pushButton_30_clicked()
 {
-      ui->stackedWidget->setCurrentIndex(1);
+      ui->stackedWidget->setCurrentIndex(2);
 }
 
 
-void MainWindow::on_pushButton_29_clicked()
-{
-     ui->stackedWidget->setCurrentIndex(3);
-}
+
 
 
 void MainWindow::on_pushButton_14_clicked()
@@ -597,5 +641,21 @@ void MainWindow::on_pushButton_49_clicked()
 void MainWindow::on_pushButton_50_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
+}
+
+
+void MainWindow::on_pushButton_51_clicked()
+{
+      ui->stackedWidget->setCurrentIndex(10);
+}
+
+
+
+
+
+
+void MainWindow::on_pushButton_29_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(3);
 }
 

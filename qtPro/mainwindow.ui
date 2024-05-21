@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>16</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -146,7 +146,7 @@ background-color:none;</string>
         <string>Member Login</string>
        </property>
       </widget>
-      <widget class="QTextEdit" name="textEdit">
+      <widget class="QTextEdit" name="loginuser">
        <property name="geometry">
         <rect>
          <x>190</x>
@@ -182,7 +182,7 @@ background-color: none;</string>
         <string>Username:</string>
        </property>
       </widget>
-      <widget class="QTextEdit" name="textEdit_2">
+      <widget class="QTextEdit" name="loginpassword">
        <property name="geometry">
         <rect>
          <x>190</x>
@@ -197,40 +197,6 @@ border-radius: 12px;
 font: 11pt &quot;Tahoma&quot;;
 color:white;
 border-color:white;</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="geometry">
-        <rect>
-         <x>190</x>
-         <y>470</y>
-         <width>121</width>
-         <height>41</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-
-QPushButton {
-font: 12pt &quot;Tahoma&quot;;
-color:white;
-alternate-background-color: rgb(148, 126, 254);
- border: 1px solid;
-    border-radius: 10px;
-}
-
-QPushButton:hover {
-	background-color: rgb(34, 51, 204);
-	
-}
-
-QPushButton:pressed {
-   
-	background-color: rgb(48, 66, 184);
-}</string>
-       </property>
-       <property name="text">
-        <string>Login</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_6">
@@ -322,6 +288,40 @@ QPushButton:pressed {
        </property>
        <property name="text">
         <string>Forgot Password?</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>430</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+
+QPushButton {
+font: 600 9pt &quot;Tahoma&quot;;
+color:white;
+alternate-background-color: rgb(148, 126, 254);
+ border: 1px solid;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+	background-color: rgb(34, 51, 204);
+	
+}
+
+QPushButton:pressed {
+   
+	background-color: rgb(48, 66, 184);
+}</string>
+       </property>
+       <property name="text">
+        <string>Login</string>
        </property>
       </widget>
      </widget>
@@ -729,45 +729,6 @@ background-color: none;</string>
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_29">
-      <property name="geometry">
-       <rect>
-        <x>480</x>
-        <y>580</y>
-        <width>181</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-QPushButton {
-    /* Light Blue */
-
-	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
-    border-radius: 18px;
-border:1px solid black;
-    padding: 5px;
-    
-    font-weight: bold;
-}
-
-QPushButton:hover {
-	background-color: rgb(63, 63, 63);
-	
-}
-
-QPushButton:pressed {
-   
-	background-color: rgb(65, 79, 72);
-}</string>
-      </property>
-      <property name="text">
-       <string>Close</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_17">
       <property name="geometry">
        <rect>
@@ -817,6 +778,45 @@ QPushButton:pressed {
       </property>
       <property name="scaledContents">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_29">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>580</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+    /* Light Blue */
+
+	background-color: rgb(36, 36, 36);
+  /* Light gray text color */
+color: rgb(255, 255, 255);
+font: 11pt &quot;Arial&quot;;
+    border-radius: 18px;
+border:1px solid black;
+    padding: 5px;
+    
+    font-weight: bold;
+}
+
+QPushButton:hover {
+	background-color: rgb(63, 63, 63);
+	
+}
+
+QPushButton:pressed {
+   
+	background-color: rgb(65, 79, 72);
+}</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
       </property>
      </widget>
     </widget>
@@ -4625,6 +4625,45 @@ QPushButton:pressed {
        </property>
        <property name="text">
         <string>       Department</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_51">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>360</y>
+         <width>281</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+    /* Light Blue */
+
+	background-color: rgb(36, 36, 36);
+  /* Light gray text color */
+color: rgb(255, 255, 255);
+font: 11pt &quot;Arial&quot;;
+    border-radius: 18px;
+border:1px solid black;
+    padding: 5px;
+    
+    font-weight: bold;
+}
+
+QPushButton:hover {
+	background-color: rgb(63, 63, 63);
+	
+}
+
+QPushButton:pressed {
+   
+	background-color: rgb(65, 79, 72);
+}</string>
+       </property>
+       <property name="text">
+        <string>Project</string>
        </property>
       </widget>
      </widget>
