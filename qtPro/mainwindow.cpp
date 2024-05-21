@@ -1,5 +1,14 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QtSql/QSqlQuery>
+#include<QSqlDatabase>
+#include<QDebug>
+#include<QSqlDriver>
+#include<QSql>
+#include<QSqlQuery>
+#include<QMessageBox>
+#include <QDir>
+#include <QDebug>
 bool emp=false;
 bool dept=false;
 bool team=false;
@@ -22,9 +31,9 @@ MainWindow::MainWindow(QWidget *parent)
 connect(ui->pushButton_2, &QPushButton::clicked, this, &MainWindow::on_pushButton_2_clicked);
     QDir databasePath;
     QString path = databasePath.currentPath()+"/database.db"; // Not "myDb.db"
-    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
+    db = QSqlDatabase::addDatabase("QMYSQL");
     db.setHostName("localhost");
-    db.setDatabaseName("qtdb");//replace with the databse file name
+    db.setDatabaseName("project");//replace with the databse file name
     db.setUserName("root");
     db.setPassword("231224");//replace with password of db
 
@@ -41,6 +50,33 @@ connect(ui->pushButton_2, &QPushButton::clicked, this, &MainWindow::on_pushButto
         QMessageBox::critical(this, "Connection", "Failed to connect to the database: " );
 
     }
+    QString Fname=ui->firstname->text();
+    QString Lname=ui->lastname->text();
+    QString Sex=ui->gender->text();
+    QString email=ui->email->text();
+    QString teamID=ui->teamid->text();
+    QString Address=ui->address->text();
+    QString teamtitle="A";
+    QString empdepat="A";
+    QString EmployeeID="A";
+    QString empsalary="A";
+    QString Supervisor_ID="A";
+    QString empstatus="A";
+
+    // QSqlQuery qry;
+
+    // qry.prepare("INSERT INTO emp (id, name) VALUES (:EmployeeID, :Fname)");
+    // qry.bindValue(":EmployeeID","3");
+    // qry.bindValue(":Fname","Fname");
+
+
+    // if(qry.exec()){
+    //     QMessageBox::information(this,"insertion","Successful");
+    // }
+    // else{
+    //     QMessageBox::information(this,"insertion","unsuccessful"/*+ QString(qry.lastError().text())*/);
+    // }
+
 
 ui->stackedWidget->setCurrentIndex(0);
 
@@ -69,8 +105,39 @@ void MainWindow::on_conn_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(3);
-}
+
+  QSqlQuery query("project");
+    QString username = ui->loginuser->toPlainText();
+    QString password = ui->loginpassword->toPlainText();
+    QString HR = "HR";
+    QString M = "Manager";
+    QString hrusername="hruser";
+        QString hrpassword="hrpass";
+    QString mgusername="manager";
+    QString mgpassword="mpass";
+
+
+
+
+        if (username == hrusername && password == hrpassword)
+        {
+                ui->stackedWidget->setCurrentIndex(3); // HR dashboard
+        }
+        else if(username == mgusername && password == mgpassword){
+                // Invalid user type (not HR or Manager)
+             ui->stackedWidget->setCurrentIndex(12);
+        }
+        else{
+                QMessageBox::warning(this, "Invalid User Type", "Your account does not have the required permissions.");
+            }
+
+
+
+
+    }
+
+
+
 
 
 void MainWindow::on_pushButton_7_clicked()
@@ -132,14 +199,14 @@ void MainWindow::on_homebutton_4_clicked()
 {
     employeeview();
 }
-
+/*
 
 void MainWindow::on_pushButton_4_clicked()
 {
 
       ui->stackedWidget->setCurrentIndex(3);
 }
-
+*/
 
 void MainWindow::on_homebutton_5_clicked()
 {
@@ -299,14 +366,11 @@ void MainWindow::on_pushButton_80_clicked()
 
 void MainWindow::on_pushButton_30_clicked()
 {
-      ui->stackedWidget->setCurrentIndex(1);
+      ui->stackedWidget->setCurrentIndex(2);
 }
 
 
-void MainWindow::on_pushButton_29_clicked()
-{
-     ui->stackedWidget->setCurrentIndex(3);
-}
+
 
 
 void MainWindow::on_pushButton_14_clicked()
@@ -597,5 +661,93 @@ void MainWindow::on_pushButton_49_clicked()
 void MainWindow::on_pushButton_50_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
+}
+
+
+void MainWindow::on_pushButton_51_clicked()
+{
+      ui->stackedWidget->setCurrentIndex(10);
+}
+
+void MainWindow::on_pushButton_29_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+void MainWindow::on_pushButton_11_clicked()
+{
+
+    // QSqlQuery qry;
+
+    // qry.prepare("INSERT INTO emp (id, name) VALUES (:EmployeeID, :Fname)");
+    // qry.bindValue(":EmployeeID","3");
+    // qry.bindValue(":Fname","Fname");
+
+
+    // if(qry.exec()){
+    //     QMessageBox::information(this,"insertion","Successful");
+    // }
+    // else{
+    //     QMessageBox::information(this,"insertion","unsuccessful"/*+ QString(qry.lastError().text())*/);
+    // }
+
+
+
+    db.open();
+
+    if (db.open())
+    {
+        QMessageBox::information(this,"insertion","DB is Open");
+        QString Fname=ui->firstname->text();
+        QString Lname=ui->lastname->text();
+        QString Sex=ui->gender->text();
+        QString email=ui->email->text();
+        QString teamID=ui->teamid->text();
+        QString Address=ui->address->text();
+        QString teamtitle=ui->teamtitle->text();
+        QString empdepat=ui->departname->text();
+        QString employeeID=ui->empid->text();
+        QString empsalary=ui->salaryemp->text();
+        QString Supervisor_ID=ui->superid->text();
+        QString empstatus=ui->statusemp->text();
+
+
+
+        QSqlQuery empqry,;
+        empqry.prepare("INSERT INTO employee(EmployeeID,Fname,Lname,Address,Sex,email) "
+                    "VALUES (:emid, :fnam,:lnam,:add,:se,:emai)");
+
+//these are binding values
+
+
+//        qry.prepare("INSERT INTO emp(EmployeeID,Fname) VALUES(:EmployeeID,:Fname)");
+        empqry.bindValue(":emid",employeeID);
+        empqry.bindValue(":fnam",Fname);
+        empqry.bindValue(":lnam",Lname);
+        empqry.bindValue(":add",Address);
+        empqry.bindValue(":se",Sex);
+        empqry.bindValue(":emai",email);
+
+
+
+
+
+
+        if(qry.exec()){
+            QMessageBox::information(this,"insertion","Successful");
+        }
+        else{
+          QMessageBox::information(this,"insertion","unsuccessful");
+        }
+
+
+    }
+    else
+    {
+        QMessageBox::critical(this, "Connection", "Failed to connect to the database: " );
+
+    }
+
 }
 
