@@ -140,10 +140,6 @@ void MainWindow::on_pushButton_2_clicked()
 
 
 
-void MainWindow::on_pushButton_7_clicked()
-{
-     ui->stackedWidget->setCurrentIndex(17);
-}
 
 
 
@@ -415,10 +411,6 @@ void MainWindow::on_pushButton_17_clicked()
 }
 
 
-void MainWindow::on_pushButton_24_clicked()
-{
-      ui->stackedWidget->setCurrentIndex(20);
-}
 
 
 void MainWindow::on_pushButton_28_clicked()
@@ -574,7 +566,7 @@ void MainWindow::on_homebutton_23_clicked()
 }
 
 
-void MainWindow::on_homebutton_24_clicked()
+/*void MainWindow::on_homebutton_24_clicked()
 {
     if(manager==true){
         managerview();
@@ -583,7 +575,7 @@ void MainWindow::on_homebutton_24_clicked()
         homenaviagte();
     }
 }
-
+*/
 
 void MainWindow::on_homebutton_25_clicked()
 {
@@ -700,6 +692,8 @@ void MainWindow::on_pushButton_11_clicked()
     {
         QMessageBox::information(this,"insertion","DB is Open");
         QString Fname=ui->firstname->text();
+        QString TeamID=ui->teamid->text();
+        QString Teamtitle=ui->teamtitle->text();
         QString Lname=ui->lastname->text();
         QString Sex=ui->gender->text();
         QString email=ui->email->text();
@@ -708,20 +702,25 @@ void MainWindow::on_pushButton_11_clicked()
         QString teamtitle=ui->teamtitle->text();
         QString empdepat=ui->departname->text();
         QString employeeID=ui->empid->text();
-        QString empsalary=ui->salaryemp->text();
         QString Supervisor_ID=ui->superid->text();
         QString empstatus=ui->statusemp->text();
+        QDate dob=ui->DOB->date();
 
 
-
-        QSqlQuery empqry,;
-        empqry.prepare("INSERT INTO employee(EmployeeID,Fname,Lname,Address,Sex,email) "
-                    "VALUES (:emid, :fnam,:lnam,:add,:se,:emai)");
+        QSqlQuery empqry,empteamqry,empdept;
+        empqry.prepare("INSERT INTO employee(EmployeeID,Fname,Lname,Address,Sex,email,Birth_date) "
+                    "VALUES (:emid, :fnam,:lnam,:add,:se,:emai,:bird)");
+        empteamqry.prepare("INSERT INTO team(TeamID,Title)"
+                           "VALUES(:teamid,:teamtitle)");
+        empdept.prepare("INSERT INTO Name"
+                        "VALUES(:name)");
 
 //these are binding values
 
-
-//        qry.prepare("INSERT INTO emp(EmployeeID,Fname) VALUES(:EmployeeID,:Fname)");
+empdept.bindValue(":name",empdepat);
+        empteamqry.bindValue(":teamid",TeamID);
+        empteamqry.bindValue(":teamtitle",Teamtitle);
+        empqry.bindValue(":bird",dob);
         empqry.bindValue(":emid",employeeID);
         empqry.bindValue(":fnam",Fname);
         empqry.bindValue(":lnam",Lname);
@@ -734,11 +733,95 @@ void MainWindow::on_pushButton_11_clicked()
 
 
 
-        if(qry.exec()){
+        if(empqry.exec()&&empteamqry.exec()){
             QMessageBox::information(this,"insertion","Successful");
         }
         else{
           QMessageBox::information(this,"insertion","unsuccessful");
+        }
+
+
+    }
+    else
+    {
+        QMessageBox::critical(this, "Connection", "Failed to connect to the database: " );
+
+    }
+
+}
+
+
+void MainWindow::on_pushButton_13_clicked()
+{
+/*
+    ui->firstname->clear();
+    ui->teamid->clear();
+   ui->teamtitle->clear();
+   ui->lastname->clear();
+   ui->gender->clear();
+   ui->email->clear();
+  ui->teamid->clear();
+  ui->address->clear();
+   ui->teamtitle->clear();
+   ui->departname->clear();
+   ui->empid->clear();
+   ui->superid->clear();
+    ui->statusemp->clear();
+    ui->DOB-->clear();
+    */
+}
+
+
+void MainWindow::on_ProjSubmit_clicked()
+{
+
+    db.open();
+
+    if (db.open())
+    {
+        QMessageBox::information(this,"insertion","DB is Open");
+
+        /*
+Proj_ID int PK
+Title text
+start_date date
+delivery_date date
+Project_Cost double
+Last_Updated date
+
+
+
+Client_ID int PK
+Name text
+billing_address text
+contact_info
+         */
+
+        QSqlQuery proqry,client;
+        proqry.prepare("INSERT INTO project(Proj_ID,Title,start_date,delivery_date,Project_Cost,Last_Updated) "
+                       "VALUES (:projid,:title,:sdate,:ddate,:procost,:projupd)");
+
+        proqry.bindValue(":projid",ui->projID->toPlainText());
+        proqry.bindValue(":projtitle",ui->projtitle->toPlainText());
+        proqry.bindValue(":sdate",ui->projsdate->date());
+        proqry.bindValue(":ddate",ui->projdelievery->date());
+        proqry.bindValue(":procost",ui->projcost->toPlainText());
+        proqry.bindValue(":projupd",ui->projlastupd->date());
+
+        client.prepare("INSERT INTO client(Client_ID,Name,billing_address,contact_info) "
+                       "VALUES (:clientid,:name,:bill,:coninfo)");
+        //these are binding values
+
+        client.bindValue(":clientid",ui->clientid->toPlainText());
+        client.bindValue(":name",ui->clientname->toPlainText());
+        client.bindValue(":bill",ui->clientaddress->toPlainText());
+        client.bindValue(":coninfo",ui->clientinfo->toPlainText());
+
+        if(proqry.exec()&&client.exec()){
+            QMessageBox::information(this,"insertion","Successful");
+        }
+        else{
+            QMessageBox::information(this,"insertion","unsuccessful");
         }
 
 

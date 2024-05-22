@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>6</number>
+     <number>11</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -2107,49 +2107,10 @@ color:black;</string>
        </property>
       </column>
      </widget>
-     <widget class="QPushButton" name="pushButton_7">
-      <property name="geometry">
-       <rect>
-        <x>290</x>
-        <y>600</y>
-        <width>221</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-QPushButton {
-    /* Light Blue */
-
-	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
-    border-radius: 18px;
-border:1px solid black;
-    padding: 5px;
-    
-    font-weight: bold;
-}
-
-QPushButton:hover {
-	background-color: rgb(63, 63, 63);
-	
-}
-
-QPushButton:pressed {
-   
-	background-color: rgb(65, 79, 72);
-}</string>
-      </property>
-      <property name="text">
-       <string>        Insert Records</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButton_15">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>410</x>
         <y>600</y>
         <width>221</width>
         <height>61</height>
@@ -2188,7 +2149,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="pushButton_12">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>670</x>
         <y>600</y>
         <width>231</width>
         <height>61</height>
@@ -2450,6 +2411,9 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <string notr="true">color:black;
 background-color: rgb(255, 255, 255);</string>
       </property>
+      <property name="displayFormat">
+       <string>yyyy/MM/dd</string>
+      </property>
      </widget>
      <widget class="QLabel" name="label_59">
       <property name="geometry">
@@ -2572,23 +2536,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <string>Employee ID:</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_66">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>530</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Salary:</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_67">
       <property name="geometry">
        <rect>
@@ -2648,7 +2595,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
      <widget class="QLabel" name="label_84">
       <property name="geometry">
        <rect>
-        <x>830</x>
+        <x>320</x>
         <y>530</y>
         <width>101</width>
         <height>20</height>
@@ -2834,41 +2781,11 @@ background-color: rgba(255,255,255,255);
 </string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="design">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>470</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
      <widget class="QLineEdit" name="empid">
       <property name="geometry">
        <rect>
         <x>830</x>
         <y>470</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="salaryemp">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>570</y>
         <width>201</width>
         <height>31</height>
        </rect>
@@ -2897,10 +2814,25 @@ background-color: rgba(255,255,255,255);
      <widget class="QLineEdit" name="statusemp">
       <property name="geometry">
        <rect>
-        <x>830</x>
+        <x>320</x>
         <y>570</y>
         <width>201</width>
         <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:black;
+background-color: rgba(255,255,255,255);
+</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>470</y>
+        <width>201</width>
+        <height>28</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -4716,49 +4648,10 @@ color:white;</string>
        </property>
       </column>
      </widget>
-     <widget class="QPushButton" name="pushButton_24">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>610</y>
-        <width>171</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-QPushButton {
-    /* Light Blue */
-
-	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
-    border-radius: 18px;
-border:1px solid black;
-    padding: 5px;
-    
-    font-weight: bold;
-}
-
-QPushButton:hover {
-	background-color: rgb(63, 63, 63);
-	
-}
-
-QPushButton:pressed {
-   
-	background-color: rgb(65, 79, 72);
-}</string>
-      </property>
-      <property name="text">
-       <string> Insert Records</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButton_28">
       <property name="geometry">
        <rect>
-        <x>490</x>
+        <x>300</x>
         <y>610</y>
         <width>181</width>
         <height>61</height>
@@ -4797,7 +4690,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="pushButton_27">
       <property name="geometry">
        <rect>
-        <x>690</x>
+        <x>590</x>
         <y>610</y>
         <width>171</width>
         <height>61</height>
@@ -5708,6 +5601,9 @@ background-color: rgba(255,255,255,255);
        <string notr="true">color:black;
 background-color: rgb(255, 255, 255);</string>
       </property>
+      <property name="displayFormat">
+       <string>yyyy/MM/dd</string>
+      </property>
      </widget>
      <widget class="QLabel" name="label_92">
       <property name="geometry">
@@ -5743,7 +5639,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <string>Client ID:</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="projid">
+     <widget class="QPlainTextEdit" name="projID">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -5820,6 +5716,9 @@ background-color: rgba(255,255,255,255);
        <string notr="true">color:black;
 background-color: rgb(255, 255, 255);</string>
       </property>
+      <property name="displayFormat">
+       <string>yyyy/MM/dd</string>
+      </property>
      </widget>
      <widget class="QLabel" name="label_95">
       <property name="geometry">
@@ -5867,6 +5766,9 @@ font: 10pt &quot;Tahoma&quot;;</string>
       <property name="styleSheet">
        <string notr="true">color:black;
 background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="displayFormat">
+       <string>yy/MM/dd</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_100">
@@ -5936,8 +5838,8 @@ font: 10pt &quot;Tahoma&quot;;</string>
      <widget class="QPlainTextEdit" name="clientinfo">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>510</y>
+        <x>580</x>
+        <y>520</y>
         <width>201</width>
         <height>31</height>
        </rect>
@@ -5951,8 +5853,8 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_102">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>470</y>
+        <x>580</x>
+        <y>480</y>
         <width>151</width>
         <height>20</height>
        </rect>
@@ -5963,38 +5865,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
       </property>
       <property name="text">
        <string>Client Contact Info:</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="projteamid">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>510</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_103">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>470</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Team ID:</string>
       </property>
      </widget>
     </widget>
