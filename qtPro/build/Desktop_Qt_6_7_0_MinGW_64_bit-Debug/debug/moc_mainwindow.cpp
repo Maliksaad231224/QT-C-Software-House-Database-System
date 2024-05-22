@@ -546,7 +546,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 36: _t->on_pushButton_23_clicked(); break;
         case 37: _t->on_pushButton_18_clicked(); break;
         case 38: _t->on_pushButton_17_clicked(); break;
-        case 39: _t->on_pushButton_24_clicked(); break;
+        //case 39: _t->on_pushButton_24_clicked(); break;
         case 40: _t->on_pushButton_28_clicked(); break;
         case 41: _t->on_pushButton_27_clicked(); break;
         case 42: _t->on_pushButton_25_clicked(); break;
@@ -565,7 +565,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 55: _t->on_pushButton_44_clicked(); break;
         case 56: _t->on_pushButton_45_clicked(); break;
         case 57: _t->on_pushButton_46_clicked(); break;
-        case 58: _t->homebutton_24_clicked(); break;
+        //case 58: _t->homebutton_24_clicked(); break;
         case 59: _t->on_homebutton_16_clicked(); break;
         case 60: _t->on_homebutton_17_clicked(); break;
         case 61: _t->on_homebutton_18_clicked(); break;
@@ -587,7 +587,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 77: _t->on_pushButton_49_clicked(); break;
         case 78: _t->on_pushButton_50_clicked(); break;
         case 79: _t->on_pushButton_51_clicked(); break;
-        case 80: _t->on_loginbutton_clicked(); break;
+        //case 80: _t->on_loginbutton_clicked(); break;
         case 81: _t->on_pushButton_29_clicked(); break;
         case 82: _t->on_pushButton_11_clicked(); break;
         case 83: _t->on_pushButton_13_clicked(); break;
