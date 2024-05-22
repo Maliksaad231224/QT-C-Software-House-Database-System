@@ -689,7 +689,7 @@ void MainWindow::on_pushButton_11_clicked()
     db.open();
 
     if (db.open())
-    {
+    {/*
         QMessageBox::information(this,"insertion","DB is Open");
         QString Fname=ui->firstname->text();
         QString TeamID=ui->teamid->text();
@@ -700,26 +700,16 @@ void MainWindow::on_pushButton_11_clicked()
         QString teamID=ui->teamid->text();
         QString Address=ui->address->text();
         QString teamtitle=ui->teamtitle->text();
-        QString empdepat=ui->departname->text();
+
         QString employeeID=ui->empid->text();
         QString Supervisor_ID=ui->superid->text();
         QString empstatus=ui->statusemp->text();
         QDate dob=ui->DOB->date();
+*/
 
-
-        QSqlQuery empqry,empteamqry,empdept;
-        empqry.prepare("INSERT INTO employee(EmployeeID,Fname,Lname,Address,Sex,email,Birth_date) "
-                    "VALUES (:emid, :fnam,:lnam,:add,:se,:emai,:bird)");
-        empteamqry.prepare("INSERT INTO team(TeamID,Title)"
-                           "VALUES(:teamid,:teamtitle)");
-        empdept.prepare("INSERT INTO Name"
-                        "VALUES(:name)");
-
-//these are binding values
-
-empdept.bindValue(":name",empdepat);
-        empteamqry.bindValue(":teamid",TeamID);
-        empteamqry.bindValue(":teamtitle",Teamtitle);
+        QSqlQuery empqry,empteamqry;
+   empqry.prepare("INSERT INTO employee(EmployeeID,Fname,Lname,Address,Sex,email,Birth_date,Status,Job_Title,department) "
+                    "VALUES (:emid, :fnam,:lnam,:add,:se,:emai,:bird,:status,:title,:dept)");
         empqry.bindValue(":bird",dob);
         empqry.bindValue(":emid",employeeID);
         empqry.bindValue(":fnam",Fname);
@@ -727,13 +717,38 @@ empdept.bindValue(":name",empdepat);
         empqry.bindValue(":add",Address);
         empqry.bindValue(":se",Sex);
         empqry.bindValue(":emai",email);
+        empqry.bindValue(":status",ui->statusemp->text());
+        empqry.bindValue(":title",ui->designation->currentText());
+        empqry.bindValue(":dept",ui->insdept->currentText());
+
+
+
+        empteamqry.prepare("INSERT INTO team(TeamID,Title)"
+                           "VALUES(:teamid,:teamtitle)");
+        empteamqry.bindValue(":teamid",TeamID);
+        empteamqry.bindValue(":teamtitle",Teamtitle);
+
+        empsup.prepare("INSERT INTO employee_supervisors(employeeid,supervisorname)"
+                       "VALUES(:emmid,:supname)");
+        empsup.bindValue(":emmid",ui->empid->text());
+        empsup.bindValue(":supname",ui->supername->text());
+
+        QSqlQuery empsup;
+        empsup.prepare("INSERT INTO employee_supervisors(employeeid, supervisorname)"
+                       "VALUES(:empid, :supname)");
+        empsup.bindValue(":empid", ui->empid->text());
+        empsup.bindValue(":supname", ui->supername->text());
+
+
+
+//these are binding values
 
 
 
 
 
 
-        if(empqry.exec()&&empteamqry.exec()){
+        if(empqry.exec()&&empteamqry.exec()&&empsup.exec()){
             QMessageBox::information(this,"insertion","Successful");
         }
         else{
