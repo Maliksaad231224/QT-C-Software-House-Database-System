@@ -40,11 +40,11 @@ public:
     QLabel *label_3;
     QTextEdit *loginuser;
     QLabel *label_5;
-    QTextEdit *loginpassword;
     QLabel *label_6;
     QLabel *label_4;
     QCheckBox *checkBox;
     QPushButton *pushButton_2;
+    QLineEdit *loginpassword;
     QWidget *ChangePassword;
     QLabel *label_35;
     QFrame *frame_2;
@@ -157,19 +157,17 @@ public:
     QLabel *label_84;
     QPushButton *homebutton_2;
     QLabel *label_160;
-    QLabel *label_161;
     QLineEdit *firstname;
     QLineEdit *lastname;
-    QLineEdit *gender;
     QLineEdit *email;
-    QLineEdit *teamid;
     QLineEdit *address;
-    QLineEdit *teamtitle;
     QLineEdit *empid;
     QLineEdit *statusemp;
     QComboBox *designation;
     QComboBox *insdept;
     QLineEdit *supername;
+    QComboBox *teamtitle;
+    QComboBox *gender;
     QWidget *UpdateEmployee;
     QFrame *frame_24;
     QLabel *label_68;
@@ -570,14 +568,6 @@ public:
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
 "background-color: none;"));
-        loginpassword = new QTextEdit(frame);
-        loginpassword->setObjectName("loginpassword");
-        loginpassword->setGeometry(QRect(190, 290, 251, 41));
-        loginpassword->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 90, 163);\n"
-"border-radius: 12px;\n"
-"font: 11pt \"Tahoma\";\n"
-"color:white;\n"
-"border-color:white;"));
         label_6 = new QLabel(frame);
         label_6->setObjectName("label_6");
         label_6->setGeometry(QRect(10, 290, 101, 31));
@@ -621,6 +611,14 @@ public:
 "   \n"
 "	background-color: rgb(48, 66, 184);\n"
 "}"));
+        loginpassword = new QLineEdit(frame);
+        loginpassword->setObjectName("loginpassword");
+        loginpassword->setGeometry(QRect(190, 290, 251, 41));
+        loginpassword->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 90, 163);\n"
+"border-radius: 12px;\n"
+"font: 11pt \"Tahoma\";\n"
+"border-color:white;\n"
+"color:white;"));
         stackedWidget->addWidget(Login);
         ChangePassword = new QWidget();
         ChangePassword->setObjectName("ChangePassword");
@@ -1693,11 +1691,6 @@ public:
         label_160->setGeometry(QRect(830, 200, 101, 20));
         label_160->setStyleSheet(QString::fromUtf8("color:white;\n"
 "font: 10pt \"Tahoma\";"));
-        label_161 = new QLabel(InsertEmployee);
-        label_161->setObjectName("label_161");
-        label_161->setGeometry(QRect(700, 290, 101, 20));
-        label_161->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
         firstname = new QLineEdit(InsertEmployee);
         firstname->setObjectName("firstname");
         firstname->setGeometry(QRect(320, 140, 201, 31));
@@ -1710,34 +1703,16 @@ public:
         lastname->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
-        gender = new QLineEdit(InsertEmployee);
-        gender->setObjectName("gender");
-        gender->setGeometry(QRect(320, 240, 201, 31));
-        gender->setStyleSheet(QString::fromUtf8("color:black;\n"
-"background-color: rgba(255,255,255,255);\n"
-""));
         email = new QLineEdit(InsertEmployee);
         email->setObjectName("email");
         email->setGeometry(QRect(580, 240, 201, 31));
         email->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
-        teamid = new QLineEdit(InsertEmployee);
-        teamid->setObjectName("teamid");
-        teamid->setGeometry(QRect(830, 240, 201, 31));
-        teamid->setStyleSheet(QString::fromUtf8("color:black;\n"
-"background-color: rgba(255,255,255,255);\n"
-""));
         address = new QLineEdit(InsertEmployee);
         address->setObjectName("address");
-        address->setGeometry(QRect(320, 330, 341, 31));
+        address->setGeometry(QRect(320, 330, 711, 31));
         address->setStyleSheet(QString::fromUtf8("color:black;\n"
-"background-color: rgba(255,255,255,255);\n"
-""));
-        teamtitle = new QLineEdit(InsertEmployee);
-        teamtitle->setObjectName("teamtitle");
-        teamtitle->setGeometry(QRect(700, 330, 341, 31));
-        teamtitle->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
         empid = new QLineEdit(InsertEmployee);
@@ -1796,6 +1771,21 @@ public:
         supername->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
+        teamtitle = new QComboBox(InsertEmployee);
+        teamtitle->addItem(QString());
+        teamtitle->addItem(QString());
+        teamtitle->addItem(QString());
+        teamtitle->setObjectName("teamtitle");
+        teamtitle->setGeometry(QRect(830, 240, 191, 31));
+        teamtitle->setStyleSheet(QString::fromUtf8("color:black;\n"
+"background-color: rgb(255, 255, 255);"));
+        gender = new QComboBox(InsertEmployee);
+        gender->addItem(QString());
+        gender->addItem(QString());
+        gender->setObjectName("gender");
+        gender->setGeometry(QRect(320, 240, 201, 31));
+        gender->setStyleSheet(QString::fromUtf8("color:black;\n"
+"background-color: rgb(255, 255, 255);"));
         stackedWidget->addWidget(InsertEmployee);
         UpdateEmployee = new QWidget();
         UpdateEmployee->setObjectName("UpdateEmployee");
@@ -4114,7 +4104,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(6);
+        stackedWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -4248,8 +4238,7 @@ public:
         pushButton_13->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
         label_84->setText(QCoreApplication::translate("MainWindow", "Status", nullptr));
         homebutton_2->setText(QCoreApplication::translate("MainWindow", "Back", nullptr));
-        label_160->setText(QCoreApplication::translate("MainWindow", "Team ID", nullptr));
-        label_161->setText(QCoreApplication::translate("MainWindow", "Team Title", nullptr));
+        label_160->setText(QCoreApplication::translate("MainWindow", "Team Title", nullptr));
         designation->setItemText(0, QCoreApplication::translate("MainWindow", "Chief Executive officer", nullptr));
         designation->setItemText(1, QCoreApplication::translate("MainWindow", "Chief Commercial Officer", nullptr));
         designation->setItemText(2, QCoreApplication::translate("MainWindow", "Chief Technology Officer", nullptr));
@@ -4277,6 +4266,13 @@ public:
         insdept->setItemText(6, QCoreApplication::translate("MainWindow", "Administrative", nullptr));
         insdept->setItemText(7, QCoreApplication::translate("MainWindow", "Accounts", nullptr));
         insdept->setItemText(8, QCoreApplication::translate("MainWindow", "Project Development", nullptr));
+
+        teamtitle->setItemText(0, QCoreApplication::translate("MainWindow", "Front-end Dev", nullptr));
+        teamtitle->setItemText(1, QCoreApplication::translate("MainWindow", "Back-end Dev", nullptr));
+        teamtitle->setItemText(2, QCoreApplication::translate("MainWindow", "Tech Development", nullptr));
+
+        gender->setItemText(0, QCoreApplication::translate("MainWindow", "Male", nullptr));
+        gender->setItemText(1, QCoreApplication::translate("MainWindow", "Female", nullptr));
 
         label_68->setText(QCoreApplication::translate("MainWindow", "Employee update", nullptr));
         homebutton_16->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
