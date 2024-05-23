@@ -31,4 +31,4 @@ The pages are connected with QT signals and slots for seamless transitions. each
 
 **Time Spent on Frontend Development**
 
-It took only 3 days from 16 May to 18 May to complete the frontend and connecting the pages. 
+It took only 4 days from 16 May to 19 May to complete the frontend and connecting the pages. 
