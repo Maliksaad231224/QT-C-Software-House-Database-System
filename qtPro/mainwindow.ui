@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>7</number>
+     <number>9</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -1551,7 +1551,7 @@ QPushButton:pressed {
         <string>  Project</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_24">
+      <widget class="QPushButton" name="null_2">
        <property name="geometry">
         <rect>
          <x>0</x>
@@ -1578,7 +1578,7 @@ border:1px solid black;
 </string>
        </property>
        <property name="text">
-        <string>     Employee</string>
+        <string>         Employee</string>
        </property>
       </widget>
      </widget>
@@ -2170,9 +2170,9 @@ color:black;</string>
      <widget class="QPushButton" name="pushButton_15">
       <property name="geometry">
        <rect>
-        <x>410</x>
+        <x>480</x>
         <y>600</y>
-        <width>221</width>
+        <width>170</width>
         <height>61</height>
        </rect>
       </property>
@@ -2203,15 +2203,15 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>      Update Records</string>
+       <string> Update Records</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_12">
       <property name="geometry">
        <rect>
-        <x>670</x>
+        <x>680</x>
         <y>600</y>
-        <width>231</width>
+        <width>161</width>
         <height>61</height>
        </rect>
       </property>
@@ -2242,7 +2242,7 @@ QPushButton:pressed {
 }</string>
       </property>
       <property name="text">
-       <string>         Retrieve Records</string>
+       <string>Retrieve Records</string>
       </property>
      </widget>
     </widget>
@@ -3168,8 +3168,8 @@ font: 700 11pt &quot;Arial&quot;;</string>
      <widget class="QLabel" name="label_73">
       <property name="geometry">
        <rect>
-        <x>330</x>
-        <y>60</y>
+        <x>300</x>
+        <y>70</y>
         <width>181</width>
         <height>31</height>
        </rect>
@@ -3184,26 +3184,11 @@ text-decoration: underline;</string>
        <string>Enter Employee ID</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="empidupdate">
-      <property name="geometry">
-       <rect>
-        <x>520</x>
-        <y>60</y>
-        <width>241</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="displayempup">
       <property name="geometry">
        <rect>
-        <x>790</x>
-        <y>60</y>
+        <x>830</x>
+        <y>70</y>
         <width>91</width>
         <height>31</height>
        </rect>
@@ -3215,330 +3200,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
       </property>
       <property name="text">
        <string>Display</string>
-      </property>
-     </widget>
-     <widget class="QDateEdit" name="DOB_2">
-      <property name="geometry">
-       <rect>
-        <x>840</x>
-        <y>160</y>
-        <width>191</width>
-        <height>29</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgb(255, 255, 255);</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="supervisorid_2">
-      <property name="geometry">
-       <rect>
-        <x>830</x>
-        <y>560</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_74">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>120</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Last Name:</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_75">
-      <property name="geometry">
-       <rect>
-        <x>830</x>
-        <y>520</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Supervisor ID:</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="address_2">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>340</y>
-        <width>711</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_76">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>120</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>First Name:</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="lastname_2">
-      <property name="geometry">
-       <rect>
-        <x>590</x>
-        <y>160</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_77">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>530</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Salary:</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_78">
-      <property name="geometry">
-       <rect>
-        <x>840</x>
-        <y>120</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Date of Birth:</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="department_2">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>470</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_79">
-      <property name="geometry">
-       <rect>
-        <x>830</x>
-        <y>430</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Designation:</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_80">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>390</y>
-        <width>221</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(80, 151, 225);
-
-font: italic 13pt &quot;Times New Roman&quot;;
-text-decoration: underline;</string>
-      </property>
-      <property name="text">
-       <string>Organizational Details</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="designation_2">
-      <property name="geometry">
-       <rect>
-        <x>830</x>
-        <y>470</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="firstname_2">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>160</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_81">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>210</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Email:</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_82">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>300</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Address:</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_83">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>430</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Department:</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="email_2">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>250</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="salaryemp_2">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>560</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="updateemp_2">
-      <property name="geometry">
-       <rect>
-        <x>570</x>
-        <y>610</y>
-        <width>201</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Update Information</string>
       </property>
      </widget>
      <widget class="QPushButton" name="homebutton_3">
@@ -3557,6 +3218,73 @@ color:white;</string>
       </property>
       <property name="text">
        <string>Back </string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="updemptable">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>120</y>
+        <width>731</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+    background-color: #2f2f2f; /* dark gray */
+    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */
+}
+
+QTableView::item {
+    color: white; /* white text */
+    background-color: #2f2f2f; /* dark gray */
+    selection-color: white; /* white text on selection */
+    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */
+}
+
+QTableView::horizontalHeader {
+    background-color: black; /* black */
+    color: white; /* white text */
+}
+
+QTableView::horizontalHeader::section {
+    background-color: black; /* black */
+    color: white; /* white text */
+    border: 1px solid #3f3f3f; /* slightly lighter dark gray border */
+}</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="empidupdate">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>70</y>
+        <width>331</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:black;
+background-color: rgba(255,255,255,255);
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>70</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color:rgba(0,92,73,255);
+font: 10pt &quot;Tahoma&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Reset</string>
       </property>
      </widget>
     </widget>
@@ -3950,80 +3678,6 @@ background-color:none;</string>
        <string>display employees</string>
       </property>
      </widget>
-     <widget class="QTableWidget" name="tableWidget_2">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>160</y>
-        <width>701</width>
-        <height>491</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(181, 194, 197);
-color:black;</string>
-      </property>
-      <column>
-       <property name="text">
-        <string>First Name</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Last Name</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Employee ID</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Designation</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Salary</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Department</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Gender</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Email</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Supervisor ID</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Status</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Team ID</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Birth Date</string>
-       </property>
-      </column>
-     </widget>
      <widget class="QLabel" name="label_133">
       <property name="geometry">
        <rect>
@@ -4057,15 +3711,15 @@ text-decoration: underline;</string>
 font: 10pt &quot;Tahoma&quot;;</string>
       </property>
       <property name="text">
-       <string>Project ID:</string>
+       <string>Employee ID:</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_39">
       <property name="geometry">
        <rect>
-        <x>890</x>
+        <x>820</x>
         <y>110</y>
-        <width>131</width>
+        <width>101</width>
         <height>31</height>
        </rect>
       </property>
@@ -4078,12 +3732,12 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <string>Search</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="upprojid_4">
+     <widget class="QPlainTextEdit" name="disemp">
       <property name="geometry">
        <rect>
         <x>450</x>
         <y>110</y>
-        <width>421</width>
+        <width>351</width>
         <height>31</height>
        </rect>
       </property>
@@ -4091,6 +3745,58 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <string notr="true">color:black;
 background-color: rgba(255,255,255,255);
 </string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="searchemptable">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>170</y>
+        <width>711</width>
+        <height>481</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+    background-color: #2f2f2f; /* dark gray */
+    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */
+}
+
+QTableView::item {
+    color: white; /* white text */
+    background-color: #2f2f2f; /* dark gray */
+    selection-color: white; /* white text on selection */
+    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */
+}
+
+QTableView::horizontalHeader {
+    background-color: black; /* black */
+    color: white; /* white text */
+}
+
+QTableView::horizontalHeader::section {
+    background-color: black; /* black */
+    color: white; /* white text */
+    border: 1px solid #3f3f3f; /* slightly lighter dark gray border */
+}</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="searchresetemp">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>110</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+background-color:rgba(0,92,73,255);
+font: 10pt &quot;Tahoma&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Reset</string>
       </property>
      </widget>
     </widget>
@@ -7327,21 +7033,6 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        <string>Insert Department</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="InsDeptMangID">
-      <property name="geometry">
-       <rect>
-        <x>810</x>
-        <y>250</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_140">
       <property name="geometry">
        <rect>
@@ -7361,28 +7052,13 @@ text-decoration: underline;</string>
        <string>Department Details</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="insdeptTitle">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>250</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="Deptclear_2">
       <property name="geometry">
        <rect>
         <x>468</x>
         <y>330</y>
         <width>171</width>
-        <height>31</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -7403,7 +7079,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <x>670</x>
         <y>330</y>
         <width>171</width>
-        <height>31</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -7418,7 +7094,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
      <widget class="QLabel" name="label_141">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>310</x>
         <y>210</y>
         <width>141</width>
         <height>20</height>
@@ -7432,10 +7108,59 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <string>Department Title</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="insdeptID">
+     <widget class="QLabel" name="label_142">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>560</x>
+        <y>210</y>
+        <width>201</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 10pt &quot;Tahoma&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Department Manager</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_66">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>210</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 10pt &quot;Tahoma&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Total Employees</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="depttitle">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>250</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:black;
+background-color: rgba(255,255,255,255);
+</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="totalemp">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
         <y>250</y>
         <width>201</width>
         <height>31</height>
@@ -7447,38 +7172,19 @@ background-color: rgba(255,255,255,255);
 </string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_143">
+     <widget class="QLineEdit" name="deptmanag">
       <property name="geometry">
        <rect>
-        <x>300</x>
-        <y>210</y>
-        <width>161</width>
-        <height>20</height>
+        <x>560</x>
+        <y>250</y>
+        <width>211</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Department ID</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_142">
-      <property name="geometry">
-       <rect>
-        <x>810</x>
-        <y>210</y>
-        <width>201</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Department Manager ID</string>
+       <string notr="true">color:black;
+background-color: rgba(255,255,255,255);
+</string>
       </property>
      </widget>
     </widget>

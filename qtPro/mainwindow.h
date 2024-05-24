@@ -110,7 +110,6 @@ private slots:
 
     void on_pushButton_17_clicked();
 
-    void on_pushButton_24_clicked();
 
     void on_pushButton_28_clicked();
 
@@ -143,7 +142,8 @@ private slots:
     void on_pushButton_45_clicked();
 
     void on_pushButton_46_clicked();
-    void homebutton_24_clicked();
+
+
     void on_homebutton_16_clicked();
 
     void on_homebutton_17_clicked();
@@ -188,7 +188,7 @@ private slots:
 
     void on_pushButton_51_clicked();
 
-    void on_loginbutton_clicked();
+
 
     void on_pushButton_29_clicked();
 
@@ -197,6 +197,21 @@ private slots:
     void on_pushButton_13_clicked();
 
     void on_ProjSubmit_clicked();
+
+    void on_pushButton_54_clicked();
+
+
+    void emprecords();
+    void on_pushButton_52_clicked();
+
+    void on_displayempup_clicked();
+
+    void on_pushButton_7_clicked();
+
+    void on_pushButton_39_clicked();
+
+
+    void on_searchresetemp_clicked();
 
 private:
     Ui::MainWindow *ui;

@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include <QtWidgets>
 #include <QLineEdit>
+#include <QSqlTableModel>
+#include <QTableView>
 #include "ui_mainwindow.h"
 #include <QtSql/QSqlQuery>
 #include<QSqlDatabase>
@@ -28,6 +30,8 @@ MainWindow::MainWindow(QWidget *parent)
 ui->loginpassword->setEchoMode(QLineEdit::Password);
 
     connect(ui->pushButton_80, &QPushButton::clicked, this, &MainWindow::on_pushButton_80_clicked);
+connect(ui->pushButton_80, &QPushButton::clicked, this, &MainWindow::on_pushButton_80_clicked);
+connect(ui->searchresetemp, &QPushButton::clicked, this, &MainWindow:: on_searchresetemp_clicked);
 
  connect(ui->pushButton_6, &QPushButton::clicked, this, &MainWindow::on_pushButton_6_clicked);
 connect(ui->pushButton_2, &QPushButton::clicked, this, &MainWindow::on_pushButton_2_clicked);
@@ -125,15 +129,6 @@ void MainWindow::on_pushButton_2_clicked()
 
     }
 
-
-
-
-
-
-
-
-
-
 void MainWindow::on_pushButton_clicked()
 {
      ui->stackedWidget->setCurrentIndex(6);
@@ -149,10 +144,31 @@ void MainWindow::on_pushButton_6_clicked()
 }
 
 
+void MainWindow::emprecords(){
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+
+        model->select();
+        ui->updemptable->setModel(model);
+        ui->updemptable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->updemptable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+}
 void MainWindow::on_pushButton_3_clicked()
 {
 
     ui->stackedWidget->setCurrentIndex(7);
+    emprecords();
 
 }
 
@@ -207,8 +223,26 @@ void MainWindow::on_homebutton_5_clicked()
 
 void MainWindow::on_pushButton_5_clicked()
 {
-       ui->stackedWidget->setCurrentIndex(9);
-}
+        ui->stackedWidget->setCurrentIndex(9);
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+        ui->searchemptable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->searchemptable->setModel(model);
+        ui->searchemptable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchemptable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+   }
+
 
 
 void MainWindow::on_homebutton_32_clicked()
@@ -743,21 +777,6 @@ void MainWindow::on_ProjSubmit_clicked()
     {
         QMessageBox::information(this,"insertion","DB is Open");
 
-        /*
-Proj_ID int PK
-Title text
-start_date date
-delivery_date date
-Project_Cost double
-Last_Updated date
-
-
-
-Client_ID int PK
-Name text
-billing_address text
-contact_info
-         */
 
         QSqlQuery proqry,client;
         proqry.prepare("INSERT INTO project(Proj_ID,Title,start_date,delivery_date,Project_Cost,Last_Updated) "
@@ -792,6 +811,138 @@ contact_info
     {
         QMessageBox::critical(this, "Connection", "Failed to connect to the database: " );
 
+    }
+
+}
+
+
+void MainWindow::on_pushButton_54_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(17);
+}
+
+
+
+void MainWindow::on_pushButton_52_clicked()
+{
+    employeeview();
+}
+
+
+/*
+
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+
+        model->select();
+        ui->updemptable->setModel(model);
+        ui->updemptable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->updemptable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+*/
+
+
+
+void MainWindow::on_displayempup_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+    QString id = ui->empidupdate->text().trimmed();
+
+    if (id.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("employee");
+    filteredModel->setFilter(QString("LOWER(EmployeeID) = LOWER('%1')").arg(id));
+    filteredModel->select();
+
+
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->updemptable->setModel(filteredModel);
+}
+
+
+void MainWindow::on_pushButton_7_clicked()
+{
+    emprecords();
+}
+
+
+void MainWindow::on_pushButton_39_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+    QString id = ui->disemp->toPlainText().trimmed();
+
+    if (id.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("employee");
+    filteredModel->setFilter(QString("LOWER(EmployeeID) = LOWER('%1')").arg(id));
+    filteredModel->select();
+
+
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->searchemptable->setModel(filteredModel);
+}
+
+
+
+void MainWindow::on_searchresetemp_clicked()
+{
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+        ui->searchemptable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+
+        model->select();
+        ui->searchemptable->setModel(model);
+        ui->searchemptable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchemptable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
     }
 
 }
