@@ -27,6 +27,7 @@ public:
 private slots:
 //where?
 
+    void projectviewtable();
     void departviewtable();
     void on_pushButton_2_clicked();
 
@@ -222,7 +223,7 @@ private slots:
 
 
     void empviewtable();
-
+    void teamviewtable();
 
     void on_pushButton_55_clicked();
 
@@ -231,6 +232,26 @@ private slots:
     void on_searchdepbutton_clicked();
 
     void on_pushButton_57_clicked();
+
+    void on_pushButton_34_clicked();
+
+    void on_pushButton_36_clicked();
+
+    void on_pushButton_58_clicked();
+
+    void on_pushButton_35_clicked();
+
+    void on_pushButton_38_clicked();
+
+    void on_pushButton_59_clicked();
+
+    void on_updteamdisplay_clicked();
+
+    void on_pushButton_26_clicked();
+
+    void on_searchteambut_clicked();
+
+    void on_pushButton_60_clicked();
 
 private:
     Ui::MainWindow *ui;
