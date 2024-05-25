@@ -28,11 +28,14 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 ui->loginpassword->setEchoMode(QLineEdit::Password);
-
+    ui->loginuser->setAlignment(Qt::AlignCenter);
+    ui->loginpassword->setAlignment(Qt::AlignCenter);
     connect(ui->pushButton_80, &QPushButton::clicked, this, &MainWindow::on_pushButton_80_clicked);
 connect(ui->pushButton_80, &QPushButton::clicked, this, &MainWindow::on_pushButton_80_clicked);
 connect(ui->searchresetemp, &QPushButton::clicked, this, &MainWindow:: on_searchresetemp_clicked);
 
+
+        connect(ui->delempbut, &QPushButton::clicked, this, &MainWindow::on_delempbut_clicked);
  connect(ui->pushButton_6, &QPushButton::clicked, this, &MainWindow::on_pushButton_6_clicked);
 connect(ui->pushButton_2, &QPushButton::clicked, this, &MainWindow::on_pushButton_2_clicked);
     QDir databasePath;
@@ -99,7 +102,9 @@ void MainWindow::on_conn_clicked()
 void MainWindow::on_pushButton_2_clicked()
 {
 
-  QSqlQuery query("project");
+
+
+
     QString username = ui->loginuser->toPlainText();
     QString password = ui->loginpassword->text();
     QString HR = "HR";
@@ -139,7 +144,7 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::on_pushButton_6_clicked()
 {
  ui->stackedWidget->setCurrentIndex(4);
-
+empviewtable();
 
 }
 
@@ -168,7 +173,22 @@ void MainWindow::on_pushButton_3_clicked()
 {
 
     ui->stackedWidget->setCurrentIndex(7);
-    emprecords();
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+        model->select();
+        ui->updemptable->setModel(model);
+        ui->updemptable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->updemptable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
 
 }
 
@@ -242,6 +262,26 @@ void MainWindow::on_pushButton_5_clicked()
     }
 
    }
+
+void MainWindow::empviewtable(){
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+        ui->employeeviewtable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->employeeviewtable->setModel(model);
+        ui->employeeviewtable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->employeeviewtable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+}
 
 
 
@@ -946,4 +986,91 @@ void MainWindow::on_searchresetemp_clicked()
     }
 
 }
+
+
+void MainWindow::on_pushButton_24_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+
+
+    QString id = ui->searchempdelete->toPlainText().trimmed();
+
+    if (id.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("employee");
+    filteredModel->setFilter(QString("LOWER(EmployeeID) = LOWER('%1')").arg(id));
+    filteredModel->select();
+         ui->deletemptable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->deletemptable->setModel(filteredModel);
+
+
+}
+
+
+void MainWindow::on_pushButton_4_clicked()
+{
+
+
+    ui->stackedWidget->setCurrentIndex(8);
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+        ui->deletemptable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->deletemptable->setModel(model);
+        ui->deletemptable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->deletemptable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+}
+
+
+void MainWindow::on_delempbut_clicked()
+{
+    if(db.open())
+    {
+    QString employeeid = ui->searchempdelete->toPlainText();
+
+    // Update the employee's status in the database
+    QSqlQuery query;
+    query.prepare("UPDATE employee SET Status = 'Inactive' WHERE EmployeeID = :id");
+    query.bindValue(":id", employeeid);
+
+    if(query.exec()){
+        QMessageBox::information(this,"Employee Status","Employee has been Offboarded successfully");
+    }
+
+    }
+}
+
+
+
+
+
+
 

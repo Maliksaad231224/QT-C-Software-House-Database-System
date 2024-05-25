@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>9</number>
+     <number>7</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -622,7 +622,7 @@ background-color: none;</string>
      <widget class="QLabel" name="label_12">
       <property name="geometry">
        <rect>
-        <x>40</x>
+        <x>20</x>
         <y>230</y>
         <width>191</width>
         <height>221</height>
@@ -641,7 +641,7 @@ background-color: none;</string>
      <widget class="QLabel" name="label_13">
       <property name="geometry">
        <rect>
-        <x>320</x>
+        <x>300</x>
         <y>250</y>
         <width>161</width>
         <height>201</height>
@@ -660,7 +660,7 @@ background-color: none;</string>
      <widget class="QLabel" name="label_15">
       <property name="geometry">
        <rect>
-        <x>850</x>
+        <x>840</x>
         <y>220</y>
         <width>161</width>
         <height>281</height>
@@ -699,7 +699,7 @@ background-color: none;</string>
       <property name="geometry">
        <rect>
         <x>250</x>
-        <y>60</y>
+        <y>50</y>
         <width>591</width>
         <height>111</height>
        </rect>
@@ -714,14 +714,15 @@ background-color: none;</string>
      <widget class="QLabel" name="label_18">
       <property name="geometry">
        <rect>
-        <x>470</x>
-        <y>200</y>
-        <width>191</width>
+        <x>390</x>
+        <y>180</y>
+        <width>361</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;</string>
+       <string notr="true">color:white;
+font: 700 16pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
        <string>Optimizing Work Solutions</string>
@@ -730,7 +731,7 @@ background-color: none;</string>
      <widget class="QLabel" name="label_14">
       <property name="geometry">
        <rect>
-        <x>560</x>
+        <x>540</x>
         <y>250</y>
         <width>221</width>
         <height>221</height>
@@ -783,6 +784,74 @@ QPushButton:pressed {
       </property>
       <property name="text">
        <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_74">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>490</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 700 17pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>C++</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_75">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>490</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 700 17pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>CSS/QSS</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_76">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>490</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 700 17pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>MYSQL</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_77">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>490</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font: 700 17pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Qt Creator</string>
       </property>
      </widget>
     </widget>
@@ -889,11 +958,10 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string notr="true">
 QPushButton {
     /* Light Blue */
-
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -912,7 +980,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>       Employees</string>
+        <string>        Employees</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_9">
@@ -928,11 +996,10 @@ QPushButton:pressed {
         <string notr="true">
 QPushButton {
     /* Light Blue */
-
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -951,7 +1018,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>       Department</string>
+        <string>          Department</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_10">
@@ -967,11 +1034,10 @@ QPushButton:pressed {
         <string notr="true">
 QPushButton {
     /* Light Blue */
-
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -1006,11 +1072,10 @@ QPushButton:pressed {
         <string notr="true">
 QPushButton {
     /* Light Blue */
-
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -1045,11 +1110,10 @@ QPushButton:pressed {
         <string notr="true">
 QPushButton {
     /* Light Blue */
-
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -1339,7 +1403,9 @@ font: 700 11pt &quot;Arial&quot;;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">border-radius:12px;
-background-color:rgba(210,82,88,255);</string>
+background-color:rgba(210,82,88,255);
+color:white;
+font: 11pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
        <string>Logout</string>
@@ -1619,80 +1685,6 @@ color:white;</string>
        </property>
       </widget>
      </widget>
-     <widget class="QTableWidget" name="tableWidget_6">
-      <property name="geometry">
-       <rect>
-        <x>310</x>
-        <y>70</y>
-        <width>721</width>
-        <height>521</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(181, 194, 197);
-color:black;</string>
-      </property>
-      <column>
-       <property name="text">
-        <string>First Name</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Last Name</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Employee ID</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Designation</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Salary</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Department</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Gender</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Email</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Supervisor ID</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Status</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Team ID</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>BirthDate</string>
-       </property>
-      </column>
-     </widget>
      <widget class="QLabel" name="label_8">
       <property name="geometry">
        <rect>
@@ -1863,6 +1855,55 @@ QPushButton:pressed {
       </property>
       <property name="text">
        <string>Retrieve Records</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="employeeviewtable">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>90</y>
+        <width>731</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+    font: 11pt &quot;Arial&quot;;
+    background-color: #2f2f2f; /* dark gray */
+    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */
+}
+
+QTableView::item {
+    color: white; /* white text */
+    background-color: #2f2f2f; /* dark gray */
+    selection-color: white; /* white text on selection */
+    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */
+}
+
+/* Common section styling */
+QHeaderView::section {
+    font: bold 11pt &quot;Arial&quot;; /* Ensure consistent font settings */
+    border: 1px solid #1b1b1b; /* Optional: to define the border */
+}
+
+/* Horizontal header styling */
+QHeaderView::section:horizontal {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+
+/* Vertical header styling */
+QHeaderView::section:vertical {
+    color: white; /* white text */
+    background-color: #3b3b3b; /* different color for vertical header */
+}
+
+/* Corner button styling */
+QTableCornerButton::section {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+</string>
       </property>
      </widget>
     </widget>
@@ -3169,7 +3210,7 @@ font: 700 11pt &quot;Arial&quot;;</string>
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>70</y>
+        <y>60</y>
         <width>181</width>
         <height>31</height>
        </rect>
@@ -3187,16 +3228,16 @@ text-decoration: underline;</string>
      <widget class="QPushButton" name="displayempup">
       <property name="geometry">
        <rect>
-        <x>830</x>
-        <y>70</y>
+        <x>840</x>
+        <y>60</y>
         <width>91</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">border-radius:12px;
+background-color:rgba(0,133,104,255);
+color:white;</string>
       </property>
       <property name="text">
        <string>Display</string>
@@ -3224,13 +3265,14 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>120</y>
-        <width>731</width>
+        <y>110</y>
+        <width>741</width>
         <height>531</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">QTableView {
+    font: 11pt &quot;Arial&quot;;
     background-color: #2f2f2f; /* dark gray */
     alternate-row-color: #3f3f3f; /* slightly lighter dark gray */
 }
@@ -3242,23 +3284,37 @@ QTableView::item {
     selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */
 }
 
-QTableView::horizontalHeader {
-    background-color: black; /* black */
-    color: white; /* white text */
+/* Common section styling */
+QHeaderView::section {
+    font: bold 11pt &quot;Arial&quot;; /* Ensure consistent font settings */
+    border: 1px solid #1b1b1b; /* Optional: to define the border */
 }
 
-QTableView::horizontalHeader::section {
-    background-color: black; /* black */
+/* Horizontal header styling */
+QHeaderView::section:horizontal {
     color: white; /* white text */
-    border: 1px solid #3f3f3f; /* slightly lighter dark gray border */
-}</string>
+    background-color: #1b1b1b; /* black background */
+}
+
+/* Vertical header styling */
+QHeaderView::section:vertical {
+    color: white; /* white text */
+    background-color: #3b3b3b; /* different color for vertical header */
+}
+
+/* Corner button styling */
+QTableCornerButton::section {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="empidupdate">
       <property name="geometry">
        <rect>
         <x>490</x>
-        <y>70</y>
+        <y>60</y>
         <width>331</width>
         <height>31</height>
        </rect>
@@ -3272,16 +3328,16 @@ background-color: rgba(255,255,255,255);
      <widget class="QPushButton" name="pushButton_7">
       <property name="geometry">
        <rect>
-        <x>940</x>
-        <y>70</y>
+        <x>960</x>
+        <y>60</y>
         <width>81</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">border-radius:12px;
+background-color:rgba(0,133,104,255);
+color:white;</string>
       </property>
       <property name="text">
        <string>Reset</string>
@@ -3377,12 +3433,12 @@ font: 700 11pt &quot;Arial&quot;;</string>
        </property>
       </widget>
      </widget>
-     <widget class="QPlainTextEdit" name="empidupdate_2">
+     <widget class="QPlainTextEdit" name="searchempdelete">
       <property name="geometry">
        <rect>
-        <x>400</x>
-        <y>100</y>
-        <width>531</width>
+        <x>450</x>
+        <y>60</y>
+        <width>481</width>
         <height>31</height>
        </rect>
       </property>
@@ -3390,25 +3446,6 @@ font: 700 11pt &quot;Arial&quot;;</string>
        <string notr="true">color:black;
 background-color: rgba(255,255,255,255);
 </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_89">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>50</y>
-        <width>321</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(80, 151, 225);
-
-font: italic 13pt &quot;Times New Roman&quot;;
-text-decoration: underline;</string>
-      </property>
-      <property name="text">
-       <string>Search Emplouyee By Employee ID</string>
       </property>
      </widget>
      <widget class="QFrame" name="frame_27">
@@ -3482,24 +3519,11 @@ color:white;</string>
        </property>
       </widget>
      </widget>
-     <widget class="QTableWidget" name="tableWidget">
-      <property name="geometry">
-       <rect>
-        <x>340</x>
-        <y>160</y>
-        <width>671</width>
-        <height>381</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:white;</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="delempbut">
       <property name="geometry">
        <rect>
-        <x>870</x>
-        <y>580</y>
+        <x>600</x>
+        <y>610</y>
         <width>141</width>
         <height>51</height>
        </rect>
@@ -3514,6 +3538,92 @@ font: 10pt &quot;Tahoma&quot;;</string>
       </property>
       <property name="text">
        <string>Delete </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_78">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>60</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(80, 151, 225);
+
+font: italic 13pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Employee ID:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_24">
+      <property name="geometry">
+       <rect>
+        <x>950</x>
+        <y>60</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:12px;
+background-color:rgba(0,133,104,255);
+color:white;</string>
+      </property>
+      <property name="text">
+       <string>Search</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="deletemptable">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>110</y>
+        <width>741</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+    font: 11pt &quot;Arial&quot;;
+    background-color: #2f2f2f; /* dark gray */
+    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */
+}
+
+QTableView::item {
+    color: white; /* white text */
+    background-color: #2f2f2f; /* dark gray */
+    selection-color: white; /* white text on selection */
+    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */
+}
+
+/* Common section styling */
+QHeaderView::section {
+    font: bold 11pt &quot;Arial&quot;; /* Ensure consistent font settings */
+    border: 1px solid #1b1b1b; /* Optional: to define the border */
+}
+
+/* Horizontal header styling */
+QHeaderView::section:horizontal {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+
+/* Vertical header styling */
+QHeaderView::section:vertical {
+    color: white; /* white text */
+    background-color: #3b3b3b; /* different color for vertical header */
+}
+
+/* Corner button styling */
+QTableCornerButton::section {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+</string>
       </property>
      </widget>
     </widget>
@@ -3758,6 +3868,7 @@ background-color: rgba(255,255,255,255);
       </property>
       <property name="styleSheet">
        <string notr="true">QTableView {
+    font: 11pt &quot;Arial&quot;;
     background-color: #2f2f2f; /* dark gray */
     alternate-row-color: #3f3f3f; /* slightly lighter dark gray */
 }
@@ -3769,16 +3880,30 @@ QTableView::item {
     selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */
 }
 
-QTableView::horizontalHeader {
-    background-color: black; /* black */
-    color: white; /* white text */
+/* Common section styling */
+QHeaderView::section {
+    font: bold 11pt &quot;Arial&quot;; /* Ensure consistent font settings */
+    border: 1px solid #1b1b1b; /* Optional: to define the border */
 }
 
-QTableView::horizontalHeader::section {
-    background-color: black; /* black */
+/* Horizontal header styling */
+QHeaderView::section:horizontal {
     color: white; /* white text */
-    border: 1px solid #3f3f3f; /* slightly lighter dark gray border */
-}</string>
+    background-color: #1b1b1b; /* black background */
+}
+
+/* Vertical header styling */
+QHeaderView::section:vertical {
+    color: white; /* white text */
+    background-color: #3b3b3b; /* different color for vertical header */
+}
+
+/* Corner button styling */
+QTableCornerButton::section {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+</string>
       </property>
      </widget>
      <widget class="QPushButton" name="searchresetemp">
