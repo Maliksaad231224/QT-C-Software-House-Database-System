@@ -521,7 +521,7 @@ public:
         loginuser->setGeometry(QRect(190, 210, 251, 41));
         loginuser->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 90, 163);\n"
 "border-radius: 12px;\n"
-"font: 11pt \"Tahoma\";\n"
+"font: 12pt \"Arial\";\n"
 "border-color:white;\n"
 "color:white;"));
         label_5 = new QLabel(frame);
@@ -579,7 +579,7 @@ public:
         loginpassword->setGeometry(QRect(190, 290, 251, 41));
         loginpassword->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 90, 163);\n"
 "border-radius: 12px;\n"
-"font: 11pt \"Tahoma\";\n"
+"font: 12pt \"Arial\";\n"
 "border-color:white;\n"
 "color:white;"));
         stackedWidget->addWidget(Login);
@@ -4184,7 +4184,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(23);
+        stackedWidget->setCurrentIndex(12);
 
 
         QMetaObject::connectSlotsByName(MainWindow);

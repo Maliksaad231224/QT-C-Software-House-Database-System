@@ -440,6 +440,24 @@ void MainWindow::on_pushButton_19_clicked()
 {
     manager=true;
        ui->stackedWidget->setCurrentIndex(9);
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+        ui->searchemptable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->searchemptable->setModel(model);
+        ui->searchemptable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchemptable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
 }
 
 
@@ -447,6 +465,27 @@ void MainWindow::on_pushButton_20_clicked()
 {
     manager=true;
     ui->stackedWidget->setCurrentIndex(16);
+
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("project");
+        ui->searchprojecttable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->searchprojecttable->setModel(model);
+        ui->searchprojecttable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchprojecttable->resizeColumnToContents(column);
+        }
+
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+
 }
 
 
@@ -454,6 +493,32 @@ void MainWindow::on_pushButton_21_clicked()
 {
     manager=true;
     ui->stackedWidget->setCurrentIndex(19);
+
+
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("department");
+
+        model->select();
+        ui->searchdepartmenttableview->setModel(model);
+        ui->searchdepartmenttableview->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchdepartmenttableview->resizeColumnToContents(column);
+        }
+
+        ui->searchdepartmenttableview->setEditTriggers(QAbstractItemView::NoEditTriggers);
+
+        QHeaderView *horizontalHeader = ui->searchdepartmenttableview->horizontalHeader();
+        horizontalHeader->setSectionResizeMode(QHeaderView::Stretch);
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+
 }
 
 
@@ -461,6 +526,30 @@ void MainWindow::on_pushButton_22_clicked()
 {
     ui->stackedWidget->setCurrentIndex(23);
     manager=true;
+
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("team");
+        ui->searchteamtable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->searchteamtable->setModel(model);
+        ui->searchteamtable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchteamtable->resizeColumnToContents(column);
+        }
+
+
+
+        ui->searchteamtable->horizontalHeader()->setStretchLastSection(true);
+
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
 }
 
 
