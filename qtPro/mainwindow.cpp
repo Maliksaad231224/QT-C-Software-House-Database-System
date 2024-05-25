@@ -34,7 +34,7 @@ ui->loginpassword->setEchoMode(QLineEdit::Password);
 connect(ui->pushButton_80, &QPushButton::clicked, this, &MainWindow::on_pushButton_80_clicked);
 connect(ui->searchresetemp, &QPushButton::clicked, this, &MainWindow:: on_searchresetemp_clicked);
 
-
+connect(ui->searchdepbutton, &QPushButton::clicked, this, &MainWindow:: on_searchdepbutton_clicked);
         connect(ui->delempbut, &QPushButton::clicked, this, &MainWindow::on_delempbut_clicked);
  connect(ui->pushButton_6, &QPushButton::clicked, this, &MainWindow::on_pushButton_6_clicked);
 connect(ui->pushButton_2, &QPushButton::clicked, this, &MainWindow::on_pushButton_2_clicked);
@@ -371,6 +371,7 @@ ui->stackedWidget->setCurrentIndex(0);
 void MainWindow::on_pushButton_9_clicked()
 {
     ui->stackedWidget->setCurrentIndex(5);
+    departviewtable();
 
 }
 
@@ -435,18 +436,74 @@ void MainWindow::on_pushButton_30_clicked()
 void MainWindow::on_pushButton_14_clicked()
 {
      departmentview();
+
+    departviewtable();
+
 }
 
 
 void MainWindow::on_pushButton_15_clicked()
 {
      ui->stackedWidget->setCurrentIndex(18);
+
+
+     if( db.open())
+     {
+         QSqlTableModel *model = new QSqlTableModel;
+         model->setTable("department");
+
+         model->select();
+         ui->departmentupdate->setModel(model);
+         ui->departmentupdate->setVisible(true);
+         for (int column = 0; column < model->columnCount(); column++) {
+             ui->departmentupdate->resizeColumnToContents(column);
+         }
+
+
+
+         QHeaderView *horizontalHeader = ui->departmentupdate->horizontalHeader();
+         horizontalHeader->setSectionResizeMode(QHeaderView::Stretch);
+     }
+     else {
+         // Handle query execution error
+         qDebug() << "Error executing query:";
+     }
+
+
+
 }
 
 
 void MainWindow::on_pushButton_12_clicked()
 {
      ui->stackedWidget->setCurrentIndex(19);
+
+
+
+
+     if( db.open())
+     {
+         QSqlTableModel *model = new QSqlTableModel;
+         model->setTable("department");
+
+         model->select();
+         ui->searchdepartmenttableview->setModel(model);
+         ui->searchdepartmenttableview->setVisible(true);
+         for (int column = 0; column < model->columnCount(); column++) {
+             ui->searchdepartmenttableview->resizeColumnToContents(column);
+         }
+
+       ui->searchdepartmenttableview->setEditTriggers(QAbstractItemView::NoEditTriggers);
+
+         QHeaderView *horizontalHeader = ui->searchdepartmenttableview->horizontalHeader();
+         horizontalHeader->setSectionResizeMode(QHeaderView::Stretch);
+     }
+     else {
+         // Handle query execution error
+         qDebug() << "Error executing query:";
+     }
+
+
 }
 
 
@@ -531,6 +588,8 @@ void MainWindow::teamview()
 void MainWindow::on_pushButton_37_clicked()
 {
     employeeview();
+    empviewtable();
+
 }
 
 
@@ -543,6 +602,7 @@ void MainWindow::on_pushButton_40_clicked()
 void MainWindow::on_pushButton_41_clicked()
 {
     departmentview();
+    departviewtable();
 }
 
 
@@ -555,18 +615,21 @@ void MainWindow::on_pushButton_42_clicked()
 void MainWindow::on_pushButton_43_clicked()
 {
     employeeview();
+    empviewtable();
 }
 
 
 void MainWindow::on_pushButton_44_clicked()
 {
     employeeview();
+    empviewtable();
 }
 
 
 void MainWindow::on_pushButton_45_clicked()
 {
     departmentview();
+    departviewtable();
 }
 
 
@@ -787,6 +850,33 @@ void MainWindow::on_pushButton_11_clicked()
 }
 
 
+void MainWindow:: departviewtable()
+{
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("department");
+        ui->departmentViewTable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->departmentViewTable->setModel(model);
+        ui->departmentViewTable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->departmentViewTable->resizeColumnToContents(column);
+        }
+
+
+
+        QHeaderView *horizontalHeader = ui->departmentViewTable->horizontalHeader();
+        horizontalHeader->setSectionResizeMode(QHeaderView::Stretch);
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+
+}
 void MainWindow::on_pushButton_13_clicked()
 {
 /*
@@ -858,7 +948,24 @@ void MainWindow::on_ProjSubmit_clicked()
 
 void MainWindow::on_pushButton_54_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(17);
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+        ui->deletemptable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+
+        model->select();
+        ui->deletemptable->setModel(model);
+        ui->deletemptable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->deletemptable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
 }
 
 
@@ -866,6 +973,7 @@ void MainWindow::on_pushButton_54_clicked()
 void MainWindow::on_pushButton_52_clicked()
 {
     employeeview();
+    empviewtable();
 }
 
 
@@ -1073,4 +1181,117 @@ void MainWindow::on_delempbut_clicked()
 
 
 
+
+
+void MainWindow::on_pushButton_55_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+    QString did = ui->searchupdatedept->text().trimmed();
+
+    if (did.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("department");
+    filteredModel->setFilter(QString("LOWER(Dpt_no) = LOWER('%1')").arg(did));
+    filteredModel->select();
+
+
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->departmentupdate->setModel(filteredModel);
+}
+
+
+void MainWindow::on_pushButton_56_clicked()
+{
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("department");
+
+
+        model->select();
+        ui->departmentupdate->setModel(model);
+        ui->departmentupdate->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->departmentupdate->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+}
+
+
+void MainWindow::on_searchdepbutton_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+    QString did = ui->displaydeptid->toPlainText().trimmed();
+
+    if (did.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("department");
+    filteredModel->setFilter(QString("LOWER(Dpt_no) = LOWER('%1')").arg(did));
+    filteredModel->select();
+
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->searchdepartmenttableview->setModel(filteredModel);
+}
+
+
+void MainWindow::on_pushButton_57_clicked()
+{
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("department");
+
+        model->select();
+        ui->searchdepartmenttableview->setModel(model);
+        ui->searchdepartmenttableview->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchdepartmenttableview->resizeColumnToContents(column);
+        }
+
+        ui->searchdepartmenttableview->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+}
 
