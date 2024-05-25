@@ -13,15 +13,9 @@
 #include<QMessageBox>
 #include <QDir>
 #include <QDebug>
-bool emp=false;
-bool dept=false;
-bool team=false;
-bool proj=false;
 bool manager=false;
-bool ins=false;
-bool upd=false;
-bool dis=false;
-bool del=false;
+QString projteam="SELECT t.TeamID,t.Title AS Team_Title,t.Description AS Team_Description,p.Title AS Working_On_Project,t.Team_Lead,Members,p.start_date,p.deadline,p.Project_Cost,p.status,p.Last_Updated FROM project as p JOIN works_on as w ON p.Proj_ID = w.Project_Proj_ID JOIN team as t ON w.Team_TeamID = t.TeamID order by TeamID ;";
+QString projclient="SELECT p.Proj_ID, p.Title AS Project_Title, p.start_date,p.deadline, p.status,p.Project_Cost,p.Last_Updated,c.Client_ID,c.Name AS Client_Name,c.billing_address,c.contact_info FROM project_client as pc JOIN project as p ON pc.Project_Proj_ID = p.Proj_ID JOIN client as c ON pc.Client_Client_ID = c.Client_ID order by p.Proj_ID asc;";
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -376,9 +370,35 @@ void MainWindow::on_pushButton_9_clicked()
 }
 
 
-void MainWindow::on_pushButton_10_clicked()
+void MainWindow::teamviewtable()
+{
+    if (db.open()) {
+        QSqlQueryModel *model = new QSqlQueryModel;
+
+        model->setQuery(projteam);
+
+        ui->teaamviewtable->setModel(model);
+        ui->teaamviewtable->setVisible(true);
+
+
+        // Resize columns to fit contents
+        for (int column = 0; column < model->columnCount(); column++)
+        {
+            ui->teaamviewtable->resizeColumnToContents(column);
+        }
+
+
+    } else {
+        // Handle database connection error
+        qDebug() << "Error opening database:";
+    }
+
+}
+
+void MainWindow::on_pushButton_10_clicked()///////////
 {
        ui->stackedWidget->setCurrentIndex(11);
+teamviewtable();
 
 
 }
@@ -387,8 +407,34 @@ void MainWindow::on_pushButton_10_clicked()
 void MainWindow::on_pushButton_8_clicked()
 {
      ui->stackedWidget->setCurrentIndex(10);
+    projectviewtable();
+
+
 }
 
+void MainWindow::projectviewtable(){///////////////
+
+    if (db.open()) {
+        QSqlQueryModel *model = new QSqlQueryModel;
+
+        model->setQuery(projclient);
+
+            ui->projectviewtable->setModel(model);
+            ui->projectviewtable->setVisible(true);
+
+            // Resize columns to fit contents
+            for (int column = 0; column < model->columnCount(); column++)
+            {
+                ui->projectviewtable->resizeColumnToContents(column);
+            }
+
+
+    } else {
+        // Handle database connection error
+        qDebug() << "Error opening database:";
+    }
+
+}
 
 void MainWindow::on_pushButton_19_clicked()
 {
@@ -513,59 +559,227 @@ void MainWindow::on_pushButton_16_clicked()
 }
 
 
+/*
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("employee");
+        ui->searchemptable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->searchemptable->setModel(model);
+        ui->searchemptable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchemptable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+*/
 void MainWindow::on_pushButton_23_clicked()
 {
      ui->stackedWidget->setCurrentIndex(14);
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("project");
+
+        model->select();
+        ui->updatetableproject->setModel(model);
+        ui->updatetableproject->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->updatetableproject->resizeColumnToContents(column);
+        }
+
+    }
+
+
+
 }
 
 
 void MainWindow::on_pushButton_18_clicked()
 {
      ui->stackedWidget->setCurrentIndex(15);
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("project");
+        ui->removeproject->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->removeproject->setModel(model);
+        ui->removeproject->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->removeproject->resizeColumnToContents(column);
+        }
+
+
+
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+
 }
 
 
 void MainWindow::on_pushButton_17_clicked()
 {
       ui->stackedWidget->setCurrentIndex(16);
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("project");
+        ui->searchprojecttable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->searchprojecttable->setModel(model);
+        ui->searchprojecttable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchprojecttable->resizeColumnToContents(column);
+        }
+
+
+
+
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+
+
 }
 
 
+/*
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("team");
+        ui->searchteamtable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->searchteamtable->setModel(model);
+        ui->searchteamtable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchteamtable->resizeColumnToContents(column);
+        }
 
 
+
+        ui->searchteamtable->horizontalHeader()->setStretchLastSection(true);
+
+*/
 void MainWindow::on_pushButton_28_clicked()
 {
       ui->stackedWidget->setCurrentIndex(21);
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("team");
+        model->select();
+        ui->updateamview->setModel(model);
+        ui->updateamview->setVisible(true);
+
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->updateamview->resizeColumnToContents(column);
+        }
+
+         ui->updateamview->horizontalHeader()->setStretchLastSection(true);
+
+
+ }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+
 }
 
 
 void MainWindow::on_pushButton_27_clicked()
 {
-      ui->stackedWidget->setCurrentIndex(22);
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("project");
+        model->select();
+        ui->updatetableproject->setModel(model);
+        ui->updatetableproject->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->updatetableproject->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+
+
 }
 
 
 void MainWindow::on_pushButton_25_clicked()
 {
       ui->stackedWidget->setCurrentIndex(23);
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("team");
+        ui->searchteamtable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+        model->select();
+        ui->searchteamtable->setModel(model);
+        ui->searchteamtable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchteamtable->resizeColumnToContents(column);
+        }
+
+
+
+        ui->searchteamtable->horizontalHeader()->setStretchLastSection(true);
+
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+
+
 }
 
 
 void MainWindow::on_pushButton_32_clicked()
 {
      projectview();
+
+    projectviewtable();
+
 }
 
 
 void MainWindow::on_pushButton_31_clicked()
 {
      teamview();
+teamviewtable();
+
+
 }
 
 
 void MainWindow::on_pushButton_33_clicked()
 {
      projectview();
+    projectviewtable();
+
 }
 
 void MainWindow::projectview()
@@ -595,7 +809,9 @@ void MainWindow::on_pushButton_37_clicked()
 
 void MainWindow::on_pushButton_40_clicked()
 {
+
     teamview();
+    teamviewtable();
 }
 
 
@@ -609,6 +825,7 @@ void MainWindow::on_pushButton_41_clicked()
 void MainWindow::on_pushButton_42_clicked()
 {
     teamview();
+    teamviewtable();
 }
 
 
@@ -785,6 +1002,8 @@ void MainWindow::on_pushButton_50_clicked()
 void MainWindow::on_pushButton_51_clicked()
 {
       ui->stackedWidget->setCurrentIndex(10);
+    projectviewtable();
+
 }
 
 void MainWindow::on_pushButton_29_clicked()
@@ -1288,6 +1507,296 @@ void MainWindow::on_pushButton_57_clicked()
 
         ui->searchdepartmenttableview->setEditTriggers(QAbstractItemView::NoEditTriggers);
     }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+}
+
+
+void MainWindow::on_pushButton_34_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+    QString id = ui->upprojid->toPlainText().trimmed();
+
+    if (id.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("project");
+    filteredModel->setFilter(QString("LOWER(Proj_ID) = LOWER('%1')").arg(id));
+    filteredModel->select();
+
+
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->updatetableproject->setModel(filteredModel);
+
+}
+
+
+void MainWindow::on_pushButton_36_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+    QString id = ui->removeprojidsearch->toPlainText().trimmed();
+
+    if (id.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("project");
+    filteredModel->setFilter(QString("LOWER(Proj_ID) = LOWER('%1')").arg(id));
+    filteredModel->select();
+        ui->removeproject->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    for (int column = 0; column < filteredModel->columnCount(); column++) {
+        ui->removeproject->resizeColumnToContents(column);
+    }
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->removeproject->setModel(filteredModel);
+
+}
+
+
+void MainWindow::on_pushButton_58_clicked()
+{
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("project");
+        model->select();
+        ui->removeproject->setModel(model);
+        ui->removeproject->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->removeproject->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+}
+
+
+void MainWindow::on_pushButton_35_clicked()
+{
+    if(db.open())
+    {
+        QString projectid = ui->removeprojidsearch->toPlainText();
+
+        // Update the employee's status in the database
+        QSqlQuery query;
+        query.prepare("UPDATE project SET status = 'Complete' WHERE Proj_ID = :id");
+        query.bindValue(":id", projectid);
+
+        if(query.exec()){
+            QMessageBox::information(this,"Project Status","Project has been Completed successfully");
+        }
+
+    }
+}
+
+
+void MainWindow::on_pushButton_38_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+    QString id = ui->projectid->toPlainText().trimmed();
+
+    if (id.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("project");
+    filteredModel->setFilter(QString("LOWER(Proj_ID) = LOWER('%1')").arg(id));
+    filteredModel->select();
+    ui->removeproject->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    for (int column = 0; column < filteredModel->columnCount(); column++) {
+        ui->searchprojecttable->resizeColumnToContents(column);
+    }
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->searchprojecttable->setModel(filteredModel);
+
+}
+
+
+void MainWindow::on_pushButton_59_clicked()
+{
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("project");
+        model->select();
+        ui->searchprojecttable->setModel(model);
+        ui->searchprojecttable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchprojecttable->resizeColumnToContents(column);
+        }
+    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+
+}
+
+
+void MainWindow::on_updteamdisplay_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+    QString id = ui->updateteamid->toPlainText().trimmed();
+
+    if (id.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("team");
+    filteredModel->setFilter(QString("LOWER(TeamID) = LOWER('%1')").arg(id));
+    filteredModel->select();
+
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->updateamview->setModel(filteredModel);
+     for (int column = 0; column < filteredModel->columnCount(); column++) {
+         ui->updateamview->resizeColumnToContents(column);
+     }
+
+     ui->updateamview->horizontalHeader()->setStretchLastSection(true);
+}
+
+
+void MainWindow::on_pushButton_26_clicked()
+{
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("team");
+        model->select();
+        ui->updateamview->setModel(model);
+        ui->updateamview->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->updateamview->resizeColumnToContents(column);
+        }
+
+        ui->updateamview->horizontalHeader()->setStretchLastSection(true);    }
+    else {
+        // Handle query execution error
+        qDebug() << "Error executing query:";
+    }
+
+}
+
+
+void MainWindow::on_searchteambut_clicked()
+{
+    if (!db.open()) {
+        QMessageBox::critical(this, "Database Error", "Failed to open the database.");
+        return;
+    }
+
+    QString id = ui->searchteam->toPlainText().trimmed();
+
+    if (id.isEmpty()) {
+        QMessageBox::warning(this, "Input Error", "Please enter an employee ID.");
+        return;
+    }
+
+    QSqlTableModel *filteredModel = new QSqlTableModel(this, db);
+    filteredModel->setTable("team");
+    filteredModel->setFilter(QString("LOWER(TeamID) = LOWER('%1')").arg(id));
+    filteredModel->select();
+
+
+    // Debugging output
+    qDebug() << "Filter applied: " << filteredModel->filter();
+    qDebug() << "Number of rows: " << filteredModel->rowCount();
+
+    if (filteredModel->rowCount() == 0) {
+        QMessageBox::information(this, "No Results", "No employee found with the given ID.");
+    }
+
+    ui->searchteamtable->setModel(filteredModel);
+    for (int column = 0; column < filteredModel->columnCount(); column++) {
+        ui->searchteamtable->resizeColumnToContents(column);
+    }
+
+    ui->searchteamtable->horizontalHeader()->setStretchLastSection(true);
+
+}
+
+
+void MainWindow::on_pushButton_60_clicked()
+{
+
+    if( db.open())
+    {
+        QSqlTableModel *model = new QSqlTableModel;
+        model->setTable("team");
+        model->select();
+        ui->searchteamtable->setModel(model);
+        ui->searchteamtable->setVisible(true);
+        for (int column = 0; column < model->columnCount(); column++) {
+            ui->searchteamtable->resizeColumnToContents(column);
+        }
+
+        ui->searchteamtable->horizontalHeader()->setStretchLastSection(true);    }
     else {
         // Handle query execution error
         qDebug() << "Error executing query:";
