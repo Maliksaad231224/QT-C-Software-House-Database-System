@@ -213,6 +213,16 @@ private slots:
 
     void on_searchresetemp_clicked();
 
+    void on_pushButton_24_clicked();
+
+    void on_pushButton_4_clicked();
+
+    void on_delempbut_clicked();
+
+
+    void empviewtable();
+
+
 private:
     Ui::MainWindow *ui;
 
