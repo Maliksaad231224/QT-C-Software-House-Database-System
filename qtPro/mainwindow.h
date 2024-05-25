@@ -27,6 +27,7 @@ public:
 private slots:
 //where?
 
+    void departviewtable();
     void on_pushButton_2_clicked();
 
     void on_pushButton_clicked();
@@ -222,6 +223,14 @@ private slots:
 
     void empviewtable();
 
+
+    void on_pushButton_55_clicked();
+
+    void on_pushButton_56_clicked();
+
+    void on_searchdepbutton_clicked();
+
+    void on_pushButton_57_clicked();
 
 private:
     Ui::MainWindow *ui;
