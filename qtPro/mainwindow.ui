@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>23</number>
+     <number>12</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -158,7 +158,7 @@ background-color:none;</string>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(30, 90, 163);
 border-radius: 12px;
-font: 11pt &quot;Tahoma&quot;;
+font: 12pt &quot;Arial&quot;;
 border-color:white;
 color:white;</string>
        </property>
@@ -285,7 +285,7 @@ QPushButton:pressed {
        <property name="styleSheet">
         <string notr="true">background-color: rgb(30, 90, 163);
 border-radius: 12px;
-font: 11pt &quot;Tahoma&quot;;
+font: 12pt &quot;Arial&quot;;
 border-color:white;
 color:white;</string>
        </property>
@@ -5159,7 +5159,8 @@ font: 700 12pt &quot;Arial&quot;;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">border-radius:12px;
-background-color:rgba(210,82,88,255);</string>
+background-color:rgba(210,82,88,255);
+color:white;</string>
       </property>
       <property name="text">
        <string>Logout</string>
