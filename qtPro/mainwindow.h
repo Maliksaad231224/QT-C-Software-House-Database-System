@@ -259,9 +259,10 @@ private slots:
 
     void on_pushButton_62_clicked();
 
-    void on_departmentupdate_activated(const QModelIndex &index);
 
     void on_pushButton_64_clicked();
+
+    void on_Projclear_clicked();
 
 private:
     Ui::MainWindow *ui;
