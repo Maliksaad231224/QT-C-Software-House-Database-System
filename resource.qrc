@@ -20,5 +20,6 @@
         <file>picture/Project.png</file>
         <file>picture/Team.png</file>
         <file>picture/Tech.png</file>
+        <file>picture/images.jpg</file>
     </qresource>
 </RCC>

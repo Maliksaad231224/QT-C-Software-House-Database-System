@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>12</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -83,9 +83,9 @@
       <property name="geometry">
        <rect>
         <x>320</x>
-        <y>90</y>
+        <y>60</y>
         <width>461</width>
-        <height>501</height>
+        <height>531</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -150,7 +150,7 @@ background-color:none;</string>
        <property name="geometry">
         <rect>
          <x>190</x>
-         <y>210</y>
+         <y>230</y>
          <width>251</width>
          <height>41</height>
         </rect>
@@ -167,7 +167,7 @@ color:white;</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>210</y>
+         <y>230</y>
          <width>111</width>
          <height>31</height>
         </rect>
@@ -186,7 +186,7 @@ background-color: none;</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>290</y>
+         <y>310</y>
          <width>101</width>
          <height>31</height>
         </rect>
@@ -218,25 +218,6 @@ background-color:none;</string>
        </property>
        <property name="text">
         <string>Good To Have You Back</string>
-       </property>
-      </widget>
-      <widget class="QCheckBox" name="checkBox">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>360</y>
-         <width>141</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color:none;
-color:white;
-border:none;
-font: 600 9pt &quot;Tahoma&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Remember Me</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_2">
@@ -277,7 +258,7 @@ QPushButton:pressed {
        <property name="geometry">
         <rect>
          <x>190</x>
-         <y>290</y>
+         <y>310</y>
          <width>251</width>
          <height>41</height>
         </rect>
@@ -1308,15 +1289,16 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        <rect>
         <x>310</x>
         <y>60</y>
-        <width>191</width>
+        <width>291</width>
         <height>20</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;</string>
+       <string notr="true">color:white;
+font: 700 14pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
-       <string>HR VIEW</string>
+       <string>Welcome HR Professional </string>
       </property>
      </widget>
      <widget class="QFrame" name="frame_20">
@@ -3686,7 +3668,7 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Enter Employee ID</string>
+       <string>Enter Employee ID:</string>
       </property>
      </widget>
      <widget class="QPushButton" name="displayempup">
@@ -3718,7 +3700,7 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>Display</string>
+       <string>Search</string>
       </property>
      </widget>
      <widget class="QPushButton" name="homebutton_3">
@@ -4937,22 +4919,6 @@ QPushButton:pressed {
        </property>
       </widget>
      </widget>
-     <widget class="QLabel" name="label_165">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>50</y>
-        <width>161</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Project View</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButton_16">
       <property name="geometry">
        <rect>
@@ -5484,22 +5450,6 @@ font: 700 11pt &quot;Arial&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-     </widget>
-     <widget class="QLabel" name="label_178">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>50</y>
-        <width>81</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Team View</string>
-      </property>
      </widget>
      <widget class="QFrame" name="frame_53">
       <property name="geometry">
@@ -6246,17 +6196,18 @@ QPushButton:pressed {
      <widget class="QLabel" name="label_377">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>310</x>
         <y>50</y>
-        <width>151</width>
+        <width>211</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;</string>
+       <string notr="true">color:white;
+font: 700 14pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
-       <string>Manager UI</string>
+       <string>Welcome Manager </string>
       </property>
      </widget>
      <widget class="QFrame" name="frame_44">
@@ -7078,7 +7029,7 @@ color:white;</string>
        <rect>
         <x>290</x>
         <y>70</y>
-        <width>221</width>
+        <width>201</width>
         <height>31</height>
        </rect>
       </property>
@@ -7089,7 +7040,7 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search Project By ID</string>
+       <string>Search Project By ID:</string>
       </property>
      </widget>
      <widget class="QPlainTextEdit" name="upprojid">
@@ -7097,7 +7048,7 @@ text-decoration: underline;</string>
        <rect>
         <x>490</x>
         <y>70</y>
-        <width>271</width>
+        <width>311</width>
         <height>31</height>
        </rect>
       </property>
@@ -7128,9 +7079,9 @@ background-color: rgba(255,255,255,255);
       <widget class="QPushButton" name="homebutton_8">
        <property name="geometry">
         <rect>
-         <x>670</x>
+         <x>660</x>
          <y>0</y>
-         <width>111</width>
+         <width>121</width>
          <height>41</height>
         </rect>
        </property>
@@ -7199,9 +7150,9 @@ QPushButton:pressed {
      <widget class="QPushButton" name="pushButton_34">
       <property name="geometry">
        <rect>
-        <x>780</x>
+        <x>820</x>
         <y>70</y>
-        <width>121</width>
+        <width>101</width>
         <height>31</height>
        </rect>
       </property>
@@ -7228,7 +7179,7 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>Display</string>
+       <string>Search</string>
       </property>
      </widget>
      <widget class="QTableView" name="updatetableproject">
@@ -7283,9 +7234,9 @@ QTableCornerButton::section {
      <widget class="QPushButton" name="pushButton_27">
       <property name="geometry">
        <rect>
-        <x>920</x>
+        <x>930</x>
         <y>70</y>
-        <width>121</width>
+        <width>111</width>
         <height>31</height>
        </rect>
       </property>
@@ -7411,7 +7362,7 @@ QPushButton:pressed {
        <rect>
         <x>290</x>
         <y>70</y>
-        <width>221</width>
+        <width>201</width>
         <height>31</height>
        </rect>
       </property>
@@ -7422,7 +7373,7 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search Project By ID</string>
+       <string>Search Project By ID:</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_35">
@@ -7586,9 +7537,9 @@ font: 700 11pt &quot;Arial&quot;;</string>
      <widget class="QPlainTextEdit" name="removeprojidsearch">
       <property name="geometry">
        <rect>
-        <x>480</x>
+        <x>490</x>
         <y>70</y>
-        <width>341</width>
+        <width>331</width>
         <height>31</height>
        </rect>
       </property>
@@ -7911,9 +7862,9 @@ QPushButton:pressed {
      <widget class="QLabel" name="label_131">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>290</x>
         <y>70</y>
-        <width>191</width>
+        <width>201</width>
         <height>31</height>
        </rect>
       </property>
@@ -7924,7 +7875,7 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search Project By ID</string>
+       <string>Search Project By ID:</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_59">
@@ -8655,7 +8606,7 @@ font: 700 11pt &quot;Arial&quot;;</string>
        <rect>
         <x>300</x>
         <y>70</y>
-        <width>231</width>
+        <width>241</width>
         <height>31</height>
        </rect>
       </property>
@@ -8666,7 +8617,7 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search Department By ID</string>
+       <string>Search Department By ID:</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="searchupdatedept">
@@ -8815,7 +8766,7 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search Department By ID</string>
+       <string>Search Department By ID:</string>
       </property>
      </widget>
      <widget class="QFrame" name="frame_39">
@@ -9034,22 +8985,6 @@ QPushButton:pressed {
        <string notr="true">color:black;
 background-color: rgba(255,255,255,255);
 </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_153">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>50</y>
-        <width>111</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Display Departments</string>
       </property>
      </widget>
      <widget class="QTableView" name="searchdepartmenttableview">
@@ -9491,7 +9426,7 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search  Team  By ID:</string>
+       <string>Search Team By ID:</string>
       </property>
      </widget>
      <widget class="QPlainTextEdit" name="updateteamid">
@@ -10267,7 +10202,7 @@ font: 700 11pt &quot;Arial&quot;;</string>
        <rect>
         <x>290</x>
         <y>80</y>
-        <width>241</width>
+        <width>191</width>
         <height>31</height>
        </rect>
       </property>
@@ -10278,15 +10213,15 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search Team By ID</string>
+       <string>Search Team By ID:</string>
       </property>
      </widget>
      <widget class="QPlainTextEdit" name="searchteam">
       <property name="geometry">
        <rect>
-        <x>468</x>
+        <x>478</x>
         <y>80</y>
-        <width>321</width>
+        <width>311</width>
         <height>31</height>
        </rect>
       </property>
