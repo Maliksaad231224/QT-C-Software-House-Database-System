@@ -1097,7 +1097,12 @@ void MainWindow::on_pushButton_51_clicked()
 
 void MainWindow::on_pushButton_29_clicked()
 {
+
+    if(manager==true){
+        ui->stackedWidget->setCurrentIndex(12);
+    }else{
      ui->stackedWidget->setCurrentIndex(3);
+    }
 }
 
 
@@ -1891,5 +1896,11 @@ void MainWindow::on_pushButton_60_clicked()
         qDebug() << "Error executing query:";
     }
 
+}
+
+
+void MainWindow::on_pushButton_61_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
 }
 
