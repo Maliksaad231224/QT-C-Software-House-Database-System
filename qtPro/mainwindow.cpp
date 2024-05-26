@@ -128,6 +128,58 @@ void MainWindow::on_pushButton_2_clicked()
             }
 
 
+//active employee
+            if (db.open()) {
+                QSqlQuery query(db);
+                query.prepare("SELECT count(EmployeeID) FROM employee Where Status='Active';");
+                query.exec();
+                if (query.next()) {
+                    int count = query.value(0).toInt();
+                    ui->noactiveemp->setNum(count);
+                    ui->mangactiveep->setNum(count);
+                }
+//deadlines
+                QSqlQuery quer(db);
+                quer.prepare("SELECT COUNT(deadline) FROM project WHERE deadline > CURDATE();");
+                quer.exec();
+                if (quer.next()) {
+                    int count = quer.value(0).toInt();
+                    ui->deadline->setNum(count);
+                    ui->mdeadline->setNum(count);
+                }
+           //total teams
+                QSqlQuery que(db);
+                que.prepare("SELECT COUNT(TeamID) FROM team ;");
+                que.exec();
+                if (que.next()) {
+                    int count = quer.value(0).toInt();
+                    ui->managdevteam->setNum(count);
+
+                }
+                //inactive employees
+                QSqlQuery qu(db);
+                qu.prepare("SELECT count(EmployeeID) FROM employee Where Status='Inactive';");
+                qu.exec();
+                if (qu.next()) {
+                    int count = quer.value(0).toInt();
+                    ui->inactiveemp->setNum(count);
+
+                }
+
+
+                //complete
+                QSqlQuery q(db);
+                q.prepare("SELECT count(Proj_ID) from project where status='Complete';");
+                q.exec();
+                if (q.next()) {
+                    int count = quer.value(0).toInt();
+                    ui->projectcomplete->setNum(count);
+                    ui->mprojcomplete->setNum(count);
+
+                }
+
+
+            }
 
 
     }

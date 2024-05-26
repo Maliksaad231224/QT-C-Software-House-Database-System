@@ -97,16 +97,16 @@ public:
     QLabel *label_36;
     QFrame *frame_20;
     QLabel *label_47;
-    QLabel *label_48;
+    QLabel *noactiveemp;
     QFrame *frame_21;
     QLabel *label_49;
-    QLabel *label_50;
+    QLabel *inactiveemp;
     QFrame *frame_22;
     QLabel *label_51;
-    QLabel *label_52;
+    QLabel *deadline;
     QFrame *frame_23;
     QLabel *label_53;
-    QLabel *label_54;
+    QLabel *projectcomplete;
     QPushButton *pushButton_80;
     QWidget *EmployeeView;
     QLabel *label_193;
@@ -293,22 +293,19 @@ public:
     QLabel *label_191;
     QFrame *frame_15;
     QFrame *frame_16;
-    QLabel *label_39;
-    QLabel *label_40;
+    QLabel *managdevteam;
+    QLabel *label_187;
     QFrame *frame_18;
     QLabel *label_43;
-    QLabel *label_44;
+    QLabel *mangactiveep;
     QPushButton *pushButton_79;
     QLabel *label_377;
     QFrame *frame_44;
     QLabel *label_183;
-    QLabel *label_184;
+    QLabel *mprojcomplete;
     QFrame *frame_45;
     QLabel *label_185;
-    QLabel *label_186;
-    QFrame *frame_46;
-    QLabel *label_187;
-    QLabel *label_188;
+    QLabel *mdeadline;
     QWidget *InsertProject;
     QFrame *frame_19;
     QLabel *label_41;
@@ -775,7 +772,7 @@ public:
         label_17->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_18 = new QLabel(TechnologyUsed);
         label_18->setObjectName("label_18");
-        label_18->setGeometry(QRect(380, 180, 361, 31));
+        label_18->setGeometry(QRect(400, 180, 361, 31));
         label_18->setStyleSheet(QString::fromUtf8("color:white;\n"
 "font: 700 16pt \"Arial\";"));
         label_14 = new QLabel(TechnologyUsed);
@@ -817,17 +814,17 @@ public:
 "font: 700 17pt \"Arial\";"));
         label_75 = new QLabel(TechnologyUsed);
         label_75->setObjectName("label_75");
-        label_75->setGeometry(QRect(50, 490, 131, 21));
+        label_75->setGeometry(QRect(60, 490, 121, 21));
         label_75->setStyleSheet(QString::fromUtf8("color:white;\n"
 "font: 700 17pt \"Arial\";"));
         label_76 = new QLabel(TechnologyUsed);
         label_76->setObjectName("label_76");
-        label_76->setGeometry(QRect(700, 490, 121, 21));
+        label_76->setGeometry(QRect(720, 490, 111, 21));
         label_76->setStyleSheet(QString::fromUtf8("color:white;\n"
 "font: 700 17pt \"Arial\";"));
         label_77 = new QLabel(TechnologyUsed);
         label_77->setObjectName("label_77");
-        label_77->setGeometry(QRect(470, 490, 151, 21));
+        label_77->setGeometry(QRect(480, 490, 141, 21));
         label_77->setStyleSheet(QString::fromUtf8("color:white;\n"
 "font: 700 17pt \"Arial\";"));
         label_65 = new QLabel(TechnologyUsed);
@@ -1052,45 +1049,46 @@ public:
         label_47->setGeometry(QRect(20, 30, 211, 31));
         label_47->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
-        label_48 = new QLabel(frame_20);
-        label_48->setObjectName("label_48");
-        label_48->setGeometry(QRect(80, 90, 41, 41));
-        label_48->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 700 12pt \"Arial\";"));
+        noactiveemp = new QLabel(frame_20);
+        noactiveemp->setObjectName("noactiveemp");
+        noactiveemp->setGeometry(QRect(80, 90, 61, 51));
+        noactiveemp->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 700 29pt \"Arial\";\n"
+"BACKGROUND-COLOR:none;"));
         frame_21 = new QFrame(HRView);
         frame_21->setObjectName("frame_21");
-        frame_21->setGeometry(QRect(570, 110, 211, 181));
+        frame_21->setGeometry(QRect(570, 110, 221, 181));
         frame_21->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
 "background-color:rgba(210,82,88,255);"));
         frame_21->setFrameShape(QFrame::StyledPanel);
         frame_21->setFrameShadow(QFrame::Raised);
         label_49 = new QLabel(frame_21);
         label_49->setObjectName("label_49");
-        label_49->setGeometry(QRect(30, 30, 161, 31));
+        label_49->setGeometry(QRect(20, 30, 221, 31));
         label_49->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
-        label_50 = new QLabel(frame_21);
-        label_50->setObjectName("label_50");
-        label_50->setGeometry(QRect(90, 90, 41, 41));
-        label_50->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 700 12pt \"Arial\";"));
+        inactiveemp = new QLabel(frame_21);
+        inactiveemp->setObjectName("inactiveemp");
+        inactiveemp->setGeometry(QRect(90, 90, 61, 41));
+        inactiveemp->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 700  29pt \"Arial\";"));
         frame_22 = new QFrame(HRView);
         frame_22->setObjectName("frame_22");
-        frame_22->setGeometry(QRect(490, 350, 381, 181));
+        frame_22->setGeometry(QRect(520, 350, 291, 181));
         frame_22->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
 "background-color: rgb(134, 156, 170);"));
         frame_22->setFrameShape(QFrame::StyledPanel);
         frame_22->setFrameShadow(QFrame::Raised);
         label_51 = new QLabel(frame_22);
         label_51->setObjectName("label_51");
-        label_51->setGeometry(QRect(90, 20, 201, 41));
+        label_51->setGeometry(QRect(70, 20, 181, 41));
         label_51->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
-        label_52 = new QLabel(frame_22);
-        label_52->setObjectName("label_52");
-        label_52->setGeometry(QRect(170, 80, 41, 41));
-        label_52->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 700 12pt \"Arial\";"));
+        deadline = new QLabel(frame_22);
+        deadline->setObjectName("deadline");
+        deadline->setGeometry(QRect(140, 80, 51, 41));
+        deadline->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 700 29pt \"Arial\";"));
         frame_23 = new QFrame(HRView);
         frame_23->setObjectName("frame_23");
         frame_23->setGeometry(QRect(820, 110, 211, 181));
@@ -1105,11 +1103,11 @@ public:
 "color:white;"));
         label_53->setScaledContents(true);
         label_53->setWordWrap(false);
-        label_54 = new QLabel(frame_23);
-        label_54->setObjectName("label_54");
-        label_54->setGeometry(QRect(90, 90, 41, 41));
-        label_54->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 700 12pt \"Arial\";"));
+        projectcomplete = new QLabel(frame_23);
+        projectcomplete->setObjectName("projectcomplete");
+        projectcomplete->setGeometry(QRect(100, 90, 61, 41));
+        projectcomplete->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 700 29pt \"Arial\";"));
         pushButton_80 = new QPushButton(HRView);
         pushButton_80->setObjectName("pushButton_80");
         pushButton_80->setGeometry(QRect(910, 50, 121, 41));
@@ -3396,22 +3394,22 @@ public:
 "background-color:rgba(0,133,104,255);"));
         frame_16->setFrameShape(QFrame::StyledPanel);
         frame_16->setFrameShadow(QFrame::Raised);
-        label_39 = new QLabel(frame_16);
-        label_39->setObjectName("label_39");
-        label_39->setGeometry(QRect(70, 20, 171, 31));
-        label_39->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
-"color:white;"));
-        label_40 = new QLabel(frame_16);
-        label_40->setObjectName("label_40");
-        label_40->setGeometry(QRect(130, 70, 51, 41));
+        managdevteam = new QLabel(frame_16);
+        managdevteam->setObjectName("managdevteam");
+        managdevteam->setGeometry(QRect(130, 70, 91, 51));
         QFont font;
         font.setFamilies({QString::fromUtf8("Arial")});
-        font.setPointSize(12);
+        font.setPointSize(29);
         font.setBold(true);
         font.setItalic(false);
-        label_40->setFont(font);
-        label_40->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 700 12pt \"Arial\";"));
+        managdevteam->setFont(font);
+        managdevteam->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 700 29pt \"Arial\";"));
+        label_187 = new QLabel(frame_16);
+        label_187->setObjectName("label_187");
+        label_187->setGeometry(QRect(70, 20, 181, 41));
+        label_187->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
+"color:white;"));
         frame_18 = new QFrame(Manager);
         frame_18->setObjectName("frame_18");
         frame_18->setGeometry(QRect(720, 120, 301, 161));
@@ -3421,14 +3419,14 @@ public:
         frame_18->setFrameShadow(QFrame::Raised);
         label_43 = new QLabel(frame_18);
         label_43->setObjectName("label_43");
-        label_43->setGeometry(QRect(80, 20, 161, 31));
+        label_43->setGeometry(QRect(100, 20, 161, 31));
         label_43->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
-        label_44 = new QLabel(frame_18);
-        label_44->setObjectName("label_44");
-        label_44->setGeometry(QRect(140, 70, 41, 41));
-        label_44->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 700 12pt \"Arial\";"));
+        mangactiveep = new QLabel(frame_18);
+        mangactiveep->setObjectName("mangactiveep");
+        mangactiveep->setGeometry(QRect(120, 70, 91, 51));
+        mangactiveep->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 700 29pt \"Arial\";"));
         pushButton_79 = new QPushButton(Manager);
         pushButton_79->setObjectName("pushButton_79");
         pushButton_79->setGeometry(QRect(902, 60, 121, 41));
@@ -3457,57 +3455,40 @@ public:
         label_377->setStyleSheet(QString::fromUtf8("color:white;"));
         frame_44 = new QFrame(Manager);
         frame_44->setObjectName("frame_44");
-        frame_44->setGeometry(QRect(720, 320, 311, 151));
+        frame_44->setGeometry(QRect(720, 320, 311, 161));
         frame_44->setStyleSheet(QString::fromUtf8("border-radius:22px;\n"
 "background-color:rgba(58,162,238,255);"));
         frame_44->setFrameShape(QFrame::StyledPanel);
         frame_44->setFrameShadow(QFrame::Raised);
         label_183 = new QLabel(frame_44);
         label_183->setObjectName("label_183");
-        label_183->setGeometry(QRect(60, 20, 181, 31));
+        label_183->setGeometry(QRect(90, 20, 181, 31));
         label_183->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_183->setScaledContents(true);
         label_183->setWordWrap(false);
-        label_184 = new QLabel(frame_44);
-        label_184->setObjectName("label_184");
-        label_184->setGeometry(QRect(140, 70, 41, 41));
-        label_184->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 700 12pt \"Arial\";"));
+        mprojcomplete = new QLabel(frame_44);
+        mprojcomplete->setObjectName("mprojcomplete");
+        mprojcomplete->setGeometry(QRect(130, 70, 81, 51));
+        mprojcomplete->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 700 29pt \"Arial\";"));
         frame_45 = new QFrame(Manager);
         frame_45->setObjectName("frame_45");
-        frame_45->setGeometry(QRect(310, 320, 311, 151));
+        frame_45->setGeometry(QRect(310, 320, 311, 161));
         frame_45->setStyleSheet(QString::fromUtf8("border-radius:22px;\n"
 "background-color: rgba(16,59,137,255);"));
         frame_45->setFrameShape(QFrame::StyledPanel);
         frame_45->setFrameShadow(QFrame::Raised);
         label_185 = new QLabel(frame_45);
         label_185->setObjectName("label_185");
-        label_185->setGeometry(QRect(40, 10, 241, 41));
+        label_185->setGeometry(QRect(80, 10, 181, 41));
         label_185->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
-        label_186 = new QLabel(frame_45);
-        label_186->setObjectName("label_186");
-        label_186->setGeometry(QRect(130, 70, 41, 41));
-        label_186->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 700 12pt \"Arial\";"));
-        frame_46 = new QFrame(Manager);
-        frame_46->setObjectName("frame_46");
-        frame_46->setGeometry(QRect(520, 500, 311, 151));
-        frame_46->setStyleSheet(QString::fromUtf8("border-radius:22px;\n"
-"background-color: rgb(164, 168, 189);"));
-        frame_46->setFrameShape(QFrame::StyledPanel);
-        frame_46->setFrameShadow(QFrame::Raised);
-        label_187 = new QLabel(frame_46);
-        label_187->setObjectName("label_187");
-        label_187->setGeometry(QRect(60, 20, 181, 41));
-        label_187->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
-"color:white;"));
-        label_188 = new QLabel(frame_46);
-        label_188->setObjectName("label_188");
-        label_188->setGeometry(QRect(150, 80, 41, 41));
-        label_188->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: 700 12pt \"Arial\";"));
+        mdeadline = new QLabel(frame_45);
+        mdeadline->setObjectName("mdeadline");
+        mdeadline->setGeometry(QRect(130, 70, 61, 51));
+        mdeadline->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: 700 29pt \"Arial\";"));
         stackedWidget->addWidget(Manager);
         InsertProject = new QWidget();
         InsertProject->setObjectName("InsertProject");
@@ -5468,7 +5449,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(13);
+        stackedWidget->setCurrentIndex(12);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -5527,13 +5508,13 @@ public:
         label_114->setText(QString());
         label_36->setText(QCoreApplication::translate("MainWindow", "HR VIEW", nullptr));
         label_47->setText(QCoreApplication::translate("MainWindow", "No of Active Employees", nullptr));
-        label_48->setText(QCoreApplication::translate("MainWindow", "200", nullptr));
-        label_49->setText(QCoreApplication::translate("MainWindow", "No of Departments", nullptr));
-        label_50->setText(QCoreApplication::translate("MainWindow", "6", nullptr));
+        noactiveemp->setText(QString());
+        label_49->setText(QCoreApplication::translate("MainWindow", "No of Inactive Employees", nullptr));
+        inactiveemp->setText(QString());
         label_51->setText(QCoreApplication::translate("MainWindow", "Upcoming Deadlines", nullptr));
-        label_52->setText(QCoreApplication::translate("MainWindow", "12", nullptr));
+        deadline->setText(QString());
         label_53->setText(QCoreApplication::translate("MainWindow", " Projects Completed ", nullptr));
-        label_54->setText(QCoreApplication::translate("MainWindow", "17", nullptr));
+        projectcomplete->setText(QString());
         pushButton_80->setText(QCoreApplication::translate("MainWindow", "Logout", nullptr));
         label_193->setText(QCoreApplication::translate("MainWindow", "SofTimGrow", nullptr));
         label_20->setText(QString());
@@ -5705,18 +5686,16 @@ public:
         label_173->setText(QString());
         label_175->setText(QString());
         label_191->setText(QString());
-        label_39->setText(QCoreApplication::translate("MainWindow", "No of Employees", nullptr));
-        label_40->setText(QCoreApplication::translate("MainWindow", "300", nullptr));
+        managdevteam->setText(QString());
+        label_187->setText(QCoreApplication::translate("MainWindow", "Development Teams", nullptr));
         label_43->setText(QCoreApplication::translate("MainWindow", "Active Employees", nullptr));
-        label_44->setText(QCoreApplication::translate("MainWindow", "200", nullptr));
+        mangactiveep->setText(QString());
         pushButton_79->setText(QCoreApplication::translate("MainWindow", "Logout", nullptr));
         label_377->setText(QCoreApplication::translate("MainWindow", "Manager UI", nullptr));
         label_183->setText(QCoreApplication::translate("MainWindow", "Projects Completed", nullptr));
-        label_184->setText(QCoreApplication::translate("MainWindow", "210", nullptr));
-        label_185->setText(QCoreApplication::translate("MainWindow", "No of Incoming Deadlines", nullptr));
-        label_186->setText(QCoreApplication::translate("MainWindow", "12", nullptr));
-        label_187->setText(QCoreApplication::translate("MainWindow", "Development Teams", nullptr));
-        label_188->setText(QCoreApplication::translate("MainWindow", "12", nullptr));
+        mprojcomplete->setText(QString());
+        label_185->setText(QCoreApplication::translate("MainWindow", "Upcoming Deadlines", nullptr));
+        mdeadline->setText(QString());
         label_41->setText(QString());
         label_46->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
         label_32->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
