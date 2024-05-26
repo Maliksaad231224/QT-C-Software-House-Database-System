@@ -142,17 +142,17 @@ void MainWindow::on_pushButton_2_clicked()
                 QSqlQuery quer(db);
                 quer.prepare("SELECT COUNT(deadline) FROM project WHERE deadline > CURDATE();");
                 quer.exec();
-                if (quer.next()) {
-                    int count = quer.value(0).toInt();
+
+                    int count = quer.size();
                     ui->deadline->setNum(count);
                     ui->mdeadline->setNum(count);
-                }
+
            //total teams
                 QSqlQuery que(db);
                 que.prepare("SELECT COUNT(TeamID) FROM team ;");
                 que.exec();
                 if (que.next()) {
-                    int count = quer.value(0).toInt();
+                    int count = que.value(0).toInt();
                     ui->managdevteam->setNum(count);
 
                 }
@@ -161,7 +161,7 @@ void MainWindow::on_pushButton_2_clicked()
                 qu.prepare("SELECT count(EmployeeID) FROM employee Where Status='Inactive';");
                 qu.exec();
                 if (qu.next()) {
-                    int count = quer.value(0).toInt();
+                    int count = qu.value(0).toInt();
                     ui->inactiveemp->setNum(count);
 
                 }
@@ -172,7 +172,7 @@ void MainWindow::on_pushButton_2_clicked()
                 q.prepare("SELECT count(Proj_ID) from project where status='Complete';");
                 q.exec();
                 if (q.next()) {
-                    int count = quer.value(0).toInt();
+                    int count = q.value(0).toInt();
                     ui->projectcomplete->setNum(count);
                     ui->mprojcomplete->setNum(count);
 

@@ -111,6 +111,7 @@ debug/qrc_resource.cpp: ../../../resource.qrc \
 		../../../picture/top_left.png \
 		../../../picture/qt.png \
 		../../../picture/Project.png \
+		../../../picture/images.jpg \
 		../../../picture/people.png \
 		../../../picture/1576847226916.png \
 		../../../picture/bottom\ right.png \
