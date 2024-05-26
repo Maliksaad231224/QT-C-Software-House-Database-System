@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>6</number>
+     <number>11</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -166,7 +166,7 @@ color:white;</string>
       <widget class="QLabel" name="label_5">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>210</y>
          <width>111</width>
          <height>31</height>
@@ -185,8 +185,8 @@ background-color: none;</string>
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>10</x>
-         <y>290</y>
+         <x>20</x>
+         <y>300</y>
          <width>101</width>
          <height>31</height>
         </rect>
@@ -204,9 +204,9 @@ background-color: none;</string>
       <widget class="QLabel" name="label_4">
        <property name="geometry">
         <rect>
-         <x>150</x>
+         <x>170</x>
          <y>160</y>
-         <width>211</width>
+         <width>151</width>
          <height>20</height>
         </rect>
        </property>
@@ -340,7 +340,7 @@ background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0,
       <widget class="QLabel" name="label_182">
        <property name="geometry">
         <rect>
-         <x>190</x>
+         <x>180</x>
          <y>20</y>
          <width>111</width>
          <height>81</height>
@@ -363,9 +363,9 @@ border:none;</string>
       <widget class="QLabel" name="label_190">
        <property name="geometry">
         <rect>
-         <x>130</x>
+         <x>140</x>
          <y>110</y>
-         <width>241</width>
+         <width>191</width>
          <height>41</height>
         </rect>
        </property>
@@ -399,7 +399,7 @@ color:white;</string>
       <widget class="QLabel" name="label_197">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>210</y>
          <width>111</width>
          <height>31</height>
@@ -435,8 +435,8 @@ border-color:white;</string>
       <widget class="QPushButton" name="pushButton_50">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>470</y>
+         <x>180</x>
+         <y>430</y>
          <width>121</width>
          <height>41</height>
         </rect>
@@ -469,7 +469,7 @@ QPushButton:pressed {
       <widget class="QLabel" name="label_198">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>280</y>
          <width>141</width>
          <height>31</height>
@@ -488,9 +488,9 @@ background-color: none;</string>
       <widget class="QLabel" name="label_199">
        <property name="geometry">
         <rect>
-         <x>150</x>
+         <x>160</x>
          <y>160</y>
-         <width>211</width>
+         <width>161</width>
          <height>20</height>
         </rect>
        </property>
@@ -524,7 +524,7 @@ border-color:white;</string>
       <widget class="QLabel" name="label_200">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>350</y>
          <width>171</width>
          <height>31</height>
@@ -679,7 +679,7 @@ background-color: none;</string>
      <widget class="QLabel" name="label_16">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>360</x>
         <y>0</y>
         <width>361</width>
         <height>31</height>
@@ -714,9 +714,9 @@ background-color: none;</string>
      <widget class="QLabel" name="label_18">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>410</x>
         <y>180</y>
-        <width>361</width>
+        <width>271</width>
         <height>31</height>
        </rect>
       </property>
@@ -952,23 +952,6 @@ font: 700 17pt &quot;Arial&quot;;
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_21">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_22">
        <property name="geometry">
         <rect>
@@ -1020,7 +1003,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Employees</string>
+        <string>Employees</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_9">
@@ -1058,7 +1041,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>          Department</string>
+        <string>Department</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_10">
@@ -1134,7 +1117,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>   Projects</string>
+        <string>Projects</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_30">
@@ -1172,16 +1155,16 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>                Technology Used</string>
+        <string>Technology Used</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_38">
        <property name="geometry">
         <rect>
-         <x>42</x>
+         <x>10</x>
          <y>250</y>
          <width>51</width>
-         <height>31</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1195,6 +1178,116 @@ QPushButton:pressed {
        </property>
        <property name="scaledContents">
         <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_203">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_82">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>51</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Employee.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>61</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Team.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_113">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Project.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_114">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>480</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Tech.png</pixmap>
        </property>
       </widget>
      </widget>
@@ -1236,8 +1329,8 @@ background-color:rgba(0,133,104,255);</string>
       <widget class="QLabel" name="label_47">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>50</y>
+         <x>10</x>
+         <y>0</y>
          <width>211</width>
          <height>31</height>
         </rect>
@@ -1290,8 +1383,8 @@ background-color:rgba(210,82,88,255);</string>
       <widget class="QLabel" name="label_49">
        <property name="geometry">
         <rect>
-         <x>40</x>
-         <y>50</y>
+         <x>10</x>
+         <y>0</y>
          <width>171</width>
          <height>31</height>
         </rect>
@@ -1344,8 +1437,8 @@ background-color: rgb(134, 156, 170);</string>
       <widget class="QLabel" name="label_51">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>40</y>
+         <x>10</x>
+         <y>0</y>
          <width>231</width>
          <height>41</height>
         </rect>
@@ -1355,7 +1448,7 @@ background-color: rgb(134, 156, 170);</string>
 color:white;</string>
        </property>
        <property name="text">
-        <string>No of Incoming Deadlines</string>
+        <string>Upcoming Deadlines</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_52">
@@ -1398,8 +1491,8 @@ background-color:rgba(58,162,238,255);</string>
       <widget class="QLabel" name="label_53">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>50</y>
+         <x>10</x>
+         <y>0</y>
          <width>201</width>
          <height>31</height>
         </rect>
@@ -1435,24 +1528,6 @@ font: 700 12pt &quot;Arial&quot;;</string>
         <string>17</string>
        </property>
       </widget>
-     </widget>
-     <widget class="QLabel" name="label_191">
-      <property name="geometry">
-       <rect>
-        <x>90</x>
-        <y>150</y>
-        <width>111</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(254, 251, 255);
-background-color:none;
-font: 700 11pt &quot;Arial&quot;;</string>
-      </property>
-      <property name="text">
-       <string>SofTimGrow</string>
-      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_80">
       <property name="geometry">
@@ -1529,23 +1604,6 @@ font: 700 11pt &quot;Arial&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_24">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_28">
        <property name="geometry">
         <rect>
@@ -1598,7 +1656,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Department</string>
+        <string>Department</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_31">
@@ -1676,7 +1734,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>  Project</string>
+        <string>Project</string>
        </property>
       </widget>
       <widget class="QPushButton" name="null_2">
@@ -1706,7 +1764,120 @@ border:1px solid black;
 </string>
        </property>
        <property name="text">
-        <string>         Employee</string>
+        <string>Employee</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_202">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_81">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_115">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>51</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Employee.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_117">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>61</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Team.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_121">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Project.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_129">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1731,7 +1902,7 @@ border:1px solid black;
       <widget class="QPushButton" name="pushButton_48">
        <property name="geometry">
         <rect>
-         <x>660</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
@@ -2023,23 +2194,6 @@ QTableCornerButton::section {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_108">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_120">
        <property name="geometry">
         <rect>
@@ -2092,7 +2246,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Project</string>
+        <string>Project</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_37">
@@ -2131,7 +2285,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>              Employee</string>
+        <string>Employee</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_40">
@@ -2170,7 +2324,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>     Team</string>
+        <string>Team</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_49">
@@ -2200,7 +2354,120 @@ border:1px solid black;
 </string>
        </property>
        <property name="text">
-        <string>              Department</string>
+        <string>Department</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_80">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_201">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_145">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_143">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>61</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Team.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_138">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Project.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_116">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>51</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Employee.png</pixmap>
        </property>
       </widget>
      </widget>
@@ -2225,7 +2492,7 @@ border:1px solid black;
       <widget class="QPushButton" name="pushButton_47">
        <property name="geometry">
         <rect>
-         <x>660</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
@@ -2410,9 +2677,9 @@ QTableCornerButton::section {
       <widget class="QLabel" name="label_25">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
          <height>21</height>
         </rect>
        </property>
@@ -2443,9 +2710,9 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
       <widget class="QLabel" name="label_192">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>150</y>
-         <width>111</width>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
          <height>31</height>
         </rect>
        </property>
@@ -2454,7 +2721,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
 font: 700 11pt &quot;Arial&quot;;</string>
        </property>
        <property name="text">
-        <string>SofTimGrow</string>
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -3237,23 +3504,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_71">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_72">
        <property name="geometry">
         <rect>
@@ -3270,12 +3520,29 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_70">
+      <widget class="QLabel" name="label_83">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>140</y>
-         <width>111</width>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_204">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
          <height>31</height>
         </rect>
        </property>
@@ -3284,7 +3551,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
 font: 700 11pt &quot;Arial&quot;;</string>
        </property>
        <property name="text">
-        <string>SofTimGrow</string>
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -3464,23 +3731,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_87">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_88">
        <property name="geometry">
         <rect>
@@ -3497,12 +3747,29 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_86">
+      <widget class="QLabel" name="label_70">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>140</y>
-         <width>111</width>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_205">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
          <height>31</height>
         </rect>
        </property>
@@ -3511,7 +3778,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
 font: 700 11pt &quot;Arial&quot;;</string>
        </property>
        <property name="text">
-        <string>SofTimGrow</string>
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -3749,23 +4016,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_29">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_30">
        <property name="geometry">
         <rect>
@@ -3782,12 +4032,29 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_189">
+      <widget class="QLabel" name="label_71">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>140</y>
-         <width>111</width>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_206">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
          <height>31</height>
         </rect>
        </property>
@@ -3796,7 +4063,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
 font: 700 11pt &quot;Arial&quot;;</string>
        </property>
        <property name="text">
-        <string>SofTimGrow</string>
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -4030,23 +4297,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_145">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_155">
        <property name="geometry">
         <rect>
@@ -4099,7 +4349,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>          Department</string>
+        <string>Department</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_42">
@@ -4177,7 +4427,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Employee</string>
+        <string>Employee</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_53">
@@ -4207,7 +4457,120 @@ border:1px solid black;
 </string>
        </property>
        <property name="text">
-        <string> Project</string>
+        <string>Project</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_207">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_152">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_150">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>61</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Team.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_146">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Project.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_149">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>51</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Employee.png</pixmap>
        </property>
       </widget>
      </widget>
@@ -4232,7 +4595,7 @@ border:1px solid black;
       <widget class="QPushButton" name="homebutton_20">
        <property name="geometry">
         <rect>
-         <x>660</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
@@ -4508,23 +4871,6 @@ QTableCornerButton::section {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_195">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_196">
        <property name="geometry">
         <rect>
@@ -4607,7 +4953,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>         Department</string>
+        <string>Department</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_51">
@@ -4646,7 +4992,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>  Project</string>
+        <string>Project</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_52">
@@ -4685,7 +5031,120 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Employee</string>
+        <string>Employee</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_86">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_208">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_172">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_161">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>51</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Employee.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_166">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>61</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Team.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_156">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Project.png</pixmap>
        </property>
       </widget>
      </widget>
@@ -4726,7 +5185,7 @@ QPushButton:pressed {
       <widget class="QPushButton" name="homebutton_21">
        <property name="geometry">
         <rect>
-         <x>660</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
@@ -4908,40 +5367,6 @@ QTableCornerButton::section {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_32">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
-         <y>150</y>
-         <width>111</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(254, 251, 255);
-font: 700 11pt &quot;Arial&quot;;</string>
-       </property>
-       <property name="text">
-        <string>SofTimGrow</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_33">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_34">
        <property name="geometry">
         <rect>
@@ -4994,7 +5419,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Display Employees</string>
+        <string>Display Employees</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_20">
@@ -5033,7 +5458,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>   Display Projects</string>
+        <string>Display Projects</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_21">
@@ -5072,7 +5497,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>          Display Departments</string>
+        <string>Display Departments</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_22">
@@ -5150,7 +5575,139 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>      Technoloygy Used</string>
+        <string>Technoloygy Used</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_195">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_87">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_189">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_179">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>61</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Team.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_173">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Project.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_175">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>51</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Employee.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_191">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>480</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../picture/Tech.png</pixmap>
        </property>
       </widget>
      </widget>
@@ -5195,9 +5752,9 @@ background-color:rgba(0,133,104,255);</string>
       <widget class="QLabel" name="label_39">
        <property name="geometry">
         <rect>
-         <x>80</x>
-         <y>50</y>
-         <width>151</width>
+         <x>10</x>
+         <y>0</y>
+         <width>121</width>
          <height>31</height>
         </rect>
        </property>
@@ -5213,10 +5770,18 @@ color:white;</string>
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>90</y>
-         <width>41</width>
-         <height>41</height>
+         <y>60</y>
+         <width>91</width>
+         <height>71</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);
@@ -5249,9 +5814,9 @@ background-color:rgba(210,82,88,255);</string>
       <widget class="QLabel" name="label_43">
        <property name="geometry">
         <rect>
-         <x>80</x>
-         <y>50</y>
-         <width>171</width>
+         <x>10</x>
+         <y>0</y>
+         <width>131</width>
          <height>31</height>
         </rect>
        </property>
@@ -5302,7 +5867,7 @@ color:white;</string>
      <widget class="QLabel" name="label_377">
       <property name="geometry">
        <rect>
-        <x>320</x>
+        <x>300</x>
         <y>50</y>
         <width>151</width>
         <height>31</height>
@@ -5337,9 +5902,9 @@ background-color:rgba(58,162,238,255);</string>
       <widget class="QLabel" name="label_183">
        <property name="geometry">
         <rect>
-         <x>80</x>
-         <y>40</y>
-         <width>181</width>
+         <x>20</x>
+         <y>0</y>
+         <width>141</width>
          <height>31</height>
         </rect>
        </property>
@@ -5397,9 +5962,9 @@ background-color: rgba(16,59,137,255);</string>
       <widget class="QLabel" name="label_185">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>40</y>
-         <width>231</width>
+         <x>20</x>
+         <y>0</y>
+         <width>181</width>
          <height>41</height>
         </rect>
        </property>
@@ -5451,9 +6016,9 @@ background-color: rgb(164, 168, 189);</string>
       <widget class="QLabel" name="label_187">
        <property name="geometry">
         <rect>
-         <x>10</x>
-         <y>30</y>
-         <width>301</width>
+         <x>20</x>
+         <y>0</y>
+         <width>151</width>
          <height>41</height>
         </rect>
        </property>
@@ -5462,7 +6027,7 @@ background-color: rgb(164, 168, 189);</string>
 color:white;</string>
        </property>
        <property name="text">
-        <string>Total Teams In Development Dept</string>
+        <string>Development Teams</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_188">
@@ -5522,23 +6087,6 @@ font: 700 12pt &quot;Arial&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_45">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_46">
        <property name="geometry">
         <rect>
@@ -5553,6 +6101,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_32">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_209">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -5614,7 +6196,7 @@ color:white;</string>
      <widget class="QLabel" name="label_91">
       <property name="geometry">
        <rect>
-        <x>290</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -5624,7 +6206,7 @@ color:white;</string>
        <string notr="true">color:white;</string>
       </property>
       <property name="text">
-       <string>insert project</string>
+       <string>Insert project</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_96">
@@ -6050,23 +6632,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_109">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_110">
        <property name="geometry">
         <rect>
@@ -6083,6 +6648,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_210">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_105">
       <property name="geometry">
@@ -6097,7 +6696,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        <string notr="true">color:white;</string>
       </property>
       <property name="text">
-       <string>Update project</string>
+       <string>Update Project</string>
       </property>
      </widget>
      <widget class="QPushButton" name="homebutton_7">
@@ -6122,7 +6721,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>70</y>
+        <y>80</y>
         <width>221</width>
         <height>31</height>
        </rect>
@@ -6141,7 +6740,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>380</x>
-        <y>110</y>
+        <y>120</y>
         <width>381</width>
         <height>31</height>
        </rect>
@@ -6156,7 +6755,7 @@ background-color: rgba(255,255,255,255);
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>110</y>
+        <y>130</y>
         <width>91</width>
         <height>20</height>
        </rect>
@@ -6228,7 +6827,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>770</x>
-        <y>110</y>
+        <y>120</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -6295,7 +6894,7 @@ QTableCornerButton::section {
       <property name="geometry">
        <rect>
         <x>910</x>
-        <y>110</y>
+        <y>120</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -6370,7 +6969,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>60</y>
+        <y>80</y>
         <width>221</width>
         <height>31</height>
        </rect>
@@ -6389,7 +6988,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>100</y>
+        <y>120</y>
         <width>101</width>
         <height>20</height>
        </rect>
@@ -6423,7 +7022,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
      <widget class="QLabel" name="label_123">
       <property name="geometry">
        <rect>
-        <x>600</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -6433,14 +7032,14 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <string notr="true">color:white;</string>
       </property>
       <property name="text">
-       <string>Remove project</string>
+       <string>Remove Project</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_36">
       <property name="geometry">
        <rect>
         <x>780</x>
-        <y>100</y>
+        <y>110</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -6491,23 +7090,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_121">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_122">
        <property name="geometry">
         <rect>
@@ -6524,12 +7106,46 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_45">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_211">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QPlainTextEdit" name="removeprojidsearch">
       <property name="geometry">
        <rect>
         <x>380</x>
-        <y>100</y>
+        <y>110</y>
         <width>381</width>
         <height>31</height>
        </rect>
@@ -6544,7 +7160,7 @@ background-color: rgba(255,255,255,255);
       <property name="geometry">
        <rect>
         <x>920</x>
-        <y>100</y>
+        <y>110</y>
         <width>121</width>
         <height>29</height>
        </rect>
@@ -6646,23 +7262,6 @@ QTableCornerButton::section {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_129">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_130">
        <property name="geometry">
         <rect>
@@ -6677,6 +7276,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_89">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_212">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -6738,7 +7371,7 @@ color:white;</string>
      <widget class="QLabel" name="label_126">
       <property name="geometry">
        <rect>
-        <x>580</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -6755,7 +7388,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>400</x>
-        <y>100</y>
+        <y>110</y>
         <width>401</width>
         <height>31</height>
        </rect>
@@ -6769,8 +7402,8 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_132">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>100</y>
+        <x>290</x>
+        <y>120</y>
         <width>81</width>
         <height>20</height>
        </rect>
@@ -6787,7 +7420,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>100</y>
+        <y>110</y>
         <width>101</width>
         <height>31</height>
        </rect>
@@ -6804,8 +7437,8 @@ color:white;</string>
      <widget class="QLabel" name="label_131">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>50</y>
+        <x>290</x>
+        <y>80</y>
         <width>221</width>
         <height>31</height>
        </rect>
@@ -6824,7 +7457,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>940</x>
-        <y>100</y>
+        <y>110</y>
         <width>91</width>
         <height>29</height>
        </rect>
@@ -6841,9 +7474,9 @@ color:white;</string>
      <widget class="QTableView" name="searchprojecttable">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>300</x>
         <y>150</y>
-        <width>721</width>
+        <width>741</width>
         <height>501</height>
        </rect>
       </property>
@@ -6928,7 +7561,7 @@ color:white;</string>
       <widget class="QPushButton" name="homebutton_25">
        <property name="geometry">
         <rect>
-         <x>530</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
@@ -6981,23 +7614,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_138">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_139">
        <property name="geometry">
         <rect>
@@ -7014,12 +7630,46 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_90">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_213">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_135">
       <property name="geometry">
        <rect>
-        <x>290</x>
-        <y>60</y>
+        <x>300</x>
+        <y>50</y>
         <width>141</width>
         <height>20</height>
        </rect>
@@ -7279,23 +7929,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_146">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_147">
        <property name="geometry">
         <rect>
@@ -7310,6 +7943,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_103">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_214">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -7453,8 +8120,8 @@ QTableCornerButton::section {
      <widget class="QLabel" name="label_159">
       <property name="geometry">
        <rect>
-        <x>290</x>
-        <y>50</y>
+        <x>300</x>
+        <y>70</y>
         <width>241</width>
         <height>31</height>
        </rect>
@@ -7473,7 +8140,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>100</y>
+        <y>110</y>
         <width>121</width>
         <height>20</height>
        </rect>
@@ -7523,23 +8190,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_156">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_157">
        <property name="geometry">
         <rect>
@@ -7554,6 +8204,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_104">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_215">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -7648,9 +8332,9 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_153">
       <property name="geometry">
        <rect>
-        <x>550</x>
-        <y>60</y>
-        <width>181</width>
+        <x>300</x>
+        <y>50</y>
+        <width>111</width>
         <height>20</height>
        </rect>
       </property>
@@ -7782,7 +8466,7 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_162">
       <property name="geometry">
        <rect>
-        <x>290</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -7792,7 +8476,7 @@ background-color: rgba(255,255,255,255);
        <string notr="true">color:white;</string>
       </property>
       <property name="text">
-       <string>insert Team</string>
+       <string>Insert Team</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_169">
@@ -7868,23 +8552,6 @@ text-decoration: underline;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_166">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_167">
        <property name="geometry">
         <rect>
@@ -7899,6 +8566,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_108">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_216">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -8043,7 +8744,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>90</y>
+        <y>120</y>
         <width>81</width>
         <height>20</height>
        </rect>
@@ -8059,8 +8760,8 @@ font: 10pt &quot;Tahoma&quot;;</string>
      <widget class="QLabel" name="label_176">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>50</y>
+        <x>290</x>
+        <y>80</y>
         <width>191</width>
         <height>31</height>
        </rect>
@@ -8079,7 +8780,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>370</x>
-        <y>90</y>
+        <y>110</y>
         <width>421</width>
         <height>31</height>
        </rect>
@@ -8127,23 +8828,6 @@ background-color: rgba(255,255,255,255);
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_179">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_180">
        <property name="geometry">
         <rect>
@@ -8158,6 +8842,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_109">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_217">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -8219,7 +8937,7 @@ color:white;</string>
      <widget class="QLabel" name="label_174">
       <property name="geometry">
        <rect>
-        <x>550</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -8235,8 +8953,8 @@ color:white;</string>
      <widget class="QPushButton" name="updteamdisplay">
       <property name="geometry">
        <rect>
-        <x>800</x>
-        <y>90</y>
+        <x>798</x>
+        <y>110</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -8253,8 +8971,8 @@ color:white;</string>
      <widget class="QPushButton" name="pushButton_26">
       <property name="geometry">
        <rect>
-        <x>942</x>
-        <y>90</y>
+        <x>940</x>
+        <y>110</y>
         <width>111</width>
         <height>31</height>
        </rect>
@@ -8323,7 +9041,7 @@ QTableCornerButton::section {
       <property name="geometry">
        <rect>
         <x>350</x>
-        <y>100</y>
+        <y>130</y>
         <width>71</width>
         <height>20</height>
        </rect>
@@ -8373,23 +9091,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_366">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_367">
        <property name="geometry">
         <rect>
@@ -8406,12 +9107,46 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_111">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_218">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_368">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>50</y>
+        <x>300</x>
+        <y>90</y>
         <width>241</width>
         <height>31</height>
        </rect>
@@ -8430,7 +9165,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>870</x>
-        <y>100</y>
+        <y>120</y>
         <width>151</width>
         <height>31</height>
        </rect>
@@ -8503,7 +9238,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>440</x>
-        <y>100</y>
+        <y>120</y>
         <width>421</width>
         <height>31</height>
        </rect>
@@ -8517,8 +9252,8 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_369">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>60</y>
+        <x>300</x>
+        <y>50</y>
         <width>101</width>
         <height>20</height>
        </rect>
@@ -8608,8 +9343,8 @@ color:white;</string>
      <widget class="QLabel" name="label_376">
       <property name="geometry">
        <rect>
-        <x>300</x>
-        <y>100</y>
+        <x>290</x>
+        <y>120</y>
         <width>111</width>
         <height>20</height>
        </rect>
@@ -8619,14 +9354,14 @@ color:white;</string>
 font: 10pt &quot;Tahoma&quot;;</string>
       </property>
       <property name="text">
-       <string>Search Teams</string>
+       <string>Team:</string>
       </property>
      </widget>
      <widget class="QPushButton" name="searchteambut">
       <property name="geometry">
        <rect>
-        <x>810</x>
-        <y>100</y>
+        <x>808</x>
+        <y>110</y>
         <width>111</width>
         <height>31</height>
        </rect>
@@ -8677,23 +9412,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_373">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_374">
        <property name="geometry">
         <rect>
@@ -8710,12 +9428,46 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_112">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_219">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_375">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>50</y>
+        <x>290</x>
+        <y>80</y>
         <width>241</width>
         <height>31</height>
        </rect>
@@ -8727,14 +9479,14 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search Teams</string>
+       <string>Search Team By ID</string>
       </property>
      </widget>
      <widget class="QPlainTextEdit" name="searchteam">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>100</y>
+        <x>408</x>
+        <y>110</y>
         <width>381</width>
         <height>31</height>
        </rect>
@@ -8748,8 +9500,8 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_370">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>60</y>
+        <x>300</x>
+        <y>50</y>
         <width>101</width>
         <height>20</height>
        </rect>
@@ -8813,8 +9565,8 @@ QTableCornerButton::section {
      <widget class="QPushButton" name="pushButton_60">
       <property name="geometry">
        <rect>
-        <x>932</x>
-        <y>100</y>
+        <x>930</x>
+        <y>110</y>
         <width>101</width>
         <height>29</height>
        </rect>
