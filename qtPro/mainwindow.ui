@@ -107,7 +107,7 @@ background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0,
       <widget class="QLabel" name="label_2">
        <property name="geometry">
         <rect>
-         <x>190</x>
+         <x>170</x>
          <y>20</y>
          <width>111</width>
          <height>81</height>
@@ -130,7 +130,7 @@ border:none;</string>
       <widget class="QLabel" name="label_3">
        <property name="geometry">
         <rect>
-         <x>170</x>
+         <x>150</x>
          <y>110</y>
          <width>221</width>
          <height>41</height>
@@ -158,7 +158,7 @@ background-color:none;</string>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(30, 90, 163);
 border-radius: 12px;
-font: 12pt &quot;Arial&quot;;
+font: 13pt &quot;Arial&quot;;
 border-color:white;
 color:white;</string>
        </property>
@@ -166,7 +166,7 @@ color:white;</string>
       <widget class="QLabel" name="label_5">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>210</y>
          <width>111</width>
          <height>31</height>
@@ -185,7 +185,7 @@ background-color: none;</string>
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>290</y>
          <width>101</width>
          <height>31</height>
@@ -204,7 +204,7 @@ background-color: none;</string>
       <widget class="QLabel" name="label_4">
        <property name="geometry">
         <rect>
-         <x>150</x>
+         <x>140</x>
          <y>160</y>
          <width>211</width>
          <height>20</height>
@@ -285,7 +285,7 @@ QPushButton:pressed {
        <property name="styleSheet">
         <string notr="true">background-color: rgb(30, 90, 163);
 border-radius: 12px;
-font: 12pt &quot;Arial&quot;;
+font: 13pt &quot;Arial&quot;;
 border-color:white;
 color:white;</string>
        </property>
@@ -340,7 +340,7 @@ background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0,
       <widget class="QLabel" name="label_182">
        <property name="geometry">
         <rect>
-         <x>190</x>
+         <x>180</x>
          <y>20</y>
          <width>111</width>
          <height>81</height>
@@ -363,9 +363,9 @@ border:none;</string>
       <widget class="QLabel" name="label_190">
        <property name="geometry">
         <rect>
-         <x>130</x>
+         <x>140</x>
          <y>110</y>
-         <width>241</width>
+         <width>191</width>
          <height>41</height>
         </rect>
        </property>
@@ -399,7 +399,7 @@ color:white;</string>
       <widget class="QLabel" name="label_197">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>210</y>
          <width>111</width>
          <height>31</height>
@@ -435,8 +435,8 @@ border-color:white;</string>
       <widget class="QPushButton" name="pushButton_50">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>470</y>
+         <x>180</x>
+         <y>430</y>
          <width>121</width>
          <height>41</height>
         </rect>
@@ -469,7 +469,7 @@ QPushButton:pressed {
       <widget class="QLabel" name="label_198">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>280</y>
          <width>141</width>
          <height>31</height>
@@ -488,9 +488,9 @@ background-color: none;</string>
       <widget class="QLabel" name="label_199">
        <property name="geometry">
         <rect>
-         <x>150</x>
+         <x>160</x>
          <y>160</y>
-         <width>211</width>
+         <width>161</width>
          <height>20</height>
         </rect>
        </property>
@@ -524,7 +524,7 @@ border-color:white;</string>
       <widget class="QLabel" name="label_200">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>350</y>
          <width>171</width>
          <height>31</height>
@@ -679,7 +679,7 @@ background-color: none;</string>
      <widget class="QLabel" name="label_16">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>360</x>
         <y>0</y>
         <width>361</width>
         <height>31</height>
@@ -952,23 +952,6 @@ font: 700 17pt &quot;Arial&quot;;
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_21">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_22">
        <property name="geometry">
         <rect>
@@ -1020,7 +1003,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Employees</string>
+        <string>       Employees</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_9">
@@ -1058,7 +1041,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>          Department</string>
+        <string>         Department</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_10">
@@ -1178,10 +1161,10 @@ QPushButton:pressed {
       <widget class="QLabel" name="label_38">
        <property name="geometry">
         <rect>
-         <x>42</x>
+         <x>30</x>
          <y>250</y>
          <width>51</width>
-         <height>31</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1192,6 +1175,128 @@ QPushButton:pressed {
        </property>
        <property name="pixmap">
         <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_203">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_82">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>370</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Employee.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>310</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Team.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_113">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Project.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_114">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>490</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Tech.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -1237,7 +1342,7 @@ background-color:rgba(0,133,104,255);</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>50</y>
+         <y>30</y>
          <width>211</width>
          <height>31</height>
         </rect>
@@ -1290,9 +1395,9 @@ background-color:rgba(210,82,88,255);</string>
       <widget class="QLabel" name="label_49">
        <property name="geometry">
         <rect>
-         <x>40</x>
-         <y>50</y>
-         <width>171</width>
+         <x>30</x>
+         <y>30</y>
+         <width>161</width>
          <height>31</height>
         </rect>
        </property>
@@ -1345,8 +1450,8 @@ background-color: rgb(134, 156, 170);</string>
        <property name="geometry">
         <rect>
          <x>90</x>
-         <y>40</y>
-         <width>231</width>
+         <y>20</y>
+         <width>201</width>
          <height>41</height>
         </rect>
        </property>
@@ -1355,7 +1460,7 @@ background-color: rgb(134, 156, 170);</string>
 color:white;</string>
        </property>
        <property name="text">
-        <string>No of Incoming Deadlines</string>
+        <string>Upcoming Deadlines</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_52">
@@ -1399,8 +1504,8 @@ background-color:rgba(58,162,238,255);</string>
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>50</y>
-         <width>201</width>
+         <y>30</y>
+         <width>181</width>
          <height>31</height>
         </rect>
        </property>
@@ -1436,24 +1541,6 @@ font: 700 12pt &quot;Arial&quot;;</string>
        </property>
       </widget>
      </widget>
-     <widget class="QLabel" name="label_191">
-      <property name="geometry">
-       <rect>
-        <x>90</x>
-        <y>150</y>
-        <width>111</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(254, 251, 255);
-background-color:none;
-font: 700 11pt &quot;Arial&quot;;</string>
-      </property>
-      <property name="text">
-       <string>SofTimGrow</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButton_80">
       <property name="geometry">
        <rect>
@@ -1464,10 +1551,25 @@ font: 700 11pt &quot;Arial&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(210,82,88,255);
-color:white;
-font: 11pt &quot;Arial&quot;;</string>
+       <string notr="true">QPushButton {
+  /* Light red */
+  background-color: rgba(210, 82, 88, 255);
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */
+}</string>
       </property>
       <property name="text">
        <string>Logout</string>
@@ -1529,23 +1631,6 @@ font: 700 11pt &quot;Arial&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_24">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_28">
        <property name="geometry">
         <rect>
@@ -1579,7 +1664,8 @@ QPushButton {
 	background-color: rgb(36, 36, 36);
   /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -1598,7 +1684,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Department</string>
+        <string>         Department</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_31">
@@ -1617,8 +1703,8 @@ QPushButton {
 
 	background-color: rgb(36, 36, 36);
   /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -1656,8 +1742,8 @@ QPushButton {
 
 	background-color: rgb(36, 36, 36);
   /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -1694,9 +1780,8 @@ QPushButton {
     /* Light Blue */
 
 	background-color: rgb(65, 79, 72);
-  /* Light gray text color */
-color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -1706,7 +1791,129 @@ border:1px solid black;
 </string>
        </property>
        <property name="text">
-        <string>         Employee</string>
+        <string>       Employee</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_202">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_81">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_115">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>370</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Employee.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_117">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>300</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Team.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_121">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Project.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_129">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1731,16 +1938,30 @@ border:1px solid black;
       <widget class="QPushButton" name="pushButton_48">
        <property name="geometry">
         <rect>
-         <x>660</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -1970,22 +2191,6 @@ QTableCornerButton::section {
      </widget>
     </widget>
     <widget class="QWidget" name="DepartmentView">
-     <widget class="QLabel" name="label_128">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>50</y>
-        <width>171</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Department View</string>
-      </property>
-     </widget>
      <widget class="QFrame" name="frame_49">
       <property name="geometry">
        <rect>
@@ -2023,23 +2228,6 @@ QTableCornerButton::section {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_108">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_120">
        <property name="geometry">
         <rect>
@@ -2071,9 +2259,9 @@ QPushButton {
     /* Light Blue */
 
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -2092,7 +2280,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Project</string>
+        <string>    Project</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_37">
@@ -2112,7 +2300,8 @@ QPushButton {
 	background-color: rgb(36, 36, 36);
   /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -2131,7 +2320,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>              Employee</string>
+        <string>        Employee</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_40">
@@ -2149,9 +2338,9 @@ QPushButton {
     /* Light Blue */
 
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -2170,7 +2359,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>     Team</string>
+        <string>Team</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_49">
@@ -2188,9 +2377,9 @@ QPushButton {
     /* Light Blue */
 
 	background-color: rgb(65, 79, 72);
-  /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -2200,7 +2389,129 @@ border:1px solid black;
 </string>
        </property>
        <property name="text">
-        <string>              Department</string>
+        <string>          Department</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_80">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_201">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_145">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_143">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>300</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Team.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_138">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Project.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_116">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>370</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Employee.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -2225,16 +2536,30 @@ border:1px solid black;
       <widget class="QPushButton" name="pushButton_47">
        <property name="geometry">
         <rect>
-         <x>660</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -2410,9 +2735,9 @@ QTableCornerButton::section {
       <widget class="QLabel" name="label_25">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
          <height>21</height>
         </rect>
        </property>
@@ -2443,9 +2768,9 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
       <widget class="QLabel" name="label_192">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>150</y>
-         <width>111</width>
+         <x>100</x>
+         <y>130</y>
+         <width>91</width>
          <height>31</height>
         </rect>
        </property>
@@ -2454,7 +2779,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
 font: 700 11pt &quot;Arial&quot;;</string>
        </property>
        <property name="text">
-        <string>SofTimGrow</string>
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -2486,9 +2811,23 @@ font: 700 11pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -2713,9 +3052,10 @@ font: 10pt &quot;Tahoma&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">border-radius:12px;
+background-color:rgba(0,133,104,255);
+color:white;
+font: 11pt &quot;Arial&quot;;</string>
       </property>
       <property name="text">
        <string>Submit</string>
@@ -2731,12 +3071,25 @@ font: 10pt &quot;Tahoma&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color: rgb(255, 37, 70);
+       <string notr="true">QPushButton {
+  /* Light red */
+  background-color: rgba(210, 82, 88, 255);
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
 
-color:white;
+QPushButton:hover {
+  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */
+}
 
-font: 10pt &quot;Tahoma&quot;;</string>
+QPushButton:pressed {
+  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */
+}</string>
       </property>
       <property name="text">
        <string>Clear</string>
@@ -2769,9 +3122,23 @@ font: 10pt &quot;Tahoma&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Back</string>
@@ -3191,9 +3558,23 @@ background-color: rgba(255,255,255,255);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -3237,23 +3618,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_71">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_72">
        <property name="geometry">
         <rect>
@@ -3270,12 +3634,29 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_70">
+      <widget class="QLabel" name="label_83">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>140</y>
-         <width>111</width>
+         <x>60</x>
+         <y>160</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_204">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>130</y>
+         <width>101</width>
          <height>31</height>
         </rect>
        </property>
@@ -3284,7 +3665,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
 font: 700 11pt &quot;Arial&quot;;</string>
        </property>
        <property name="text">
-        <string>SofTimGrow</string>
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -3317,9 +3698,23 @@ text-decoration: underline;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Display</string>
@@ -3335,9 +3730,23 @@ color:white;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Back </string>
@@ -3349,7 +3758,7 @@ color:white;</string>
         <x>300</x>
         <y>110</y>
         <width>741</width>
-        <height>531</height>
+        <height>481</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -3397,7 +3806,7 @@ QTableCornerButton::section {
        <rect>
         <x>490</x>
         <y>60</y>
-        <width>321</width>
+        <width>331</width>
         <height>31</height>
        </rect>
       </property>
@@ -3417,12 +3826,65 @@ background-color: rgba(255,255,255,255);
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_62">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>620</y>
+        <width>321</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+    /* Light Blue */
+
+	background-color: rgb(36, 36, 36);
+  /* Light gray text color */
+color: rgb(255, 255, 255);
+font: 11pt &quot;Arial&quot;;
+    border-radius: 18px;
+border:1px solid black;
+    padding: 5px;
+    
+    font-weight: bold;
+}
+
+QPushButton:hover {
+	background-color: rgb(63, 63, 63);
+	
+}
+
+QPushButton:pressed {
+   
+	background-color: rgb(65, 79, 72);
+}</string>
+      </property>
+      <property name="text">
+       <string>Update Salary,Team or Supervisor</string>
       </property>
      </widget>
     </widget>
@@ -3464,23 +3926,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_87">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_88">
        <property name="geometry">
         <rect>
@@ -3497,12 +3942,29 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_86">
+      <widget class="QLabel" name="label_70">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>140</y>
-         <width>111</width>
+         <x>60</x>
+         <y>160</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_205">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>130</y>
+         <width>91</width>
          <height>31</height>
         </rect>
        </property>
@@ -3511,16 +3973,16 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
 font: 700 11pt &quot;Arial&quot;;</string>
        </property>
        <property name="text">
-        <string>SofTimGrow</string>
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
      <widget class="QPlainTextEdit" name="searchempdelete">
       <property name="geometry">
        <rect>
-        <x>450</x>
+        <x>490</x>
         <y>60</y>
-        <width>381</width>
+        <width>331</width>
         <height>31</height>
        </rect>
       </property>
@@ -3558,9 +4020,23 @@ background-color: rgba(255,255,255,255);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -3576,9 +4052,23 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -3595,12 +4085,25 @@ color:white;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color: rgb(255, 37, 70);
+       <string notr="true">QPushButton {
+  /* Light red */
+  background-color: rgba(210, 82, 88, 255);
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
 
-color:white;
+QPushButton:hover {
+  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */
+}
 
-font: 10pt &quot;Tahoma&quot;;</string>
+QPushButton:pressed {
+  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */
+}</string>
       </property>
       <property name="text">
        <string>Delete </string>
@@ -3611,7 +4114,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <rect>
         <x>300</x>
         <y>60</y>
-        <width>131</width>
+        <width>191</width>
         <height>31</height>
        </rect>
       </property>
@@ -3622,22 +4125,36 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Employee ID:</string>
+       <string>Enter Employee ID:</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_24">
       <property name="geometry">
        <rect>
-        <x>850</x>
+        <x>840</x>
         <y>60</y>
         <width>91</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Search</string>
@@ -3702,9 +4219,23 @@ QTableCornerButton::section {
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
@@ -3749,23 +4280,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_29">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_30">
        <property name="geometry">
         <rect>
@@ -3782,12 +4296,29 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_189">
+      <widget class="QLabel" name="label_71">
        <property name="geometry">
         <rect>
-         <x>90</x>
-         <y>140</y>
-         <width>111</width>
+         <x>60</x>
+         <y>160</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_206">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>130</y>
+         <width>91</width>
          <height>31</height>
         </rect>
        </property>
@@ -3796,7 +4327,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
 font: 700 11pt &quot;Arial&quot;;</string>
        </property>
        <property name="text">
-        <string>SofTimGrow</string>
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -3828,9 +4359,23 @@ font: 700 11pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -3846,9 +4391,23 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -3901,9 +4460,23 @@ font: 10pt &quot;Tahoma&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Search</string>
@@ -3983,9 +4556,23 @@ QTableCornerButton::section {
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
@@ -4030,23 +4617,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_145">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_155">
        <property name="geometry">
         <rect>
@@ -4078,9 +4648,9 @@ QPushButton {
     /* Light Blue */
 
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -4119,7 +4689,8 @@ QPushButton {
 	background-color: rgb(36, 36, 36);
   /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -4156,9 +4727,9 @@ QPushButton {
     /* Light Blue */
 
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -4197,7 +4768,8 @@ QPushButton {
 	background-color: rgb(65, 79, 72);
   /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -4207,7 +4779,126 @@ border:1px solid black;
 </string>
        </property>
        <property name="text">
-        <string> Project</string>
+        <string>    Project</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_207">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_152">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_150">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>300</y>
+         <width>51</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Team.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_146">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Project.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_149">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>370</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Employee.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -4232,16 +4923,30 @@ border:1px solid black;
       <widget class="QPushButton" name="homebutton_20">
        <property name="geometry">
         <rect>
-         <x>660</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -4508,23 +5213,6 @@ QTableCornerButton::section {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_195">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_196">
        <property name="geometry">
         <rect>
@@ -4556,9 +5244,9 @@ QPushButton {
     /* Light Blue */
 
 	background-color: rgb(65, 79, 72);
-  /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -4568,7 +5256,7 @@ border:1px solid black;
 </string>
        </property>
        <property name="text">
-        <string>Team</string>
+        <string>  Team</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_45">
@@ -4588,7 +5276,8 @@ QPushButton {
 	background-color: rgb(36, 36, 36);
   /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -4607,7 +5296,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>         Department</string>
+        <string>             Department</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_51">
@@ -4627,7 +5316,8 @@ QPushButton {
 	background-color: rgb(36, 36, 36);
   /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -4646,7 +5336,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>  Project</string>
+        <string>     Project</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_52">
@@ -4664,9 +5354,9 @@ QPushButton {
     /* Light Blue */
 
 	background-color: rgb(36, 36, 36);
-  /* Light gray text color */
 color: rgb(255, 255, 255);
-font: 11pt &quot;Arial&quot;;
+color:white;
+font: 700 13pt &quot;Arial&quot;;
     border-radius: 18px;
 border:1px solid black;
     padding: 5px;
@@ -4685,7 +5375,129 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>        Employee</string>
+        <string>          Employee</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_86">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_208">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_172">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/department.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_161">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>370</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Employee.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_166">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>300</y>
+         <width>61</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Team.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_156">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Project.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -4726,16 +5538,30 @@ QPushButton:pressed {
       <widget class="QPushButton" name="homebutton_21">
        <property name="geometry">
         <rect>
-         <x>660</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -4908,40 +5734,6 @@ QTableCornerButton::section {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_32">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
-         <y>150</y>
-         <width>111</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(254, 251, 255);
-font: 700 11pt &quot;Arial&quot;;</string>
-       </property>
-       <property name="text">
-        <string>SofTimGrow</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="label_33">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_34">
        <property name="geometry">
         <rect>
@@ -5072,7 +5864,7 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>          Display Departments</string>
+        <string>           Display Departments</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_22">
@@ -5150,7 +5942,151 @@ QPushButton:pressed {
 }</string>
        </property>
        <property name="text">
-        <string>      Technoloygy Used</string>
+        <string>    Technology Used</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_195">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_87">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_189">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Employee.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_179">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>310</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Project.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_173">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Team.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_175">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>370</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Employee.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_191">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>490</y>
+         <width>51</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../resource.qrc">:/pics/picture/Tech.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -5195,9 +6131,9 @@ background-color:rgba(0,133,104,255);</string>
       <widget class="QLabel" name="label_39">
        <property name="geometry">
         <rect>
-         <x>80</x>
-         <y>50</y>
-         <width>151</width>
+         <x>70</x>
+         <y>20</y>
+         <width>171</width>
          <height>31</height>
         </rect>
        </property>
@@ -5213,10 +6149,18 @@ color:white;</string>
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>90</y>
-         <width>41</width>
+         <y>70</y>
+         <width>51</width>
          <height>41</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);
@@ -5250,8 +6194,8 @@ background-color:rgba(210,82,88,255);</string>
        <property name="geometry">
         <rect>
          <x>80</x>
-         <y>50</y>
-         <width>171</width>
+         <y>20</y>
+         <width>161</width>
          <height>31</height>
         </rect>
        </property>
@@ -5267,7 +6211,7 @@ color:white;</string>
        <property name="geometry">
         <rect>
          <x>140</x>
-         <y>90</y>
+         <y>70</y>
          <width>41</width>
          <height>41</height>
         </rect>
@@ -5291,9 +6235,25 @@ font: 700 12pt &quot;Arial&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(210,82,88,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light red */
+  background-color: rgba(210, 82, 88, 255);
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */
+}</string>
       </property>
       <property name="text">
        <string>Logout</string>
@@ -5302,7 +6262,7 @@ color:white;</string>
      <widget class="QLabel" name="label_377">
       <property name="geometry">
        <rect>
-        <x>320</x>
+        <x>300</x>
         <y>50</y>
         <width>151</width>
         <height>31</height>
@@ -5337,8 +6297,8 @@ background-color:rgba(58,162,238,255);</string>
       <widget class="QLabel" name="label_183">
        <property name="geometry">
         <rect>
-         <x>80</x>
-         <y>40</y>
+         <x>60</x>
+         <y>20</y>
          <width>181</width>
          <height>31</height>
         </rect>
@@ -5361,7 +6321,7 @@ color:white;</string>
        <property name="geometry">
         <rect>
          <x>140</x>
-         <y>80</y>
+         <y>70</y>
          <width>41</width>
          <height>41</height>
         </rect>
@@ -5397,9 +6357,9 @@ background-color: rgba(16,59,137,255);</string>
       <widget class="QLabel" name="label_185">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>40</y>
-         <width>231</width>
+         <x>40</x>
+         <y>10</y>
+         <width>241</width>
          <height>41</height>
         </rect>
        </property>
@@ -5415,7 +6375,7 @@ color:white;</string>
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>80</y>
+         <y>70</y>
          <width>41</width>
          <height>41</height>
         </rect>
@@ -5432,7 +6392,7 @@ font: 700 12pt &quot;Arial&quot;;</string>
      <widget class="QFrame" name="frame_46">
       <property name="geometry">
        <rect>
-        <x>530</x>
+        <x>520</x>
         <y>500</y>
         <width>311</width>
         <height>151</height>
@@ -5451,9 +6411,9 @@ background-color: rgb(164, 168, 189);</string>
       <widget class="QLabel" name="label_187">
        <property name="geometry">
         <rect>
-         <x>10</x>
-         <y>30</y>
-         <width>301</width>
+         <x>60</x>
+         <y>20</y>
+         <width>181</width>
          <height>41</height>
         </rect>
        </property>
@@ -5462,7 +6422,7 @@ background-color: rgb(164, 168, 189);</string>
 color:white;</string>
        </property>
        <property name="text">
-        <string>Total Teams In Development Dept</string>
+        <string>Development Teams</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_188">
@@ -5522,23 +6482,6 @@ font: 700 12pt &quot;Arial&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_45">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_46">
        <property name="geometry">
         <rect>
@@ -5553,6 +6496,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_32">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_209">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -5584,9 +6561,26 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -5602,9 +6596,26 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -5614,7 +6625,7 @@ color:white;</string>
      <widget class="QLabel" name="label_91">
       <property name="geometry">
        <rect>
-        <x>290</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -5624,7 +6635,7 @@ color:white;</string>
        <string notr="true">color:white;</string>
       </property>
       <property name="text">
-       <string>insert project</string>
+       <string>Insert project</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_96">
@@ -5671,12 +6682,25 @@ background-color: rgba(255,255,255,255);
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color: rgb(255, 37, 70);
+       <string notr="true">QPushButton {
+  /* Light red */
+  background-color: rgba(210, 82, 88, 255);
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
 
-color:white;
+QPushButton:hover {
+  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */
+}
 
-font: 10pt &quot;Tahoma&quot;;</string>
+QPushButton:pressed {
+  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */
+}</string>
       </property>
       <property name="text">
        <string>Clear</string>
@@ -5709,9 +6733,25 @@ font: 10pt &quot;Tahoma&quot;;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Submit</string>
@@ -6050,23 +7090,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_109">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_110">
        <property name="geometry">
         <rect>
@@ -6083,6 +7106,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_210">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_105">
       <property name="geometry">
@@ -6097,7 +7154,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        <string notr="true">color:white;</string>
       </property>
       <property name="text">
-       <string>Update project</string>
+       <string>Update Project</string>
       </property>
      </widget>
      <widget class="QPushButton" name="homebutton_7">
@@ -6122,7 +7179,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>70</y>
+        <y>80</y>
         <width>221</width>
         <height>31</height>
        </rect>
@@ -6140,9 +7197,9 @@ text-decoration: underline;</string>
      <widget class="QPlainTextEdit" name="upprojid">
       <property name="geometry">
        <rect>
-        <x>380</x>
-        <y>110</y>
-        <width>381</width>
+        <x>490</x>
+        <y>80</y>
+        <width>271</width>
         <height>31</height>
        </rect>
       </property>
@@ -6150,23 +7207,6 @@ text-decoration: underline;</string>
        <string notr="true">color:black;
 background-color: rgba(255,255,255,255);
 </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_118">
-      <property name="geometry">
-       <rect>
-        <x>290</x>
-        <y>110</y>
-        <width>91</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Project ID:</string>
       </property>
      </widget>
      <widget class="QFrame" name="frame_28">
@@ -6197,9 +7237,26 @@ font: 10pt &quot;Tahoma&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -6215,9 +7272,26 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -6227,16 +7301,33 @@ color:white;</string>
      <widget class="QPushButton" name="pushButton_34">
       <property name="geometry">
        <rect>
-        <x>770</x>
-        <y>110</y>
+        <x>780</x>
+        <y>80</y>
         <width>121</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Display</string>
@@ -6246,9 +7337,9 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>160</y>
+        <y>130</y>
         <width>761</width>
-        <height>501</height>
+        <height>531</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -6294,16 +7385,33 @@ QTableCornerButton::section {
      <widget class="QPushButton" name="pushButton_27">
       <property name="geometry">
        <rect>
-        <x>910</x>
-        <y>110</y>
+        <x>920</x>
+        <y>80</y>
         <width>121</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
@@ -6339,9 +7447,26 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -6357,9 +7482,26 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -6370,7 +7512,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>60</y>
+        <y>80</y>
         <width>221</width>
         <height>31</height>
        </rect>
@@ -6385,36 +7527,36 @@ text-decoration: underline;</string>
        <string>Search Project By ID</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_125">
-      <property name="geometry">
-       <rect>
-        <x>290</x>
-        <y>100</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Project ID:</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButton_35">
       <property name="geometry">
        <rect>
         <x>590</x>
         <y>630</y>
-        <width>151</width>
+        <width>171</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Complete Project</string>
@@ -6423,7 +7565,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
      <widget class="QLabel" name="label_123">
       <property name="geometry">
        <rect>
-        <x>600</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -6433,22 +7575,39 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <string notr="true">color:white;</string>
       </property>
       <property name="text">
-       <string>Remove project</string>
+       <string>Remove Project</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_36">
       <property name="geometry">
        <rect>
         <x>780</x>
-        <y>100</y>
+        <y>80</y>
         <width>121</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Search</string>
@@ -6491,23 +7650,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_121">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_122">
        <property name="geometry">
         <rect>
@@ -6524,13 +7666,47 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_45">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_211">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QPlainTextEdit" name="removeprojidsearch">
       <property name="geometry">
        <rect>
-        <x>380</x>
-        <y>100</y>
-        <width>381</width>
+        <x>480</x>
+        <y>80</y>
+        <width>281</width>
         <height>31</height>
        </rect>
       </property>
@@ -6544,15 +7720,32 @@ background-color: rgba(255,255,255,255);
       <property name="geometry">
        <rect>
         <x>920</x>
-        <y>100</y>
+        <y>80</y>
         <width>121</width>
         <height>29</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
@@ -6562,9 +7755,9 @@ font: 10pt &quot;Tahoma&quot;;</string>
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>150</y>
+        <y>130</y>
         <width>741</width>
-        <height>451</height>
+        <height>471</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -6646,23 +7839,6 @@ QTableCornerButton::section {
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_129">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_130">
        <property name="geometry">
         <rect>
@@ -6677,6 +7853,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_89">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_212">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -6708,9 +7918,23 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -6726,9 +7950,26 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -6738,7 +7979,7 @@ color:white;</string>
      <widget class="QLabel" name="label_126">
       <property name="geometry">
        <rect>
-        <x>580</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -6754,9 +7995,9 @@ color:white;</string>
      <widget class="QPlainTextEdit" name="projectid">
       <property name="geometry">
        <rect>
-        <x>400</x>
-        <y>100</y>
-        <width>401</width>
+        <x>490</x>
+        <y>80</y>
+        <width>311</width>
         <height>31</height>
        </rect>
       </property>
@@ -6766,36 +8007,36 @@ background-color: rgba(255,255,255,255);
 </string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_132">
-      <property name="geometry">
-       <rect>
-        <x>310</x>
-        <y>100</y>
-        <width>81</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Project ID:</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButton_38">
       <property name="geometry">
        <rect>
-        <x>830</x>
-        <y>100</y>
+        <x>820</x>
+        <y>80</y>
         <width>101</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Search</string>
@@ -6804,9 +8045,9 @@ color:white;</string>
      <widget class="QLabel" name="label_131">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>50</y>
-        <width>221</width>
+        <x>300</x>
+        <y>80</y>
+        <width>191</width>
         <height>31</height>
        </rect>
       </property>
@@ -6824,15 +8065,29 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>940</x>
-        <y>100</y>
+        <y>80</y>
         <width>91</width>
         <height>29</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
@@ -6841,10 +8096,10 @@ color:white;</string>
      <widget class="QTableView" name="searchprojecttable">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>150</y>
-        <width>721</width>
-        <height>501</height>
+        <x>300</x>
+        <y>130</y>
+        <width>741</width>
+        <height>521</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -6917,9 +8172,23 @@ QTableCornerButton::section {
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -6928,16 +8197,30 @@ color:white;</string>
       <widget class="QPushButton" name="homebutton_25">
        <property name="geometry">
         <rect>
-         <x>530</x>
+         <x>0</x>
          <y>0</y>
          <width>121</width>
          <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -6981,23 +8264,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_138">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_139">
        <property name="geometry">
         <rect>
@@ -7014,29 +8280,47 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
-     </widget>
-     <widget class="QLabel" name="label_135">
-      <property name="geometry">
-       <rect>
-        <x>290</x>
-        <y>60</y>
-        <width>141</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Insert Department</string>
-      </property>
+      <widget class="QLabel" name="label_90">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_213">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_140">
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>150</y>
-        <width>191</width>
+        <y>80</y>
+        <width>221</width>
         <height>31</height>
        </rect>
       </property>
@@ -7047,142 +8331,284 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Department Details</string>
+       <string>Search Employee By ID:</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="Deptclear_2">
+     <widget class="QLineEdit" name="searupsal">
       <property name="geometry">
        <rect>
-        <x>468</x>
-        <y>330</y>
-        <width>171</width>
-        <height>41</height>
+        <x>530</x>
+        <y>80</y>
+        <width>281</width>
+        <height>28</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color: rgb(255, 37, 70);
+       <string notr="true">color:black;
+background-color: rgba(255,255,255,255);
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_63">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>80</y>
+        <width>91</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
 
-color:white;
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
 
-font: 10pt &quot;Tahoma&quot;;</string>
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
-       <string>Clear</string>
+       <string>Search</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="DeptSubmit_2">
+     <widget class="QPushButton" name="pushButton_64">
       <property name="geometry">
        <rect>
-        <x>670</x>
-        <y>330</y>
-        <width>171</width>
-        <height>41</height>
+        <x>932</x>
+        <y>80</y>
+        <width>101</width>
+        <height>29</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-background-color:rgba(0,92,73,255);
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
-       <string>Submit</string>
+       <string>Reset</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_141">
+     <widget class="QTableView" name="empteamtable">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>210</y>
-        <width>141</width>
-        <height>20</height>
+        <x>300</x>
+        <y>160</y>
+        <width>231</width>
+        <height>501</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Department Title</string>
+       <string notr="true">QTableView {
+    font: 11pt &quot;Arial&quot;;
+    background-color: #2f2f2f; /* dark gray */
+    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */
+}
+
+QTableView::item {
+    color: white; /* white text */
+    background-color: #2f2f2f; /* dark gray */
+    selection-color: white; /* white text on selection */
+    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */
+}
+
+/* Common section styling */
+QHeaderView::section {
+    font: bold 11pt &quot;Arial&quot;; /* Ensure consistent font settings */
+    border: 1px solid #1b1b1b; /* Optional: to define the border */
+}
+
+/* Horizontal header styling */
+QHeaderView::section:horizontal {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+
+/* Vertical header styling */
+QHeaderView::section:vertical {
+    color: white; /* white text */
+    background-color: #3b3b3b; /* different color for vertical header */
+}
+
+/* Corner button styling */
+QTableCornerButton::section {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_142">
+     <widget class="QTableView" name="empsalarytable">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>210</y>
-        <width>201</width>
-        <height>20</height>
+        <x>550</x>
+        <y>160</y>
+        <width>231</width>
+        <height>501</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">QTableView {
+    font: 11pt &quot;Arial&quot;;
+    background-color: #2f2f2f; /* dark gray */
+    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */
+}
+
+QTableView::item {
+    color: white; /* white text */
+    background-color: #2f2f2f; /* dark gray */
+    selection-color: white; /* white text on selection */
+    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */
+}
+
+/* Common section styling */
+QHeaderView::section {
+    font: bold 11pt &quot;Arial&quot;; /* Ensure consistent font settings */
+    border: 1px solid #1b1b1b; /* Optional: to define the border */
+}
+
+/* Horizontal header styling */
+QHeaderView::section:horizontal {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+
+/* Vertical header styling */
+QHeaderView::section:vertical {
+    color: white; /* white text */
+    background-color: #3b3b3b; /* different color for vertical header */
+}
+
+/* Corner button styling */
+QTableCornerButton::section {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+</string>
       </property>
-      <property name="text">
-       <string>Department Manager</string>
+     </widget>
+     <widget class="QTableView" name="empsupertable">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>160</y>
+        <width>231</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+    font: 11pt &quot;Arial&quot;;
+    background-color: #2f2f2f; /* dark gray */
+    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */
+}
+
+QTableView::item {
+    color: white; /* white text */
+    background-color: #2f2f2f; /* dark gray */
+    selection-color: white; /* white text on selection */
+    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */
+}
+
+/* Common section styling */
+QHeaderView::section {
+    font: bold 11pt &quot;Arial&quot;; /* Ensure consistent font settings */
+    border: 1px solid #1b1b1b; /* Optional: to define the border */
+}
+
+/* Horizontal header styling */
+QHeaderView::section:horizontal {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+
+/* Vertical header styling */
+QHeaderView::section:vertical {
+    color: white; /* white text */
+    background-color: #3b3b3b; /* different color for vertical header */
+}
+
+/* Corner button styling */
+QTableCornerButton::section {
+    color: white; /* white text */
+    background-color: #1b1b1b; /* black background */
+}
+</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_66">
       <property name="geometry">
        <rect>
-        <x>840</x>
-        <y>210</y>
-        <width>161</width>
-        <height>31</height>
+        <x>360</x>
+        <y>130</y>
+        <width>111</width>
+        <height>20</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
+       <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
-       <string>Total Employees</string>
+       <string>Employee Team</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="depttitle">
+     <widget class="QLabel" name="label_118">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>250</y>
-        <width>181</width>
-        <height>31</height>
+        <x>610</x>
+        <y>130</y>
+        <width>111</width>
+        <height>20</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
+       <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Employee Salary</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="totalemp">
+     <widget class="QLabel" name="label_125">
       <property name="geometry">
        <rect>
-        <x>840</x>
-        <y>250</y>
-        <width>201</width>
-        <height>31</height>
+        <x>850</x>
+        <y>130</y>
+        <width>141</width>
+        <height>20</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
+       <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
       </property>
-     </widget>
-     <widget class="QLineEdit" name="deptmanag">
-      <property name="geometry">
-       <rect>
-        <x>560</x>
-        <y>250</y>
-        <width>211</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
+      <property name="text">
+       <string>Employee Supervisor</string>
       </property>
      </widget>
     </widget>
@@ -7215,9 +8641,23 @@ background-color: rgba(255,255,255,255);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -7233,9 +8673,23 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -7279,23 +8733,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_146">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_147">
        <property name="geometry">
         <rect>
@@ -7310,6 +8747,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_103">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_214">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -7373,9 +8844,23 @@ background-color: rgba(255,255,255,255);
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Search</string>
@@ -7391,9 +8876,23 @@ color:white;</string>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
@@ -7453,8 +8952,8 @@ QTableCornerButton::section {
      <widget class="QLabel" name="label_159">
       <property name="geometry">
        <rect>
-        <x>290</x>
-        <y>50</y>
+        <x>300</x>
+        <y>70</y>
         <width>241</width>
         <height>31</height>
        </rect>
@@ -7467,23 +8966,6 @@ text-decoration: underline;</string>
       </property>
       <property name="text">
        <string>Search Department By ID</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_158">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>100</y>
-        <width>121</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Department ID:</string>
       </property>
      </widget>
      <widget class="QFrame" name="frame_39">
@@ -7523,23 +9005,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_156">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_157">
        <property name="geometry">
         <rect>
@@ -7556,20 +9021,68 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_104">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_215">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QPushButton" name="searchdepbutton">
       <property name="geometry">
        <rect>
-        <x>820</x>
-        <y>100</y>
-        <width>101</width>
+        <x>840</x>
+        <y>70</y>
+        <width>91</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Search</string>
@@ -7603,9 +9116,23 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -7621,9 +9148,23 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -7633,9 +9174,9 @@ color:white;</string>
      <widget class="QPlainTextEdit" name="displaydeptid">
       <property name="geometry">
        <rect>
-        <x>430</x>
-        <y>100</y>
-        <width>371</width>
+        <x>540</x>
+        <y>70</y>
+        <width>291</width>
         <height>31</height>
        </rect>
       </property>
@@ -7648,9 +9189,9 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_153">
       <property name="geometry">
        <rect>
-        <x>550</x>
-        <y>60</y>
-        <width>181</width>
+        <x>300</x>
+        <y>50</y>
+        <width>111</width>
         <height>20</height>
        </rect>
       </property>
@@ -7665,9 +9206,9 @@ background-color: rgba(255,255,255,255);
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>150</y>
-        <width>731</width>
-        <height>511</height>
+        <y>120</y>
+        <width>741</width>
+        <height>541</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -7713,16 +9254,30 @@ QTableCornerButton::section {
      <widget class="QPushButton" name="pushButton_57">
       <property name="geometry">
        <rect>
-        <x>940</x>
-        <y>100</y>
+        <x>950</x>
+        <y>70</y>
         <width>91</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
@@ -7782,7 +9337,7 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_162">
       <property name="geometry">
        <rect>
-        <x>290</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -7792,7 +9347,7 @@ background-color: rgba(255,255,255,255);
        <string notr="true">color:white;</string>
       </property>
       <property name="text">
-       <string>insert Team</string>
+       <string>Insert Team</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_169">
@@ -7868,23 +9423,6 @@ text-decoration: underline;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_166">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_167">
        <property name="geometry">
         <rect>
@@ -7899,6 +9437,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_108">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_216">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -7978,9 +9550,23 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -8039,28 +9625,11 @@ color:white;</string>
      </widget>
     </widget>
     <widget class="QWidget" name="UpdateTeam">
-     <widget class="QLabel" name="label_181">
-      <property name="geometry">
-       <rect>
-        <x>290</x>
-        <y>90</y>
-        <width>81</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Team ID:</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_176">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>50</y>
+        <x>290</x>
+        <y>80</y>
         <width>191</width>
         <height>31</height>
        </rect>
@@ -8078,9 +9647,9 @@ text-decoration: underline;</string>
      <widget class="QPlainTextEdit" name="updateteamid">
       <property name="geometry">
        <rect>
-        <x>370</x>
-        <y>90</y>
-        <width>421</width>
+        <x>490</x>
+        <y>80</y>
+        <width>301</width>
         <height>31</height>
        </rect>
       </property>
@@ -8127,23 +9696,6 @@ background-color: rgba(255,255,255,255);
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_179">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_180">
        <property name="geometry">
         <rect>
@@ -8158,6 +9710,40 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
        </property>
        <property name="text">
         <string>App Version v1.0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_109">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_217">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
        </property>
       </widget>
      </widget>
@@ -8189,9 +9775,23 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -8207,9 +9807,23 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
@@ -8219,7 +9833,7 @@ color:white;</string>
      <widget class="QLabel" name="label_174">
       <property name="geometry">
        <rect>
-        <x>550</x>
+        <x>300</x>
         <y>50</y>
         <width>121</width>
         <height>20</height>
@@ -8236,15 +9850,29 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>800</x>
-        <y>90</y>
+        <y>80</y>
         <width>121</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Display</string>
@@ -8253,16 +9881,30 @@ color:white;</string>
      <widget class="QPushButton" name="pushButton_26">
       <property name="geometry">
        <rect>
-        <x>942</x>
-        <y>90</y>
+        <x>940</x>
+        <y>80</y>
         <width>111</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
@@ -8272,9 +9914,9 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>150</y>
+        <y>130</y>
         <width>761</width>
-        <height>511</height>
+        <height>531</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -8323,7 +9965,7 @@ QTableCornerButton::section {
       <property name="geometry">
        <rect>
         <x>350</x>
-        <y>100</y>
+        <y>130</y>
         <width>71</width>
         <height>20</height>
        </rect>
@@ -8373,23 +10015,6 @@ font: 10pt &quot;Tahoma&quot;;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_366">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_367">
        <property name="geometry">
         <rect>
@@ -8406,12 +10031,46 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_111">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_218">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_368">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>50</y>
+        <x>300</x>
+        <y>90</y>
         <width>241</width>
         <height>31</height>
        </rect>
@@ -8430,7 +10089,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>870</x>
-        <y>100</y>
+        <y>120</y>
         <width>151</width>
         <height>31</height>
        </rect>
@@ -8503,7 +10162,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>440</x>
-        <y>100</y>
+        <y>120</y>
         <width>421</width>
         <height>31</height>
        </rect>
@@ -8517,8 +10176,8 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_369">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>60</y>
+        <x>300</x>
+        <y>50</y>
         <width>101</width>
         <height>20</height>
        </rect>
@@ -8578,9 +10237,23 @@ font: 10pt &quot;Tahoma&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Back </string>
@@ -8596,45 +10269,56 @@ color:white;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+        <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
        </property>
        <property name="text">
         <string>Home</string>
        </property>
       </widget>
      </widget>
-     <widget class="QLabel" name="label_376">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>100</y>
-        <width>111</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Search Teams</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="searchteambut">
       <property name="geometry">
        <rect>
-        <x>810</x>
-        <y>100</y>
+        <x>808</x>
+        <y>80</y>
         <width>111</width>
         <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Search</string>
@@ -8677,23 +10361,6 @@ color:white;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_373">
-       <property name="geometry">
-        <rect>
-         <x>50</x>
-         <y>180</y>
-         <width>201</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: italic 9pt &quot;Segoe UI&quot;;</string>
-       </property>
-       <property name="text">
-        <string>Optimizing Work Productivity</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_374">
        <property name="geometry">
         <rect>
@@ -8710,12 +10377,46 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
         <string>App Version v1.0</string>
        </property>
       </widget>
+      <widget class="QLabel" name="label_112">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: italic 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Optimizing Work Productivity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_219">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(254, 251, 255);
+font: 700 11pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OptimSoft</string>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_375">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>50</y>
+        <x>290</x>
+        <y>80</y>
         <width>241</width>
         <height>31</height>
        </rect>
@@ -8727,15 +10428,15 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search Teams</string>
+       <string>Search Team By ID</string>
       </property>
      </widget>
      <widget class="QPlainTextEdit" name="searchteam">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>100</y>
-        <width>381</width>
+        <x>468</x>
+        <y>80</y>
+        <width>321</width>
         <height>31</height>
        </rect>
       </property>
@@ -8748,8 +10449,8 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_370">
       <property name="geometry">
        <rect>
-        <x>560</x>
-        <y>60</y>
+        <x>300</x>
+        <y>50</y>
         <width>101</width>
         <height>20</height>
        </rect>
@@ -8765,9 +10466,9 @@ background-color: rgba(255,255,255,255);
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>150</y>
+        <y>130</y>
         <width>741</width>
-        <height>511</height>
+        <height>531</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -8813,16 +10514,30 @@ QTableCornerButton::section {
      <widget class="QPushButton" name="pushButton_60">
       <property name="geometry">
        <rect>
-        <x>932</x>
-        <y>100</y>
+        <x>930</x>
+        <y>80</y>
         <width>101</width>
         <height>29</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">border-radius:12px;
-background-color:rgba(0,133,104,255);
-color:white;</string>
+       <string notr="true">QPushButton {
+  /* Light green */
+  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */
+  /* Light gray text color */
+  color: rgb(255, 255, 255);
+  font: 11pt &quot;Arial&quot;;
+  border-radius: 18px;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */
+}
+</string>
       </property>
       <property name="text">
        <string>Reset</string>
