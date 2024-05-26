@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -1287,7 +1287,7 @@ font: italic 9pt &quot;Segoe UI&quot;;</string>
      <widget class="QLabel" name="label_36">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>370</x>
         <y>60</y>
         <width>291</width>
         <height>20</height>
@@ -1556,6 +1556,25 @@ QPushButton:pressed {
       </property>
       <property name="text">
        <string>Logout</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>50</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../resource.qrc">:/pics/picture/icons8-hr-80.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
       </property>
      </widget>
     </widget>
@@ -1950,22 +1969,6 @@ QPushButton:pressed {
         <string>Home</string>
        </property>
       </widget>
-     </widget>
-     <widget class="QLabel" name="label_8">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>50</y>
-        <width>171</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Employee View</string>
-      </property>
      </widget>
      <widget class="QPushButton" name="pushButton">
       <property name="geometry">
@@ -6196,7 +6199,7 @@ QPushButton:pressed {
      <widget class="QLabel" name="label_377">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>360</x>
         <y>50</y>
         <width>211</width>
         <height>31</height>
@@ -6323,6 +6326,25 @@ font: 700 29pt &quot;Arial&quot;;</string>
         <string/>
        </property>
       </widget>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>50</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../resource.qrc">:/pics/picture/icons8-management-50.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="InsertProject">
@@ -6575,7 +6597,7 @@ QPushButton:pressed {
       <property name="geometry">
        <rect>
         <x>320</x>
-        <y>370</y>
+        <y>420</y>
         <width>101</width>
         <height>20</height>
        </rect>
@@ -6626,7 +6648,7 @@ QPushButton:pressed {
       <property name="geometry">
        <rect>
         <x>580</x>
-        <y>410</y>
+        <y>460</y>
         <width>201</width>
         <height>31</height>
        </rect>
@@ -6675,7 +6697,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
       <property name="geometry">
        <rect>
         <x>580</x>
-        <y>370</y>
+        <y>420</y>
         <width>101</width>
         <height>20</height>
        </rect>
@@ -6741,7 +6763,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
       <property name="geometry">
        <rect>
         <x>320</x>
-        <y>410</y>
+        <y>460</y>
         <width>201</width>
         <height>31</height>
        </rect>
@@ -6786,44 +6808,10 @@ font: 10pt &quot;Tahoma&quot;;</string>
        <string>Delievry Date/Deadline:</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_97">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>260</y>
-        <width>111</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Last Updated:</string>
-      </property>
-     </widget>
-     <widget class="QDateEdit" name="projlastupd">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>300</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgb(255, 255, 255);</string>
-      </property>
-      <property name="displayFormat">
-       <string>yy/MM/dd</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_100">
       <property name="geometry">
        <rect>
-        <x>830</x>
+        <x>580</x>
         <y>260</y>
         <width>101</width>
         <height>20</height>
@@ -6840,7 +6828,7 @@ font: 10pt &quot;Tahoma&quot;;</string>
      <widget class="QPlainTextEdit" name="projcost">
       <property name="geometry">
        <rect>
-        <x>830</x>
+        <x>580</x>
         <y>300</y>
         <width>201</width>
         <height>31</height>
@@ -6856,7 +6844,7 @@ background-color: rgba(255,255,255,255);
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>410</y>
+        <y>460</y>
         <width>201</width>
         <height>31</height>
        </rect>
@@ -6871,7 +6859,7 @@ background-color: rgba(255,255,255,255);
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>370</y>
+        <y>420</y>
         <width>121</width>
         <height>20</height>
        </rect>
@@ -6887,8 +6875,8 @@ font: 10pt &quot;Tahoma&quot;;</string>
      <widget class="QPlainTextEdit" name="clientinfo">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>520</y>
+        <x>320</x>
+        <y>570</y>
         <width>201</width>
         <height>31</height>
        </rect>
@@ -6902,8 +6890,8 @@ background-color: rgba(255,255,255,255);
      <widget class="QLabel" name="label_102">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>480</y>
+        <x>320</x>
+        <y>530</y>
         <width>151</width>
         <height>20</height>
        </rect>
@@ -6914,6 +6902,25 @@ font: 10pt &quot;Tahoma&quot;;</string>
       </property>
       <property name="text">
        <string>Client Contact Info:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_97">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>360</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(80, 151, 225);
+
+font: italic 13pt &quot;Times New Roman&quot;;
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Client Details</string>
       </property>
      </widget>
     </widget>
@@ -9614,22 +9621,6 @@ QPushButton:pressed {
         <string>Home</string>
        </property>
       </widget>
-     </widget>
-     <widget class="QLabel" name="label_174">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>50</y>
-        <width>121</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Update Team</string>
-      </property>
      </widget>
      <widget class="QPushButton" name="updteamdisplay">
       <property name="geometry">
