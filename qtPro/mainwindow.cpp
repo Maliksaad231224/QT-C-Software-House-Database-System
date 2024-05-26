@@ -1113,7 +1113,7 @@ void MainWindow::on_pushButton_11_clicked()
 
     if (db.open())
     {
-        QSqlQuery empqry,empteamqry;
+        QSqlQuery empqry,empteamqry,salqry;
      QSqlQuery empsup;
    empqry.prepare("INSERT INTO employee(EmployeeID,Fname,Lname,Address,Sex,email,Birth_date,Status,Job_Title,department) "
                     "VALUES (:emid, :fnam,:lnam,:add,:se,:emai,:bird,:status,:title,:dept)");
@@ -1140,17 +1140,18 @@ void MainWindow::on_pushButton_11_clicked()
         empsup.bindValue(":supname",ui->supername->text());
 
 
-    empsup.prepare("INSERT INTO employee_supervisors(employeeid, supervisorname)"
-                       "VALUES(:empid, :supname)");
-        empsup.bindValue(":empid", ui->empid->text());
-        empsup.bindValue(":supname", ui->supername->text());
+        salqry.prepare("INSERT INTO salary(employeeID, salary)"
+                       "VALUES(:empid, :sal)");
+        salqry.bindValue(":empid", ui->empid->text());
+        salqry.bindValue(":sal", ui->salary->text());
 
-        if(empqry.exec()&&empteamqry.exec()&&empsup.exec()){
+        if(empqry.exec()&&empteamqry.exec()&&empsup.exec()&&salqry.exec()){
             QMessageBox::information(this,"insertion","Successful");
         }
         else{
-          QMessageBox::information(this,"insertion","unsuccessful");
+          QMessageBox::information(this,"insertion","Primary Key Already Exists");
         }
+
 
 
     }
