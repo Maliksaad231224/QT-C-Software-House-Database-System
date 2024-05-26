@@ -26,6 +26,9 @@ ui->loginpassword->setEchoMode(QLineEdit::Password);
     ui->loginuser->setAlignment(Qt::AlignCenter);
     ui->loginpassword->setAlignment(Qt::AlignCenter);
     connect(ui->pushButton_80, &QPushButton::clicked, this, &MainWindow::on_pushButton_80_clicked);
+    connect(ui->pushButton_13, &QPushButton::clicked, this, &MainWindow::on_pushButton_13_clicked);
+
+    connect(ui->Projclear, &QPushButton::clicked, this, &MainWindow::on_Projclear_clicked);
 connect(ui->pushButton_80, &QPushButton::clicked, this, &MainWindow::on_pushButton_80_clicked);
 connect(ui->searchresetemp, &QPushButton::clicked, this, &MainWindow:: on_searchresetemp_clicked);
 
@@ -343,7 +346,7 @@ void MainWindow::on_homebutton_12_clicked()
 
 void MainWindow::on_homebutton_11_clicked()
 {
-    departmentview();
+     employeeview();
 }
 
 void MainWindow::on_homebutton_10_clicked()
@@ -1212,22 +1215,20 @@ void MainWindow:: departviewtable()
 }
 void MainWindow::on_pushButton_13_clicked()
 {
-/*
+
     ui->firstname->clear();
-    ui->teamid->clear();
-   ui->teamtitle->clear();
+
    ui->lastname->clear();
    ui->gender->clear();
    ui->email->clear();
-  ui->teamid->clear();
+
   ui->address->clear();
-   ui->teamtitle->clear();
-   ui->departname->clear();
+
+
    ui->empid->clear();
-   ui->superid->clear();
-    ui->statusemp->clear();
-    ui->DOB-->clear();
-    */
+   ui->statusemp->clear();
+
+
 }
 
 
@@ -2062,10 +2063,7 @@ void MainWindow::on_pushButton_62_clicked()
 }
 
 
-void MainWindow::on_departmentupdate_activated(const QModelIndex &index)
-{
 
-}
 
 
 void MainWindow::on_pushButton_64_clicked()
@@ -2123,6 +2121,19 @@ void MainWindow::on_pushButton_64_clicked()
 
 
 
+
+}
+
+
+void MainWindow::on_Projclear_clicked()
+{
+    ui->projID->clear();
+    ui->projtitle->clear();
+    ui->projcost->clear();
+    ui->clientname->clear();
+    ui->clientid->clear();
+    ui->clientaddress->clear();
+    ui->clientinfo->clear();
 
 }
 

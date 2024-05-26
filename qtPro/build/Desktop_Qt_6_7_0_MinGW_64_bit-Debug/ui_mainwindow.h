@@ -81,7 +81,6 @@ public:
     QFrame *frame_8;
     QFrame *frame_9;
     QLabel *label_19;
-    QLabel *label_21;
     QLabel *label_22;
     QPushButton *pushButton_6;
     QPushButton *pushButton_9;
@@ -89,6 +88,12 @@ public:
     QPushButton *pushButton_8;
     QPushButton *pushButton_30;
     QLabel *label_38;
+    QLabel *label_203;
+    QLabel *label_82;
+    QLabel *label_21;
+    QLabel *label_24;
+    QLabel *label_113;
+    QLabel *label_114;
     QLabel *label_36;
     QFrame *frame_20;
     QLabel *label_47;
@@ -102,18 +107,22 @@ public:
     QFrame *frame_23;
     QLabel *label_53;
     QLabel *label_54;
-    QLabel *label_191;
     QPushButton *pushButton_80;
     QWidget *EmployeeView;
     QLabel *label_193;
     QFrame *frame_47;
     QLabel *label_20;
-    QLabel *label_24;
     QLabel *label_28;
     QPushButton *pushButton_14;
     QPushButton *pushButton_31;
     QPushButton *pushButton_32;
     QPushButton *null_2;
+    QLabel *label_202;
+    QLabel *label_81;
+    QLabel *label_115;
+    QLabel *label_117;
+    QLabel *label_121;
+    QLabel *label_129;
     QFrame *frame_48;
     QPushButton *pushButton_48;
     QLabel *label_8;
@@ -123,15 +132,19 @@ public:
     QPushButton *pushButton_5;
     QTableView *employeeviewtable;
     QWidget *DepartmentView;
-    QLabel *label_128;
     QFrame *frame_49;
     QLabel *label_42;
-    QLabel *label_108;
     QLabel *label_120;
     QPushButton *pushButton_33;
     QPushButton *pushButton_37;
     QPushButton *pushButton_40;
     QPushButton *pushButton_49;
+    QLabel *label_80;
+    QLabel *label_201;
+    QLabel *label_145;
+    QLabel *label_143;
+    QLabel *label_138;
+    QLabel *label_116;
     QFrame *frame_50;
     QPushButton *pushButton_47;
     QPushButton *pushButton_15;
@@ -181,21 +194,22 @@ public:
     QPushButton *homebutton_16;
     QFrame *frame_25;
     QLabel *label_69;
-    QLabel *label_71;
     QLabel *label_72;
-    QLabel *label_70;
+    QLabel *label_83;
+    QLabel *label_204;
     QLabel *label_73;
     QPushButton *displayempup;
     QPushButton *homebutton_3;
     QTableView *updemptable;
     QLineEdit *empidupdate;
     QPushButton *pushButton_7;
+    QPushButton *pushButton_62;
     QWidget *RemoveEmployee;
     QFrame *frame_26;
     QLabel *label_85;
-    QLabel *label_87;
     QLabel *label_88;
-    QLabel *label_86;
+    QLabel *label_70;
+    QLabel *label_205;
     QPlainTextEdit *searchempdelete;
     QFrame *frame_27;
     QPushButton *homebutton_17;
@@ -208,13 +222,12 @@ public:
     QWidget *DisplayEmployee;
     QFrame *frame_12;
     QLabel *label_27;
-    QLabel *label_29;
     QLabel *label_30;
-    QLabel *label_189;
+    QLabel *label_71;
+    QLabel *label_206;
     QFrame *frame_13;
     QPushButton *homebutton_5;
     QPushButton *homebutton_18;
-    QLabel *label_133;
     QLabel *label_134;
     QPushButton *pushButton_39;
     QPlainTextEdit *disemp;
@@ -223,12 +236,17 @@ public:
     QWidget *ProjectView;
     QFrame *frame_51;
     QLabel *label_137;
-    QLabel *label_145;
     QLabel *label_155;
     QPushButton *pushButton_41;
     QPushButton *pushButton_42;
     QPushButton *pushButton_43;
     QPushButton *pushButton_53;
+    QLabel *label_29;
+    QLabel *label_207;
+    QLabel *label_152;
+    QLabel *label_150;
+    QLabel *label_146;
+    QLabel *label_149;
     QFrame *frame_52;
     QPushButton *homebutton_20;
     QLabel *label_165;
@@ -240,12 +258,17 @@ public:
     QWidget *TeamView;
     QFrame *frame_54;
     QLabel *label_194;
-    QLabel *label_195;
     QLabel *label_196;
     QPushButton *pushButton_44;
     QPushButton *pushButton_45;
     QPushButton *pushButton_51;
     QPushButton *pushButton_52;
+    QLabel *label_86;
+    QLabel *label_208;
+    QLabel *label_172;
+    QLabel *label_161;
+    QLabel *label_166;
+    QLabel *label_156;
     QLabel *label_178;
     QFrame *frame_53;
     QPushButton *homebutton_21;
@@ -255,14 +278,19 @@ public:
     QWidget *Manager;
     QFrame *frame_14;
     QLabel *label_31;
-    QLabel *label_32;
-    QLabel *label_33;
     QLabel *label_34;
     QPushButton *pushButton_19;
     QPushButton *pushButton_20;
     QPushButton *pushButton_21;
     QPushButton *pushButton_22;
     QPushButton *pushButton_61;
+    QLabel *label_195;
+    QLabel *label_87;
+    QLabel *label_189;
+    QLabel *label_179;
+    QLabel *label_173;
+    QLabel *label_175;
+    QLabel *label_191;
     QFrame *frame_15;
     QFrame *frame_16;
     QLabel *label_39;
@@ -284,12 +312,12 @@ public:
     QWidget *InsertProject;
     QFrame *frame_19;
     QLabel *label_41;
-    QLabel *label_45;
     QLabel *label_46;
+    QLabel *label_32;
+    QLabel *label_209;
     QFrame *frame_17;
     QPushButton *homebutton_6;
     QPushButton *homebutton_19;
-    QLabel *label_91;
     QLabel *label_96;
     QPlainTextEdit *projtitle;
     QPushButton *Projclear;
@@ -316,13 +344,12 @@ public:
     QWidget *UpdateProject;
     QFrame *frame_29;
     QLabel *label_107;
-    QLabel *label_109;
     QLabel *label_110;
-    QLabel *label_105;
+    QLabel *label_33;
+    QLabel *label_210;
     QPushButton *homebutton_7;
     QLabel *label_106;
     QPlainTextEdit *upprojid;
-    QLabel *label_118;
     QFrame *frame_28;
     QPushButton *homebutton_8;
     QPushButton *homebutton_22;
@@ -334,28 +361,26 @@ public:
     QPushButton *homebutton_9;
     QPushButton *homebutton_23;
     QLabel *label_124;
-    QLabel *label_125;
     QPushButton *pushButton_35;
-    QLabel *label_123;
     QPushButton *pushButton_36;
     QFrame *frame_30;
     QLabel *label_119;
-    QLabel *label_121;
     QLabel *label_122;
+    QLabel *label_45;
+    QLabel *label_211;
     QPlainTextEdit *removeprojidsearch;
     QPushButton *pushButton_58;
     QTableView *removeproject;
     QWidget *DisplayProject;
     QFrame *frame_33;
     QLabel *label_127;
-    QLabel *label_129;
     QLabel *label_130;
+    QLabel *label_89;
+    QLabel *label_212;
     QFrame *frame_32;
     QPushButton *homebutton_10;
     QPushButton *homebutton_24;
-    QLabel *label_126;
     QPlainTextEdit *projectid;
-    QLabel *label_132;
     QPushButton *pushButton_38;
     QLabel *label_131;
     QPushButton *pushButton_59;
@@ -366,26 +391,28 @@ public:
     QPushButton *homebutton_25;
     QFrame *frame_35;
     QLabel *label_136;
-    QLabel *label_138;
     QLabel *label_139;
-    QLabel *label_135;
+    QLabel *label_90;
+    QLabel *label_213;
     QLabel *label_140;
-    QPushButton *Deptclear_2;
-    QPushButton *DeptSubmit_2;
-    QLabel *label_141;
-    QLabel *label_142;
+    QLineEdit *searupsal;
+    QPushButton *pushButton_63;
+    QPushButton *pushButton_64;
+    QTableView *empteamtable;
+    QTableView *empsalarytable;
+    QTableView *empsupertable;
     QLabel *label_66;
-    QLineEdit *depttitle;
-    QLineEdit *totalemp;
-    QLineEdit *deptmanag;
+    QLabel *label_118;
+    QLabel *label_125;
     QWidget *UpdateDepartment;
     QFrame *frame_36;
     QPushButton *homebutton_12;
     QPushButton *homebutton_26;
     QFrame *frame_37;
     QLabel *label_144;
-    QLabel *label_146;
     QLabel *label_147;
+    QLabel *label_103;
+    QLabel *label_214;
     QLabel *label_148;
     QLabel *label_151;
     QLineEdit *searchupdatedept;
@@ -394,11 +421,11 @@ public:
     QTableView *departmentupdate;
     QWidget *Displaydepartment;
     QLabel *label_159;
-    QLabel *label_158;
     QFrame *frame_39;
     QLabel *label_154;
-    QLabel *label_156;
     QLabel *label_157;
+    QLabel *label_104;
+    QLabel *label_215;
     QPushButton *searchdepbutton;
     QFrame *frame_38;
     QPushButton *homebutton_13;
@@ -416,8 +443,9 @@ public:
     QLabel *label_163;
     QFrame *frame_40;
     QLabel *label_164;
-    QLabel *label_166;
     QLabel *label_167;
+    QLabel *label_108;
+    QLabel *label_216;
     QPlainTextEdit *insteamID;
     QPlainTextEdit *insTeamDeptID;
     QFrame *frame_41;
@@ -427,13 +455,13 @@ public:
     QPlainTextEdit *InsTeamDesp;
     QPushButton *teaminsert;
     QWidget *UpdateTeam;
-    QLabel *label_181;
     QLabel *label_176;
     QPlainTextEdit *updateteamid;
     QFrame *frame_42;
     QLabel *label_177;
-    QLabel *label_179;
     QLabel *label_180;
+    QLabel *label_109;
+    QLabel *label_217;
     QFrame *frame_43;
     QPushButton *homebutton_15;
     QPushButton *homebutton_29;
@@ -445,8 +473,9 @@ public:
     QLabel *label_363;
     QFrame *frame_87;
     QLabel *label_364;
-    QLabel *label_366;
     QLabel *label_367;
+    QLabel *label_111;
+    QLabel *label_218;
     QLabel *label_368;
     QPushButton *Delsearchteam;
     QFrame *frame_88;
@@ -459,12 +488,12 @@ public:
     QFrame *frame_89;
     QPushButton *homebutton_32;
     QPushButton *homebutton_33;
-    QLabel *label_376;
     QPushButton *searchteambut;
     QFrame *frame_90;
     QLabel *label_371;
-    QLabel *label_373;
     QLabel *label_374;
+    QLabel *label_112;
+    QLabel *label_219;
     QLabel *label_375;
     QPlainTextEdit *searchteam;
     QLabel *label_370;
@@ -510,14 +539,14 @@ public:
         frame->setFrameShadow(QFrame::Raised);
         label_2 = new QLabel(frame);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(190, 20, 111, 81));
+        label_2->setGeometry(QRect(170, 20, 111, 81));
         label_2->setStyleSheet(QString::fromUtf8("background-color:none;\n"
 "border:none;"));
         label_2->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/person.png")));
         label_2->setScaledContents(true);
         label_3 = new QLabel(frame);
         label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(170, 110, 221, 41));
+        label_3->setGeometry(QRect(150, 110, 221, 41));
         label_3->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "border:none;\n"
 "font: 700 16pt \"Tahoma\";\n"
@@ -527,26 +556,26 @@ public:
         loginuser->setGeometry(QRect(190, 210, 251, 41));
         loginuser->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 90, 163);\n"
 "border-radius: 12px;\n"
-"font: 12pt \"Arial\";\n"
+"font: 13pt \"Arial\";\n"
 "border-color:white;\n"
 "color:white;"));
         label_5 = new QLabel(frame);
         label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(10, 210, 111, 31));
+        label_5->setGeometry(QRect(20, 210, 111, 31));
         label_5->setStyleSheet(QString::fromUtf8("border:none;\n"
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
 "background-color: none;"));
         label_6 = new QLabel(frame);
         label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(10, 290, 101, 31));
+        label_6->setGeometry(QRect(20, 290, 101, 31));
         label_6->setStyleSheet(QString::fromUtf8("border:none;\n"
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
 "background-color: none;"));
         label_4 = new QLabel(frame);
         label_4->setObjectName("label_4");
-        label_4->setGeometry(QRect(150, 160, 211, 20));
+        label_4->setGeometry(QRect(140, 160, 211, 20));
         label_4->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "border:none;\n"
 "font: 700 10pt \"Tahoma\";\n"
@@ -585,7 +614,7 @@ public:
         loginpassword->setGeometry(QRect(190, 290, 251, 41));
         loginpassword->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 90, 163);\n"
 "border-radius: 12px;\n"
-"font: 12pt \"Arial\";\n"
+"font: 13pt \"Arial\";\n"
 "border-color:white;\n"
 "color:white;"));
         stackedWidget->addWidget(Login);
@@ -611,14 +640,14 @@ public:
         frame_2->setFrameShadow(QFrame::Raised);
         label_182 = new QLabel(frame_2);
         label_182->setObjectName("label_182");
-        label_182->setGeometry(QRect(190, 20, 111, 81));
+        label_182->setGeometry(QRect(180, 20, 111, 81));
         label_182->setStyleSheet(QString::fromUtf8("background-color:none;\n"
 "border:none;"));
         label_182->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/person.png")));
         label_182->setScaledContents(true);
         label_190 = new QLabel(frame_2);
         label_190->setObjectName("label_190");
-        label_190->setGeometry(QRect(130, 110, 241, 41));
+        label_190->setGeometry(QRect(140, 110, 191, 41));
         label_190->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "border:none;\n"
 "font: 700 16pt \"Tahoma\";\n"
@@ -633,7 +662,7 @@ public:
 "color:white;"));
         label_197 = new QLabel(frame_2);
         label_197->setObjectName("label_197");
-        label_197->setGeometry(QRect(10, 210, 111, 31));
+        label_197->setGeometry(QRect(20, 210, 111, 31));
         label_197->setStyleSheet(QString::fromUtf8("border:none;\n"
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
@@ -648,7 +677,7 @@ public:
 "border-color:white;"));
         pushButton_50 = new QPushButton(frame_2);
         pushButton_50->setObjectName("pushButton_50");
-        pushButton_50->setGeometry(QRect(190, 470, 121, 41));
+        pushButton_50->setGeometry(QRect(180, 430, 121, 41));
         pushButton_50->setStyleSheet(QString::fromUtf8("\n"
 "\n"
 "QPushButton {\n"
@@ -670,14 +699,14 @@ public:
 "}"));
         label_198 = new QLabel(frame_2);
         label_198->setObjectName("label_198");
-        label_198->setGeometry(QRect(10, 280, 141, 31));
+        label_198->setGeometry(QRect(20, 280, 141, 31));
         label_198->setStyleSheet(QString::fromUtf8("border:none;\n"
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
 "background-color: none;"));
         label_199 = new QLabel(frame_2);
         label_199->setObjectName("label_199");
-        label_199->setGeometry(QRect(150, 160, 211, 20));
+        label_199->setGeometry(QRect(160, 160, 161, 20));
         label_199->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "border:none;\n"
 "font: 700 10pt \"Tahoma\";\n"
@@ -692,7 +721,7 @@ public:
 "border-color:white;"));
         label_200 = new QLabel(frame_2);
         label_200->setObjectName("label_200");
-        label_200->setGeometry(QRect(10, 350, 171, 31));
+        label_200->setGeometry(QRect(20, 350, 171, 31));
         label_200->setStyleSheet(QString::fromUtf8("border:none;\n"
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
@@ -737,7 +766,7 @@ public:
         label_15->setScaledContents(true);
         label_16 = new QLabel(TechnologyUsed);
         label_16->setObjectName("label_16");
-        label_16->setGeometry(QRect(380, 0, 361, 31));
+        label_16->setGeometry(QRect(360, 0, 361, 31));
         label_16->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/top_bar.png")));
         label_16->setScaledContents(true);
         label_17 = new QLabel(TechnologyUsed);
@@ -833,11 +862,6 @@ public:
         label_19->setGeometry(QRect(10, 10, 261, 151));
         label_19->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_19->setScaledContents(true);
-        label_21 = new QLabel(frame_9);
-        label_21->setObjectName("label_21");
-        label_21->setGeometry(QRect(50, 180, 201, 21));
-        label_21->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_22 = new QLabel(frame_9);
         label_22->setObjectName("label_22");
         label_22->setGeometry(QRect(90, 640, 121, 31));
@@ -974,10 +998,44 @@ public:
 "}"));
         label_38 = new QLabel(frame_9);
         label_38->setObjectName("label_38");
-        label_38->setGeometry(QRect(42, 250, 51, 31));
+        label_38->setGeometry(QRect(30, 250, 51, 41));
         label_38->setStyleSheet(QString::fromUtf8("background-color:none;"));
         label_38->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/department.png")));
         label_38->setScaledContents(true);
+        label_203 = new QLabel(frame_9);
+        label_203->setObjectName("label_203");
+        label_203->setGeometry(QRect(100, 130, 91, 31));
+        label_203->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
+        label_82 = new QLabel(frame_9);
+        label_82->setObjectName("label_82");
+        label_82->setGeometry(QRect(70, 160, 161, 21));
+        label_82->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_21 = new QLabel(frame_9);
+        label_21->setObjectName("label_21");
+        label_21->setGeometry(QRect(30, 370, 51, 41));
+        label_21->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_21->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Employee.png")));
+        label_21->setScaledContents(true);
+        label_24 = new QLabel(frame_9);
+        label_24->setObjectName("label_24");
+        label_24->setGeometry(QRect(30, 310, 51, 41));
+        label_24->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_24->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Team.png")));
+        label_24->setScaledContents(true);
+        label_113 = new QLabel(frame_9);
+        label_113->setObjectName("label_113");
+        label_113->setGeometry(QRect(30, 430, 51, 41));
+        label_113->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_113->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Project.png")));
+        label_113->setScaledContents(true);
+        label_114 = new QLabel(frame_9);
+        label_114->setObjectName("label_114");
+        label_114->setGeometry(QRect(30, 490, 51, 41));
+        label_114->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_114->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Tech.png")));
+        label_114->setScaledContents(true);
         label_36 = new QLabel(HRView);
         label_36->setObjectName("label_36");
         label_36->setGeometry(QRect(310, 60, 191, 20));
@@ -991,7 +1049,7 @@ public:
         frame_20->setFrameShadow(QFrame::Raised);
         label_47 = new QLabel(frame_20);
         label_47->setObjectName("label_47");
-        label_47->setGeometry(QRect(20, 50, 211, 31));
+        label_47->setGeometry(QRect(20, 30, 211, 31));
         label_47->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_48 = new QLabel(frame_20);
@@ -1008,7 +1066,7 @@ public:
         frame_21->setFrameShadow(QFrame::Raised);
         label_49 = new QLabel(frame_21);
         label_49->setObjectName("label_49");
-        label_49->setGeometry(QRect(40, 50, 171, 31));
+        label_49->setGeometry(QRect(30, 30, 161, 31));
         label_49->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_50 = new QLabel(frame_21);
@@ -1025,7 +1083,7 @@ public:
         frame_22->setFrameShadow(QFrame::Raised);
         label_51 = new QLabel(frame_22);
         label_51->setObjectName("label_51");
-        label_51->setGeometry(QRect(90, 40, 231, 41));
+        label_51->setGeometry(QRect(90, 20, 201, 41));
         label_51->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_52 = new QLabel(frame_22);
@@ -1042,7 +1100,7 @@ public:
         frame_23->setFrameShadow(QFrame::Raised);
         label_53 = new QLabel(frame_23);
         label_53->setObjectName("label_53");
-        label_53->setGeometry(QRect(20, 50, 201, 31));
+        label_53->setGeometry(QRect(20, 30, 181, 31));
         label_53->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_53->setScaledContents(true);
@@ -1052,19 +1110,28 @@ public:
         label_54->setGeometry(QRect(90, 90, 41, 41));
         label_54->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "font: 700 12pt \"Arial\";"));
-        label_191 = new QLabel(HRView);
-        label_191->setObjectName("label_191");
-        label_191->setGeometry(QRect(90, 150, 111, 31));
-        label_191->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
-"background-color:none;\n"
-"font: 700 11pt \"Arial\";"));
         pushButton_80 = new QPushButton(HRView);
         pushButton_80->setObjectName("pushButton_80");
         pushButton_80->setGeometry(QRect(910, 50, 121, 41));
-        pushButton_80->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(210,82,88,255);\n"
-"color:white;\n"
-"font: 11pt \"Arial\";"));
+        pushButton_80->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light red */\n"
+"  background-color: rgba(210, 82, 88, 255);\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */\n"
+"}"));
         stackedWidget->addWidget(HRView);
         EmployeeView = new QWidget();
         EmployeeView->setObjectName("EmployeeView");
@@ -1084,11 +1151,6 @@ public:
         label_20->setGeometry(QRect(10, 10, 261, 151));
         label_20->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_20->setScaledContents(true);
-        label_24 = new QLabel(frame_47);
-        label_24->setObjectName("label_24");
-        label_24->setGeometry(QRect(50, 180, 201, 21));
-        label_24->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_28 = new QLabel(frame_47);
         label_28->setObjectName("label_28");
         label_28->setGeometry(QRect(90, 640, 121, 31));
@@ -1103,7 +1165,8 @@ public:
 "	background-color: rgb(36, 36, 36);\n"
 "  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -1129,8 +1192,8 @@ public:
 "\n"
 "	background-color: rgb(36, 36, 36);\n"
 "  /* Light gray text color */\n"
-"color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -1156,8 +1219,8 @@ public:
 "\n"
 "	background-color: rgb(36, 36, 36);\n"
 "  /* Light gray text color */\n"
-"color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -1182,9 +1245,8 @@ public:
 "    /* Light Blue */\n"
 "\n"
 "	background-color: rgb(65, 79, 72);\n"
-"  /* Light gray text color */\n"
-"color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -1192,6 +1254,40 @@ public:
 "    font-weight: bold;\n"
 "}\n"
 ""));
+        label_202 = new QLabel(frame_47);
+        label_202->setObjectName("label_202");
+        label_202->setGeometry(QRect(100, 130, 91, 31));
+        label_202->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
+        label_81 = new QLabel(frame_47);
+        label_81->setObjectName("label_81");
+        label_81->setGeometry(QRect(70, 160, 161, 21));
+        label_81->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_115 = new QLabel(frame_47);
+        label_115->setObjectName("label_115");
+        label_115->setGeometry(QRect(30, 370, 51, 41));
+        label_115->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_115->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Employee.png")));
+        label_115->setScaledContents(true);
+        label_117 = new QLabel(frame_47);
+        label_117->setObjectName("label_117");
+        label_117->setGeometry(QRect(30, 300, 61, 61));
+        label_117->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_117->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Team.png")));
+        label_117->setScaledContents(true);
+        label_121 = new QLabel(frame_47);
+        label_121->setObjectName("label_121");
+        label_121->setGeometry(QRect(30, 430, 51, 41));
+        label_121->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_121->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Project.png")));
+        label_121->setScaledContents(true);
+        label_129 = new QLabel(frame_47);
+        label_129->setObjectName("label_129");
+        label_129->setGeometry(QRect(30, 250, 51, 41));
+        label_129->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_129->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/department.png")));
+        label_129->setScaledContents(true);
         frame_48 = new QFrame(EmployeeView);
         frame_48->setObjectName("frame_48");
         frame_48->setGeometry(QRect(280, 0, 781, 41));
@@ -1200,10 +1296,24 @@ public:
         frame_48->setFrameShadow(QFrame::Raised);
         pushButton_48 = new QPushButton(frame_48);
         pushButton_48->setObjectName("pushButton_48");
-        pushButton_48->setGeometry(QRect(660, 0, 121, 41));
-        pushButton_48->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_48->setGeometry(QRect(0, 0, 121, 41));
+        pushButton_48->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         label_8 = new QLabel(EmployeeView);
         label_8->setObjectName("label_8");
         label_8->setGeometry(QRect(320, 50, 171, 21));
@@ -1360,10 +1470,6 @@ public:
         stackedWidget->addWidget(EmployeeView);
         DepartmentView = new QWidget();
         DepartmentView->setObjectName("DepartmentView");
-        label_128 = new QLabel(DepartmentView);
-        label_128->setObjectName("label_128");
-        label_128->setGeometry(QRect(320, 50, 171, 21));
-        label_128->setStyleSheet(QString::fromUtf8("color:white;"));
         frame_49 = new QFrame(DepartmentView);
         frame_49->setObjectName("frame_49");
         frame_49->setGeometry(QRect(0, 0, 281, 681));
@@ -1375,11 +1481,6 @@ public:
         label_42->setGeometry(QRect(10, 10, 261, 151));
         label_42->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_42->setScaledContents(true);
-        label_108 = new QLabel(frame_49);
-        label_108->setObjectName("label_108");
-        label_108->setGeometry(QRect(50, 180, 201, 21));
-        label_108->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_120 = new QLabel(frame_49);
         label_120->setObjectName("label_120");
         label_120->setGeometry(QRect(90, 640, 121, 31));
@@ -1392,9 +1493,9 @@ public:
 "    /* Light Blue */\n"
 "\n"
 "	background-color: rgb(36, 36, 36);\n"
-"  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -1421,7 +1522,8 @@ public:
 "	background-color: rgb(36, 36, 36);\n"
 "  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -1446,9 +1548,9 @@ public:
 "    /* Light Blue */\n"
 "\n"
 "	background-color: rgb(36, 36, 36);\n"
-"  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -1473,9 +1575,9 @@ public:
 "    /* Light Blue */\n"
 "\n"
 "	background-color: rgb(65, 79, 72);\n"
-"  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -1483,6 +1585,40 @@ public:
 "    font-weight: bold;\n"
 "}\n"
 ""));
+        label_80 = new QLabel(frame_49);
+        label_80->setObjectName("label_80");
+        label_80->setGeometry(QRect(70, 160, 161, 21));
+        label_80->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_201 = new QLabel(frame_49);
+        label_201->setObjectName("label_201");
+        label_201->setGeometry(QRect(100, 130, 91, 31));
+        label_201->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
+        label_145 = new QLabel(frame_49);
+        label_145->setObjectName("label_145");
+        label_145->setGeometry(QRect(30, 250, 51, 41));
+        label_145->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_145->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/department.png")));
+        label_145->setScaledContents(true);
+        label_143 = new QLabel(frame_49);
+        label_143->setObjectName("label_143");
+        label_143->setGeometry(QRect(30, 300, 61, 61));
+        label_143->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_143->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Team.png")));
+        label_143->setScaledContents(true);
+        label_138 = new QLabel(frame_49);
+        label_138->setObjectName("label_138");
+        label_138->setGeometry(QRect(30, 430, 51, 41));
+        label_138->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_138->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Project.png")));
+        label_138->setScaledContents(true);
+        label_116 = new QLabel(frame_49);
+        label_116->setObjectName("label_116");
+        label_116->setGeometry(QRect(30, 370, 51, 41));
+        label_116->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_116->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Employee.png")));
+        label_116->setScaledContents(true);
         frame_50 = new QFrame(DepartmentView);
         frame_50->setObjectName("frame_50");
         frame_50->setGeometry(QRect(280, 0, 781, 41));
@@ -1491,10 +1627,24 @@ public:
         frame_50->setFrameShadow(QFrame::Raised);
         pushButton_47 = new QPushButton(frame_50);
         pushButton_47->setObjectName("pushButton_47");
-        pushButton_47->setGeometry(QRect(660, 0, 121, 41));
-        pushButton_47->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_47->setGeometry(QRect(0, 0, 121, 41));
+        pushButton_47->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         pushButton_15 = new QPushButton(DepartmentView);
         pushButton_15->setObjectName("pushButton_15");
         pushButton_15->setGeometry(QRect(480, 600, 170, 61));
@@ -1606,7 +1756,7 @@ public:
         label_23->setScaledContents(true);
         label_25 = new QLabel(frame_10);
         label_25->setObjectName("label_25");
-        label_25->setGeometry(QRect(50, 180, 201, 21));
+        label_25->setGeometry(QRect(70, 160, 161, 21));
         label_25->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "font: italic 9pt \"Segoe UI\";"));
         label_26 = new QLabel(frame_10);
@@ -1615,7 +1765,7 @@ public:
         label_26->setStyleSheet(QString::fromUtf8("color:white;"));
         label_192 = new QLabel(frame_10);
         label_192->setObjectName("label_192");
-        label_192->setGeometry(QRect(90, 150, 111, 31));
+        label_192->setGeometry(QRect(100, 130, 91, 31));
         label_192->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
 "font: 700 11pt \"Arial\";"));
         frame_11 = new QFrame(InsertEmployee);
@@ -1627,9 +1777,23 @@ public:
         pushButton_46 = new QPushButton(frame_11);
         pushButton_46->setObjectName("pushButton_46");
         pushButton_46->setGeometry(QRect(0, 0, 121, 41));
-        pushButton_46->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_46->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         label_55 = new QLabel(InsertEmployee);
         label_55->setObjectName("label_55");
         label_55->setGeometry(QRect(320, 50, 161, 31));
@@ -1697,18 +1861,32 @@ public:
         pushButton_11 = new QPushButton(InsertEmployee);
         pushButton_11->setObjectName("pushButton_11");
         pushButton_11->setGeometry(QRect(912, 630, 121, 31));
-        pushButton_11->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color:rgba(0,92,73,255);\n"
-"font: 10pt \"Tahoma\";"));
+        pushButton_11->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
+"background-color:rgba(0,133,104,255);\n"
+"color:white;\n"
+"font: 11pt \"Arial\";"));
         pushButton_13 = new QPushButton(InsertEmployee);
         pushButton_13->setObjectName("pushButton_13");
         pushButton_13->setGeometry(QRect(760, 630, 121, 31));
-        pushButton_13->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color: rgb(255, 37, 70);\n"
+        pushButton_13->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light red */\n"
+"  background-color: rgba(210, 82, 88, 255);\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
 "\n"
-"color:white;\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */\n"
+"}\n"
 "\n"
-"font: 10pt \"Tahoma\";"));
+"QPushButton:pressed {\n"
+"  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */\n"
+"}"));
         label_84 = new QLabel(InsertEmployee);
         label_84->setObjectName("label_84");
         label_84->setGeometry(QRect(320, 530, 101, 20));
@@ -1717,9 +1895,23 @@ public:
         homebutton_2 = new QPushButton(InsertEmployee);
         homebutton_2->setObjectName("homebutton_2");
         homebutton_2->setGeometry(QRect(930, 0, 131, 41));
-        homebutton_2->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_2->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         label_160 = new QLabel(InsertEmployee);
         label_160->setObjectName("label_160");
         label_160->setGeometry(QRect(830, 200, 101, 20));
@@ -1848,9 +2040,23 @@ public:
         homebutton_16 = new QPushButton(frame_24);
         homebutton_16->setObjectName("homebutton_16");
         homebutton_16->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_16->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_16->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         frame_25 = new QFrame(UpdateEmployee);
         frame_25->setObjectName("frame_25");
         frame_25->setGeometry(QRect(0, 0, 281, 681));
@@ -1862,19 +2068,19 @@ public:
         label_69->setGeometry(QRect(10, 10, 261, 151));
         label_69->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_69->setScaledContents(true);
-        label_71 = new QLabel(frame_25);
-        label_71->setObjectName("label_71");
-        label_71->setGeometry(QRect(50, 180, 201, 21));
-        label_71->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_72 = new QLabel(frame_25);
         label_72->setObjectName("label_72");
         label_72->setGeometry(QRect(90, 640, 121, 31));
         label_72->setStyleSheet(QString::fromUtf8("color:white;"));
-        label_70 = new QLabel(frame_25);
-        label_70->setObjectName("label_70");
-        label_70->setGeometry(QRect(90, 140, 111, 31));
-        label_70->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+        label_83 = new QLabel(frame_25);
+        label_83->setObjectName("label_83");
+        label_83->setGeometry(QRect(60, 160, 201, 21));
+        label_83->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_204 = new QLabel(frame_25);
+        label_204->setObjectName("label_204");
+        label_204->setGeometry(QRect(100, 130, 101, 31));
+        label_204->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
 "font: 700 11pt \"Arial\";"));
         label_73 = new QLabel(UpdateEmployee);
         label_73->setObjectName("label_73");
@@ -1886,18 +2092,46 @@ public:
         displayempup = new QPushButton(UpdateEmployee);
         displayempup->setObjectName("displayempup");
         displayempup->setGeometry(QRect(840, 60, 91, 31));
-        displayempup->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        displayempup->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_3 = new QPushButton(UpdateEmployee);
         homebutton_3->setObjectName("homebutton_3");
         homebutton_3->setGeometry(QRect(950, 0, 111, 41));
-        homebutton_3->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_3->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         updemptable = new QTableView(UpdateEmployee);
         updemptable->setObjectName("updemptable");
-        updemptable->setGeometry(QRect(300, 110, 741, 531));
+        updemptable->setGeometry(QRect(300, 110, 741, 481));
         updemptable->setStyleSheet(QString::fromUtf8("QTableView {\n"
 "    font: 11pt \"Arial\";\n"
 "    background-color: #2f2f2f; /* dark gray */\n"
@@ -1938,16 +2172,57 @@ public:
 ""));
         empidupdate = new QLineEdit(UpdateEmployee);
         empidupdate->setObjectName("empidupdate");
-        empidupdate->setGeometry(QRect(490, 60, 321, 31));
+        empidupdate->setGeometry(QRect(490, 60, 331, 31));
         empidupdate->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
         pushButton_7 = new QPushButton(UpdateEmployee);
         pushButton_7->setObjectName("pushButton_7");
         pushButton_7->setGeometry(QRect(960, 60, 81, 31));
-        pushButton_7->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_7->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
+        pushButton_62 = new QPushButton(UpdateEmployee);
+        pushButton_62->setObjectName("pushButton_62");
+        pushButton_62->setGeometry(QRect(500, 620, 321, 51));
+        pushButton_62->setStyleSheet(QString::fromUtf8("\n"
+"QPushButton {\n"
+"    /* Light Blue */\n"
+"\n"
+"	background-color: rgb(36, 36, 36);\n"
+"  /* Light gray text color */\n"
+"color: rgb(255, 255, 255);\n"
+"font: 11pt \"Arial\";\n"
+"    border-radius: 18px;\n"
+"border:1px solid black;\n"
+"    padding: 5px;\n"
+"    \n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"	background-color: rgb(63, 63, 63);\n"
+"	\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"   \n"
+"	background-color: rgb(65, 79, 72);\n"
+"}"));
         stackedWidget->addWidget(UpdateEmployee);
         RemoveEmployee = new QWidget();
         RemoveEmployee->setObjectName("RemoveEmployee");
@@ -1962,23 +2237,23 @@ public:
         label_85->setGeometry(QRect(10, 10, 261, 151));
         label_85->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_85->setScaledContents(true);
-        label_87 = new QLabel(frame_26);
-        label_87->setObjectName("label_87");
-        label_87->setGeometry(QRect(50, 180, 201, 21));
-        label_87->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_88 = new QLabel(frame_26);
         label_88->setObjectName("label_88");
         label_88->setGeometry(QRect(90, 640, 121, 31));
         label_88->setStyleSheet(QString::fromUtf8("color:white;"));
-        label_86 = new QLabel(frame_26);
-        label_86->setObjectName("label_86");
-        label_86->setGeometry(QRect(90, 140, 111, 31));
-        label_86->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+        label_70 = new QLabel(frame_26);
+        label_70->setObjectName("label_70");
+        label_70->setGeometry(QRect(60, 160, 191, 21));
+        label_70->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_205 = new QLabel(frame_26);
+        label_205->setObjectName("label_205");
+        label_205->setGeometry(QRect(100, 130, 91, 31));
+        label_205->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
 "font: 700 11pt \"Arial\";"));
         searchempdelete = new QPlainTextEdit(RemoveEmployee);
         searchempdelete->setObjectName("searchempdelete");
-        searchempdelete->setGeometry(QRect(450, 60, 381, 31));
+        searchempdelete->setGeometry(QRect(490, 60, 331, 31));
         searchempdelete->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
@@ -1991,37 +2266,92 @@ public:
         homebutton_17 = new QPushButton(frame_27);
         homebutton_17->setObjectName("homebutton_17");
         homebutton_17->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_17->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_17->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_4 = new QPushButton(frame_27);
         homebutton_4->setObjectName("homebutton_4");
         homebutton_4->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_4->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_4->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         delempbut = new QPushButton(RemoveEmployee);
         delempbut->setObjectName("delempbut");
         delempbut->setGeometry(QRect(600, 610, 141, 51));
-        delempbut->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color: rgb(255, 37, 70);\n"
+        delempbut->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light red */\n"
+"  background-color: rgba(210, 82, 88, 255);\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
 "\n"
-"color:white;\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */\n"
+"}\n"
 "\n"
-"font: 10pt \"Tahoma\";"));
+"QPushButton:pressed {\n"
+"  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */\n"
+"}"));
         label_78 = new QLabel(RemoveEmployee);
         label_78->setObjectName("label_78");
-        label_78->setGeometry(QRect(300, 60, 131, 31));
+        label_78->setGeometry(QRect(300, 60, 191, 31));
         label_78->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
 "\n"
 "font: italic 13pt \"Times New Roman\";\n"
 "text-decoration: underline;"));
         pushButton_24 = new QPushButton(RemoveEmployee);
         pushButton_24->setObjectName("pushButton_24");
-        pushButton_24->setGeometry(QRect(850, 60, 91, 31));
-        pushButton_24->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_24->setGeometry(QRect(840, 60, 91, 31));
+        pushButton_24->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         deletemptable = new QTableView(RemoveEmployee);
         deletemptable->setObjectName("deletemptable");
         deletemptable->setGeometry(QRect(300, 110, 741, 491));
@@ -2066,9 +2396,23 @@ public:
         pushButton_54 = new QPushButton(RemoveEmployee);
         pushButton_54->setObjectName("pushButton_54");
         pushButton_54->setGeometry(QRect(960, 60, 83, 31));
-        pushButton_54->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_54->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         stackedWidget->addWidget(RemoveEmployee);
         DisplayEmployee = new QWidget();
         DisplayEmployee->setObjectName("DisplayEmployee");
@@ -2083,19 +2427,19 @@ public:
         label_27->setGeometry(QRect(10, 10, 261, 151));
         label_27->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_27->setScaledContents(true);
-        label_29 = new QLabel(frame_12);
-        label_29->setObjectName("label_29");
-        label_29->setGeometry(QRect(50, 180, 201, 21));
-        label_29->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_30 = new QLabel(frame_12);
         label_30->setObjectName("label_30");
         label_30->setGeometry(QRect(90, 640, 121, 31));
         label_30->setStyleSheet(QString::fromUtf8("color:white;"));
-        label_189 = new QLabel(frame_12);
-        label_189->setObjectName("label_189");
-        label_189->setGeometry(QRect(90, 140, 111, 31));
-        label_189->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+        label_71 = new QLabel(frame_12);
+        label_71->setObjectName("label_71");
+        label_71->setGeometry(QRect(60, 160, 191, 21));
+        label_71->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_206 = new QLabel(frame_12);
+        label_206->setObjectName("label_206");
+        label_206->setGeometry(QRect(100, 130, 91, 31));
+        label_206->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
 "font: 700 11pt \"Arial\";"));
         frame_13 = new QFrame(DisplayEmployee);
         frame_13->setObjectName("frame_13");
@@ -2106,42 +2450,79 @@ public:
         homebutton_5 = new QPushButton(frame_13);
         homebutton_5->setObjectName("homebutton_5");
         homebutton_5->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_5->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_5->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_18 = new QPushButton(frame_13);
         homebutton_18->setObjectName("homebutton_18");
         homebutton_18->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_18->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
-        label_133 = new QLabel(DisplayEmployee);
-        label_133->setObjectName("label_133");
-        label_133->setGeometry(QRect(320, 60, 221, 31));
-        label_133->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
+        homebutton_18->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
+        label_134 = new QLabel(DisplayEmployee);
+        label_134->setObjectName("label_134");
+        label_134->setGeometry(QRect(300, 70, 181, 20));
+        label_134->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
 "\n"
 "font: italic 13pt \"Times New Roman\";\n"
 "text-decoration: underline;"));
-        label_134 = new QLabel(DisplayEmployee);
-        label_134->setObjectName("label_134");
-        label_134->setGeometry(QRect(320, 110, 101, 20));
-        label_134->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
         pushButton_39 = new QPushButton(DisplayEmployee);
         pushButton_39->setObjectName("pushButton_39");
-        pushButton_39->setGeometry(QRect(820, 110, 101, 31));
-        pushButton_39->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color:rgba(0,92,73,255);\n"
-"font: 10pt \"Tahoma\";"));
+        pushButton_39->setGeometry(QRect(830, 60, 101, 31));
+        pushButton_39->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         disemp = new QPlainTextEdit(DisplayEmployee);
         disemp->setObjectName("disemp");
-        disemp->setGeometry(QRect(450, 110, 351, 31));
+        disemp->setGeometry(QRect(480, 60, 321, 31));
         disemp->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
         searchemptable = new QTableView(DisplayEmployee);
         searchemptable->setObjectName("searchemptable");
-        searchemptable->setGeometry(QRect(320, 170, 711, 481));
+        searchemptable->setGeometry(QRect(300, 120, 741, 531));
         searchemptable->setStyleSheet(QString::fromUtf8("QTableView {\n"
 "    font: 11pt \"Arial\";\n"
 "    background-color: #2f2f2f; /* dark gray */\n"
@@ -2182,10 +2563,24 @@ public:
 ""));
         searchresetemp = new QPushButton(DisplayEmployee);
         searchresetemp->setObjectName("searchresetemp");
-        searchresetemp->setGeometry(QRect(940, 110, 91, 31));
-        searchresetemp->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color:rgba(0,92,73,255);\n"
-"font: 10pt \"Tahoma\";"));
+        searchresetemp->setGeometry(QRect(950, 60, 91, 31));
+        searchresetemp->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         stackedWidget->addWidget(DisplayEmployee);
         ProjectView = new QWidget();
         ProjectView->setObjectName("ProjectView");
@@ -2200,11 +2595,6 @@ public:
         label_137->setGeometry(QRect(10, 10, 261, 151));
         label_137->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_137->setScaledContents(true);
-        label_145 = new QLabel(frame_51);
-        label_145->setObjectName("label_145");
-        label_145->setGeometry(QRect(50, 180, 201, 21));
-        label_145->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_155 = new QLabel(frame_51);
         label_155->setObjectName("label_155");
         label_155->setGeometry(QRect(90, 640, 121, 31));
@@ -2217,9 +2607,9 @@ public:
 "    /* Light Blue */\n"
 "\n"
 "	background-color: rgb(36, 36, 36);\n"
-"  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -2246,7 +2636,8 @@ public:
 "	background-color: rgb(36, 36, 36);\n"
 "  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -2271,9 +2662,9 @@ public:
 "    /* Light Blue */\n"
 "\n"
 "	background-color: rgb(36, 36, 36);\n"
-"  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -2300,7 +2691,8 @@ public:
 "	background-color: rgb(65, 79, 72);\n"
 "  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -2308,6 +2700,39 @@ public:
 "    font-weight: bold;\n"
 "}\n"
 ""));
+        label_29 = new QLabel(frame_51);
+        label_29->setObjectName("label_29");
+        label_29->setGeometry(QRect(70, 160, 161, 21));
+        label_29->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_207 = new QLabel(frame_51);
+        label_207->setObjectName("label_207");
+        label_207->setGeometry(QRect(110, 130, 91, 31));
+        label_207->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
+        label_152 = new QLabel(frame_51);
+        label_152->setObjectName("label_152");
+        label_152->setGeometry(QRect(30, 250, 51, 41));
+        label_152->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_152->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/department.png")));
+        label_152->setScaledContents(true);
+        label_150 = new QLabel(frame_51);
+        label_150->setObjectName("label_150");
+        label_150->setGeometry(QRect(30, 300, 51, 51));
+        label_150->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_150->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Team.png")));
+        label_150->setScaledContents(true);
+        label_146 = new QLabel(frame_51);
+        label_146->setObjectName("label_146");
+        label_146->setGeometry(QRect(30, 430, 51, 31));
+        label_146->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_146->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Project.png")));
+        label_149 = new QLabel(frame_51);
+        label_149->setObjectName("label_149");
+        label_149->setGeometry(QRect(30, 370, 51, 41));
+        label_149->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_149->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Employee.png")));
+        label_149->setScaledContents(true);
         frame_52 = new QFrame(ProjectView);
         frame_52->setObjectName("frame_52");
         frame_52->setGeometry(QRect(280, 0, 781, 41));
@@ -2316,10 +2741,24 @@ public:
         frame_52->setFrameShadow(QFrame::Raised);
         homebutton_20 = new QPushButton(frame_52);
         homebutton_20->setObjectName("homebutton_20");
-        homebutton_20->setGeometry(QRect(660, 0, 121, 41));
-        homebutton_20->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_20->setGeometry(QRect(0, 0, 121, 41));
+        homebutton_20->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         label_165 = new QLabel(ProjectView);
         label_165->setObjectName("label_165");
         label_165->setGeometry(QRect(300, 50, 161, 31));
@@ -2487,11 +2926,6 @@ public:
         label_194->setGeometry(QRect(10, 10, 261, 151));
         label_194->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_194->setScaledContents(true);
-        label_195 = new QLabel(frame_54);
-        label_195->setObjectName("label_195");
-        label_195->setGeometry(QRect(50, 180, 201, 21));
-        label_195->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_196 = new QLabel(frame_54);
         label_196->setObjectName("label_196");
         label_196->setGeometry(QRect(90, 640, 121, 31));
@@ -2504,9 +2938,9 @@ public:
 "    /* Light Blue */\n"
 "\n"
 "	background-color: rgb(65, 79, 72);\n"
-"  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -2524,7 +2958,8 @@ public:
 "	background-color: rgb(36, 36, 36);\n"
 "  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -2551,7 +2986,8 @@ public:
 "	background-color: rgb(36, 36, 36);\n"
 "  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -2576,9 +3012,9 @@ public:
 "    /* Light Blue */\n"
 "\n"
 "	background-color: rgb(36, 36, 36);\n"
-"  /* Light gray text color */\n"
 "color: rgb(255, 255, 255);\n"
-"font: 11pt \"Arial\";\n"
+"color:white;\n"
+"font: 700 13pt \"Arial\";\n"
 "    border-radius: 18px;\n"
 "border:1px solid black;\n"
 "    padding: 5px;\n"
@@ -2595,6 +3031,40 @@ public:
 "   \n"
 "	background-color: rgb(65, 79, 72);\n"
 "}"));
+        label_86 = new QLabel(frame_54);
+        label_86->setObjectName("label_86");
+        label_86->setGeometry(QRect(70, 160, 161, 21));
+        label_86->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_208 = new QLabel(frame_54);
+        label_208->setObjectName("label_208");
+        label_208->setGeometry(QRect(110, 130, 101, 31));
+        label_208->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
+        label_172 = new QLabel(frame_54);
+        label_172->setObjectName("label_172");
+        label_172->setGeometry(QRect(30, 250, 51, 41));
+        label_172->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_172->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/department.png")));
+        label_172->setScaledContents(true);
+        label_161 = new QLabel(frame_54);
+        label_161->setObjectName("label_161");
+        label_161->setGeometry(QRect(30, 370, 51, 41));
+        label_161->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_161->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Employee.png")));
+        label_161->setScaledContents(true);
+        label_166 = new QLabel(frame_54);
+        label_166->setObjectName("label_166");
+        label_166->setGeometry(QRect(30, 300, 61, 61));
+        label_166->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_166->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Team.png")));
+        label_166->setScaledContents(true);
+        label_156 = new QLabel(frame_54);
+        label_156->setObjectName("label_156");
+        label_156->setGeometry(QRect(30, 430, 51, 41));
+        label_156->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_156->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Project.png")));
+        label_156->setScaledContents(true);
         label_178 = new QLabel(TeamView);
         label_178->setObjectName("label_178");
         label_178->setGeometry(QRect(300, 50, 81, 31));
@@ -2607,10 +3077,24 @@ public:
         frame_53->setFrameShadow(QFrame::Raised);
         homebutton_21 = new QPushButton(frame_53);
         homebutton_21->setObjectName("homebutton_21");
-        homebutton_21->setGeometry(QRect(660, 0, 121, 41));
-        homebutton_21->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_21->setGeometry(QRect(0, 0, 121, 41));
+        homebutton_21->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         pushButton_28 = new QPushButton(TeamView);
         pushButton_28->setObjectName("pushButton_28");
         pushButton_28->setGeometry(QRect(300, 610, 181, 61));
@@ -2720,16 +3204,6 @@ public:
         label_31->setGeometry(QRect(10, 10, 261, 151));
         label_31->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_31->setScaledContents(true);
-        label_32 = new QLabel(frame_14);
-        label_32->setObjectName("label_32");
-        label_32->setGeometry(QRect(90, 150, 111, 31));
-        label_32->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
-"font: 700 11pt \"Arial\";"));
-        label_33 = new QLabel(frame_14);
-        label_33->setObjectName("label_33");
-        label_33->setGeometry(QRect(50, 180, 201, 21));
-        label_33->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_34 = new QLabel(frame_14);
         label_34->setObjectName("label_34");
         label_34->setGeometry(QRect(90, 640, 121, 31));
@@ -2869,6 +3343,46 @@ public:
 "   \n"
 "	background-color: rgb(65, 79, 72);\n"
 "}"));
+        label_195 = new QLabel(frame_14);
+        label_195->setObjectName("label_195");
+        label_195->setGeometry(QRect(110, 130, 101, 31));
+        label_195->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
+        label_87 = new QLabel(frame_14);
+        label_87->setObjectName("label_87");
+        label_87->setGeometry(QRect(70, 160, 161, 21));
+        label_87->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_189 = new QLabel(frame_14);
+        label_189->setObjectName("label_189");
+        label_189->setGeometry(QRect(10, 250, 51, 41));
+        label_189->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_189->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Employee.png")));
+        label_189->setScaledContents(true);
+        label_179 = new QLabel(frame_14);
+        label_179->setObjectName("label_179");
+        label_179->setGeometry(QRect(20, 310, 41, 41));
+        label_179->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_179->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Project.png")));
+        label_179->setScaledContents(true);
+        label_173 = new QLabel(frame_14);
+        label_173->setObjectName("label_173");
+        label_173->setGeometry(QRect(10, 430, 51, 41));
+        label_173->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_173->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Team.png")));
+        label_173->setScaledContents(true);
+        label_175 = new QLabel(frame_14);
+        label_175->setObjectName("label_175");
+        label_175->setGeometry(QRect(10, 370, 51, 41));
+        label_175->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_175->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Employee.png")));
+        label_175->setScaledContents(true);
+        label_191 = new QLabel(frame_14);
+        label_191->setObjectName("label_191");
+        label_191->setGeometry(QRect(10, 490, 51, 41));
+        label_191->setStyleSheet(QString::fromUtf8("background-color:none;"));
+        label_191->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/Tech.png")));
+        label_191->setScaledContents(true);
         frame_15 = new QFrame(Manager);
         frame_15->setObjectName("frame_15");
         frame_15->setGeometry(QRect(280, 0, 781, 41));
@@ -2884,12 +3398,18 @@ public:
         frame_16->setFrameShadow(QFrame::Raised);
         label_39 = new QLabel(frame_16);
         label_39->setObjectName("label_39");
-        label_39->setGeometry(QRect(80, 50, 151, 31));
+        label_39->setGeometry(QRect(70, 20, 171, 31));
         label_39->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_40 = new QLabel(frame_16);
         label_40->setObjectName("label_40");
-        label_40->setGeometry(QRect(130, 90, 41, 41));
+        label_40->setGeometry(QRect(130, 70, 51, 41));
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Arial")});
+        font.setPointSize(12);
+        font.setBold(true);
+        font.setItalic(false);
+        label_40->setFont(font);
         label_40->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "font: 700 12pt \"Arial\";"));
         frame_18 = new QFrame(Manager);
@@ -2901,23 +3421,39 @@ public:
         frame_18->setFrameShadow(QFrame::Raised);
         label_43 = new QLabel(frame_18);
         label_43->setObjectName("label_43");
-        label_43->setGeometry(QRect(80, 50, 171, 31));
+        label_43->setGeometry(QRect(80, 20, 161, 31));
         label_43->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_44 = new QLabel(frame_18);
         label_44->setObjectName("label_44");
-        label_44->setGeometry(QRect(140, 90, 41, 41));
+        label_44->setGeometry(QRect(140, 70, 41, 41));
         label_44->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "font: 700 12pt \"Arial\";"));
         pushButton_79 = new QPushButton(Manager);
         pushButton_79->setObjectName("pushButton_79");
         pushButton_79->setGeometry(QRect(902, 60, 121, 41));
-        pushButton_79->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(210,82,88,255);\n"
-"color:white;"));
+        pushButton_79->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light red */\n"
+"  background-color: rgba(210, 82, 88, 255);\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */\n"
+"}"));
         label_377 = new QLabel(Manager);
         label_377->setObjectName("label_377");
-        label_377->setGeometry(QRect(320, 50, 151, 31));
+        label_377->setGeometry(QRect(300, 50, 151, 31));
         label_377->setStyleSheet(QString::fromUtf8("color:white;"));
         frame_44 = new QFrame(Manager);
         frame_44->setObjectName("frame_44");
@@ -2928,14 +3464,14 @@ public:
         frame_44->setFrameShadow(QFrame::Raised);
         label_183 = new QLabel(frame_44);
         label_183->setObjectName("label_183");
-        label_183->setGeometry(QRect(80, 40, 181, 31));
+        label_183->setGeometry(QRect(60, 20, 181, 31));
         label_183->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_183->setScaledContents(true);
         label_183->setWordWrap(false);
         label_184 = new QLabel(frame_44);
         label_184->setObjectName("label_184");
-        label_184->setGeometry(QRect(140, 80, 41, 41));
+        label_184->setGeometry(QRect(140, 70, 41, 41));
         label_184->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "font: 700 12pt \"Arial\";"));
         frame_45 = new QFrame(Manager);
@@ -2947,24 +3483,24 @@ public:
         frame_45->setFrameShadow(QFrame::Raised);
         label_185 = new QLabel(frame_45);
         label_185->setObjectName("label_185");
-        label_185->setGeometry(QRect(50, 40, 231, 41));
+        label_185->setGeometry(QRect(40, 10, 241, 41));
         label_185->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_186 = new QLabel(frame_45);
         label_186->setObjectName("label_186");
-        label_186->setGeometry(QRect(130, 80, 41, 41));
+        label_186->setGeometry(QRect(130, 70, 41, 41));
         label_186->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "font: 700 12pt \"Arial\";"));
         frame_46 = new QFrame(Manager);
         frame_46->setObjectName("frame_46");
-        frame_46->setGeometry(QRect(530, 500, 311, 151));
+        frame_46->setGeometry(QRect(520, 500, 311, 151));
         frame_46->setStyleSheet(QString::fromUtf8("border-radius:22px;\n"
 "background-color: rgb(164, 168, 189);"));
         frame_46->setFrameShape(QFrame::StyledPanel);
         frame_46->setFrameShadow(QFrame::Raised);
         label_187 = new QLabel(frame_46);
         label_187->setObjectName("label_187");
-        label_187->setGeometry(QRect(10, 30, 301, 41));
+        label_187->setGeometry(QRect(60, 20, 181, 41));
         label_187->setStyleSheet(QString::fromUtf8("font: 12pt \"Arial\";\n"
 "color:white;"));
         label_188 = new QLabel(frame_46);
@@ -2986,15 +3522,20 @@ public:
         label_41->setGeometry(QRect(10, 10, 261, 151));
         label_41->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_41->setScaledContents(true);
-        label_45 = new QLabel(frame_19);
-        label_45->setObjectName("label_45");
-        label_45->setGeometry(QRect(50, 180, 201, 21));
-        label_45->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_46 = new QLabel(frame_19);
         label_46->setObjectName("label_46");
         label_46->setGeometry(QRect(90, 640, 121, 31));
         label_46->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_32 = new QLabel(frame_19);
+        label_32->setObjectName("label_32");
+        label_32->setGeometry(QRect(70, 160, 201, 21));
+        label_32->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_209 = new QLabel(frame_19);
+        label_209->setObjectName("label_209");
+        label_209->setGeometry(QRect(110, 130, 91, 31));
+        label_209->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         frame_17 = new QFrame(InsertProject);
         frame_17->setObjectName("frame_17");
         frame_17->setGeometry(QRect(280, 0, 781, 41));
@@ -3004,19 +3545,49 @@ public:
         homebutton_6 = new QPushButton(frame_17);
         homebutton_6->setObjectName("homebutton_6");
         homebutton_6->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_6->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_6->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_19 = new QPushButton(frame_17);
         homebutton_19->setObjectName("homebutton_19");
         homebutton_19->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_19->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
-        label_91 = new QLabel(InsertProject);
-        label_91->setObjectName("label_91");
-        label_91->setGeometry(QRect(290, 50, 121, 20));
-        label_91->setStyleSheet(QString::fromUtf8("color:white;"));
+        homebutton_19->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         label_96 = new QLabel(InsertProject);
         label_96->setObjectName("label_96");
         label_96->setGeometry(QRect(320, 80, 191, 31));
@@ -3033,12 +3604,25 @@ public:
         Projclear = new QPushButton(InsertProject);
         Projclear->setObjectName("Projclear");
         Projclear->setGeometry(QRect(760, 630, 121, 31));
-        Projclear->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color: rgb(255, 37, 70);\n"
+        Projclear->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light red */\n"
+"  background-color: rgba(210, 82, 88, 255);\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
 "\n"
-"color:white;\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(156, 43, 54, 255); /* #9c2b36 - Darker red on hover */\n"
+"}\n"
 "\n"
-"font: 10pt \"Tahoma\";"));
+"QPushButton:pressed {\n"
+"  background-color: rgba(209, 57, 73, 255); /* #d13949 - Even darker red on press */\n"
+"}"));
         label_99 = new QLabel(InsertProject);
         label_99->setObjectName("label_99");
         label_99->setGeometry(QRect(320, 370, 101, 20));
@@ -3047,9 +3631,25 @@ public:
         ProjSubmit = new QPushButton(InsertProject);
         ProjSubmit->setObjectName("ProjSubmit");
         ProjSubmit->setGeometry(QRect(912, 630, 121, 31));
-        ProjSubmit->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color:rgba(0,92,73,255);\n"
-"font: 10pt \"Tahoma\";"));
+        ProjSubmit->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         clientid = new QPlainTextEdit(InsertProject);
         clientid->setObjectName("clientid");
         clientid->setGeometry(QRect(580, 410, 201, 31));
@@ -3160,19 +3760,20 @@ public:
         label_107->setGeometry(QRect(10, 10, 261, 151));
         label_107->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_107->setScaledContents(true);
-        label_109 = new QLabel(frame_29);
-        label_109->setObjectName("label_109");
-        label_109->setGeometry(QRect(50, 180, 201, 21));
-        label_109->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_110 = new QLabel(frame_29);
         label_110->setObjectName("label_110");
         label_110->setGeometry(QRect(90, 640, 121, 31));
         label_110->setStyleSheet(QString::fromUtf8("color:white;"));
-        label_105 = new QLabel(UpdateProject);
-        label_105->setObjectName("label_105");
-        label_105->setGeometry(QRect(300, 50, 121, 20));
-        label_105->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_33 = new QLabel(frame_29);
+        label_33->setObjectName("label_33");
+        label_33->setGeometry(QRect(70, 160, 201, 21));
+        label_33->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_210 = new QLabel(frame_29);
+        label_210->setObjectName("label_210");
+        label_210->setGeometry(QRect(110, 130, 91, 31));
+        label_210->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         homebutton_7 = new QPushButton(UpdateProject);
         homebutton_7->setObjectName("homebutton_7");
         homebutton_7->setGeometry(QRect(870, 10, 151, 21));
@@ -3188,15 +3789,10 @@ public:
 "text-decoration: underline;"));
         upprojid = new QPlainTextEdit(UpdateProject);
         upprojid->setObjectName("upprojid");
-        upprojid->setGeometry(QRect(380, 110, 381, 31));
+        upprojid->setGeometry(QRect(490, 70, 271, 31));
         upprojid->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
-        label_118 = new QLabel(UpdateProject);
-        label_118->setObjectName("label_118");
-        label_118->setGeometry(QRect(290, 110, 91, 20));
-        label_118->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
         frame_28 = new QFrame(UpdateProject);
         frame_28->setObjectName("frame_28");
         frame_28->setGeometry(QRect(280, 0, 781, 41));
@@ -3206,24 +3802,75 @@ public:
         homebutton_8 = new QPushButton(frame_28);
         homebutton_8->setObjectName("homebutton_8");
         homebutton_8->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_8->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_8->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_22 = new QPushButton(frame_28);
         homebutton_22->setObjectName("homebutton_22");
         homebutton_22->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_22->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_22->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         pushButton_34 = new QPushButton(UpdateProject);
         pushButton_34->setObjectName("pushButton_34");
-        pushButton_34->setGeometry(QRect(770, 110, 121, 31));
-        pushButton_34->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_34->setGeometry(QRect(780, 70, 121, 31));
+        pushButton_34->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         updatetableproject = new QTableView(UpdateProject);
         updatetableproject->setObjectName("updatetableproject");
-        updatetableproject->setGeometry(QRect(290, 160, 761, 501));
+        updatetableproject->setGeometry(QRect(290, 130, 761, 531));
         updatetableproject->setStyleSheet(QString::fromUtf8("QTableView {\n"
 "    font: 11pt \"Arial\";\n"
 "    background-color: #2f2f2f; /* dark gray */\n"
@@ -3264,10 +3911,27 @@ public:
 ""));
         pushButton_27 = new QPushButton(UpdateProject);
         pushButton_27->setObjectName("pushButton_27");
-        pushButton_27->setGeometry(QRect(910, 110, 121, 31));
-        pushButton_27->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_27->setGeometry(QRect(920, 70, 121, 31));
+        pushButton_27->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         stackedWidget->addWidget(UpdateProject);
         RemoveProject = new QWidget();
         RemoveProject->setObjectName("RemoveProject");
@@ -3279,44 +3943,103 @@ public:
         frame_31->setFrameShadow(QFrame::Raised);
         homebutton_9 = new QPushButton(frame_31);
         homebutton_9->setObjectName("homebutton_9");
-        homebutton_9->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_9->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_9->setGeometry(QRect(660, 0, 121, 41));
+        homebutton_9->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_23 = new QPushButton(frame_31);
         homebutton_23->setObjectName("homebutton_23");
         homebutton_23->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_23->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_23->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         label_124 = new QLabel(RemoveProject);
         label_124->setObjectName("label_124");
-        label_124->setGeometry(QRect(290, 60, 221, 31));
+        label_124->setGeometry(QRect(290, 70, 221, 31));
         label_124->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
 "\n"
 "font: italic 13pt \"Times New Roman\";\n"
 "text-decoration: underline;"));
-        label_125 = new QLabel(RemoveProject);
-        label_125->setObjectName("label_125");
-        label_125->setGeometry(QRect(290, 100, 101, 20));
-        label_125->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
         pushButton_35 = new QPushButton(RemoveProject);
         pushButton_35->setObjectName("pushButton_35");
-        pushButton_35->setGeometry(QRect(590, 630, 151, 31));
-        pushButton_35->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color:rgba(0,92,73,255);\n"
-"font: 10pt \"Tahoma\";"));
-        label_123 = new QLabel(RemoveProject);
-        label_123->setObjectName("label_123");
-        label_123->setGeometry(QRect(600, 50, 121, 20));
-        label_123->setStyleSheet(QString::fromUtf8("color:white;"));
+        pushButton_35->setGeometry(QRect(590, 630, 171, 31));
+        pushButton_35->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         pushButton_36 = new QPushButton(RemoveProject);
         pushButton_36->setObjectName("pushButton_36");
-        pushButton_36->setGeometry(QRect(780, 100, 121, 31));
-        pushButton_36->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color:rgba(0,92,73,255);\n"
-"font: 10pt \"Tahoma\";"));
+        pushButton_36->setGeometry(QRect(830, 70, 91, 31));
+        pushButton_36->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         frame_30 = new QFrame(RemoveProject);
         frame_30->setObjectName("frame_30");
         frame_30->setGeometry(QRect(0, 0, 281, 681));
@@ -3328,30 +4051,52 @@ public:
         label_119->setGeometry(QRect(10, 10, 261, 151));
         label_119->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_119->setScaledContents(true);
-        label_121 = new QLabel(frame_30);
-        label_121->setObjectName("label_121");
-        label_121->setGeometry(QRect(50, 180, 201, 21));
-        label_121->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_122 = new QLabel(frame_30);
         label_122->setObjectName("label_122");
         label_122->setGeometry(QRect(90, 640, 121, 31));
         label_122->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_45 = new QLabel(frame_30);
+        label_45->setObjectName("label_45");
+        label_45->setGeometry(QRect(70, 160, 201, 21));
+        label_45->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_211 = new QLabel(frame_30);
+        label_211->setObjectName("label_211");
+        label_211->setGeometry(QRect(110, 130, 101, 31));
+        label_211->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         removeprojidsearch = new QPlainTextEdit(RemoveProject);
         removeprojidsearch->setObjectName("removeprojidsearch");
-        removeprojidsearch->setGeometry(QRect(380, 100, 381, 31));
+        removeprojidsearch->setGeometry(QRect(480, 70, 341, 31));
         removeprojidsearch->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
         pushButton_58 = new QPushButton(RemoveProject);
         pushButton_58->setObjectName("pushButton_58");
-        pushButton_58->setGeometry(QRect(920, 100, 121, 29));
-        pushButton_58->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color:rgba(0,92,73,255);\n"
-"font: 10pt \"Tahoma\";"));
+        pushButton_58->setGeometry(QRect(940, 70, 101, 29));
+        pushButton_58->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         removeproject = new QTableView(RemoveProject);
         removeproject->setObjectName("removeproject");
-        removeproject->setGeometry(QRect(300, 150, 741, 451));
+        removeproject->setGeometry(QRect(300, 130, 741, 471));
         removeproject->setStyleSheet(QString::fromUtf8("QTableView {\n"
 "    font: 11pt \"Arial\";\n"
 "    background-color: #2f2f2f; /* dark gray */\n"
@@ -3404,15 +4149,20 @@ public:
         label_127->setGeometry(QRect(10, 10, 261, 151));
         label_127->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_127->setScaledContents(true);
-        label_129 = new QLabel(frame_33);
-        label_129->setObjectName("label_129");
-        label_129->setGeometry(QRect(50, 180, 201, 21));
-        label_129->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_130 = new QLabel(frame_33);
         label_130->setObjectName("label_130");
         label_130->setGeometry(QRect(90, 640, 121, 31));
         label_130->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_89 = new QLabel(frame_33);
+        label_89->setObjectName("label_89");
+        label_89->setGeometry(QRect(70, 160, 191, 21));
+        label_89->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_212 = new QLabel(frame_33);
+        label_212->setObjectName("label_212");
+        label_212->setGeometry(QRect(110, 130, 101, 31));
+        label_212->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         frame_32 = new QFrame(DisplayProject);
         frame_32->setObjectName("frame_32");
         frame_32->setGeometry(QRect(280, 0, 781, 41));
@@ -3422,52 +4172,105 @@ public:
         homebutton_10 = new QPushButton(frame_32);
         homebutton_10->setObjectName("homebutton_10");
         homebutton_10->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_10->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_10->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_24 = new QPushButton(frame_32);
         homebutton_24->setObjectName("homebutton_24");
         homebutton_24->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_24->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
-        label_126 = new QLabel(DisplayProject);
-        label_126->setObjectName("label_126");
-        label_126->setGeometry(QRect(580, 50, 121, 20));
-        label_126->setStyleSheet(QString::fromUtf8("color:white;"));
+        homebutton_24->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         projectid = new QPlainTextEdit(DisplayProject);
         projectid->setObjectName("projectid");
-        projectid->setGeometry(QRect(400, 100, 401, 31));
+        projectid->setGeometry(QRect(490, 70, 311, 31));
         projectid->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
-        label_132 = new QLabel(DisplayProject);
-        label_132->setObjectName("label_132");
-        label_132->setGeometry(QRect(310, 100, 81, 20));
-        label_132->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
         pushButton_38 = new QPushButton(DisplayProject);
         pushButton_38->setObjectName("pushButton_38");
-        pushButton_38->setGeometry(QRect(830, 100, 101, 31));
-        pushButton_38->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_38->setGeometry(QRect(820, 70, 101, 31));
+        pushButton_38->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"  border: 1px solid black;\n"
+"  padding: 5px;\n"
+"  font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         label_131 = new QLabel(DisplayProject);
         label_131->setObjectName("label_131");
-        label_131->setGeometry(QRect(310, 50, 221, 31));
+        label_131->setGeometry(QRect(300, 70, 191, 31));
         label_131->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
 "\n"
 "font: italic 13pt \"Times New Roman\";\n"
 "text-decoration: underline;"));
         pushButton_59 = new QPushButton(DisplayProject);
         pushButton_59->setObjectName("pushButton_59");
-        pushButton_59->setGeometry(QRect(940, 100, 91, 29));
-        pushButton_59->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_59->setGeometry(QRect(940, 70, 91, 29));
+        pushButton_59->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         searchprojecttable = new QTableView(DisplayProject);
         searchprojecttable->setObjectName("searchprojecttable");
-        searchprojecttable->setGeometry(QRect(310, 150, 721, 501));
+        searchprojecttable->setGeometry(QRect(300, 130, 741, 521));
         searchprojecttable->setStyleSheet(QString::fromUtf8("QTableView {\n"
 "    font: 11pt \"Arial\";\n"
 "    background-color: #2f2f2f; /* dark gray */\n"
@@ -3518,15 +4321,43 @@ public:
         homebutton_11 = new QPushButton(frame_34);
         homebutton_11->setObjectName("homebutton_11");
         homebutton_11->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_11->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_11->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_25 = new QPushButton(frame_34);
         homebutton_25->setObjectName("homebutton_25");
-        homebutton_25->setGeometry(QRect(530, 0, 121, 41));
-        homebutton_25->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_25->setGeometry(QRect(0, 0, 121, 41));
+        homebutton_25->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         frame_35 = new QFrame(InserDepartment);
         frame_35->setObjectName("frame_35");
         frame_35->setGeometry(QRect(0, 0, 281, 681));
@@ -3538,74 +4369,211 @@ public:
         label_136->setGeometry(QRect(10, 10, 261, 151));
         label_136->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_136->setScaledContents(true);
-        label_138 = new QLabel(frame_35);
-        label_138->setObjectName("label_138");
-        label_138->setGeometry(QRect(50, 180, 201, 21));
-        label_138->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_139 = new QLabel(frame_35);
         label_139->setObjectName("label_139");
         label_139->setGeometry(QRect(90, 640, 121, 31));
         label_139->setStyleSheet(QString::fromUtf8("color:white;"));
-        label_135 = new QLabel(InserDepartment);
-        label_135->setObjectName("label_135");
-        label_135->setGeometry(QRect(290, 60, 141, 20));
-        label_135->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_90 = new QLabel(frame_35);
+        label_90->setObjectName("label_90");
+        label_90->setGeometry(QRect(70, 160, 201, 21));
+        label_90->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_213 = new QLabel(frame_35);
+        label_213->setObjectName("label_213");
+        label_213->setGeometry(QRect(110, 130, 91, 31));
+        label_213->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         label_140 = new QLabel(InserDepartment);
         label_140->setObjectName("label_140");
-        label_140->setGeometry(QRect(300, 150, 191, 31));
+        label_140->setGeometry(QRect(300, 70, 221, 31));
         label_140->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
 "\n"
 "font: italic 13pt \"Times New Roman\";\n"
 "text-decoration: underline;"));
-        Deptclear_2 = new QPushButton(InserDepartment);
-        Deptclear_2->setObjectName("Deptclear_2");
-        Deptclear_2->setGeometry(QRect(468, 330, 171, 41));
-        Deptclear_2->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color: rgb(255, 37, 70);\n"
+        searupsal = new QLineEdit(InserDepartment);
+        searupsal->setObjectName("searupsal");
+        searupsal->setGeometry(QRect(530, 70, 281, 28));
+        searupsal->setStyleSheet(QString::fromUtf8("color:black;\n"
+"background-color: rgba(255,255,255,255);\n"
+""));
+        pushButton_63 = new QPushButton(InserDepartment);
+        pushButton_63->setObjectName("pushButton_63");
+        pushButton_63->setGeometry(QRect(830, 70, 91, 29));
+        pushButton_63->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
 "\n"
-"color:white;\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
 "\n"
-"font: 10pt \"Tahoma\";"));
-        DeptSubmit_2 = new QPushButton(InserDepartment);
-        DeptSubmit_2->setObjectName("DeptSubmit_2");
-        DeptSubmit_2->setGeometry(QRect(670, 330, 171, 41));
-        DeptSubmit_2->setStyleSheet(QString::fromUtf8("color:white;\n"
-"background-color:rgba(0,92,73,255);\n"
-"font: 10pt \"Tahoma\";"));
-        label_141 = new QLabel(InserDepartment);
-        label_141->setObjectName("label_141");
-        label_141->setGeometry(QRect(310, 210, 141, 20));
-        label_141->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
-        label_142 = new QLabel(InserDepartment);
-        label_142->setObjectName("label_142");
-        label_142->setGeometry(QRect(560, 210, 201, 20));
-        label_142->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
+        pushButton_64 = new QPushButton(InserDepartment);
+        pushButton_64->setObjectName("pushButton_64");
+        pushButton_64->setGeometry(QRect(932, 70, 101, 29));
+        pushButton_64->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
+        empteamtable = new QTableView(InserDepartment);
+        empteamtable->setObjectName("empteamtable");
+        empteamtable->setGeometry(QRect(300, 160, 231, 501));
+        empteamtable->setStyleSheet(QString::fromUtf8("QTableView {\n"
+"    font: 11pt \"Arial\";\n"
+"    background-color: #2f2f2f; /* dark gray */\n"
+"    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */\n"
+"}\n"
+"\n"
+"QTableView::item {\n"
+"    color: white; /* white text */\n"
+"    background-color: #2f2f2f; /* dark gray */\n"
+"    selection-color: white; /* white text on selection */\n"
+"    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */\n"
+"}\n"
+"\n"
+"/* Common section styling */\n"
+"QHeaderView::section {\n"
+"    font: bold 11pt \"Arial\"; /* Ensure consistent font settings */\n"
+"    border: 1px solid #1b1b1b; /* Optional: to define the border */\n"
+"}\n"
+"\n"
+"/* Horizontal header styling */\n"
+"QHeaderView::section:horizontal {\n"
+"    color: white; /* white text */\n"
+"    background-color: #1b1b1b; /* black background */\n"
+"}\n"
+"\n"
+"/* Vertical header styling */\n"
+"QHeaderView::section:vertical {\n"
+"    color: white; /* white text */\n"
+"    background-color: #3b3b3b; /* different color for vertica"
+                        "l header */\n"
+"}\n"
+"\n"
+"/* Corner button styling */\n"
+"QTableCornerButton::section {\n"
+"    color: white; /* white text */\n"
+"    background-color: #1b1b1b; /* black background */\n"
+"}\n"
+""));
+        empsalarytable = new QTableView(InserDepartment);
+        empsalarytable->setObjectName("empsalarytable");
+        empsalarytable->setGeometry(QRect(550, 160, 231, 501));
+        empsalarytable->setStyleSheet(QString::fromUtf8("QTableView {\n"
+"    font: 11pt \"Arial\";\n"
+"    background-color: #2f2f2f; /* dark gray */\n"
+"    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */\n"
+"}\n"
+"\n"
+"QTableView::item {\n"
+"    color: white; /* white text */\n"
+"    background-color: #2f2f2f; /* dark gray */\n"
+"    selection-color: white; /* white text on selection */\n"
+"    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */\n"
+"}\n"
+"\n"
+"/* Common section styling */\n"
+"QHeaderView::section {\n"
+"    font: bold 11pt \"Arial\"; /* Ensure consistent font settings */\n"
+"    border: 1px solid #1b1b1b; /* Optional: to define the border */\n"
+"}\n"
+"\n"
+"/* Horizontal header styling */\n"
+"QHeaderView::section:horizontal {\n"
+"    color: white; /* white text */\n"
+"    background-color: #1b1b1b; /* black background */\n"
+"}\n"
+"\n"
+"/* Vertical header styling */\n"
+"QHeaderView::section:vertical {\n"
+"    color: white; /* white text */\n"
+"    background-color: #3b3b3b; /* different color for vertica"
+                        "l header */\n"
+"}\n"
+"\n"
+"/* Corner button styling */\n"
+"QTableCornerButton::section {\n"
+"    color: white; /* white text */\n"
+"    background-color: #1b1b1b; /* black background */\n"
+"}\n"
+""));
+        empsupertable = new QTableView(InserDepartment);
+        empsupertable->setObjectName("empsupertable");
+        empsupertable->setGeometry(QRect(810, 160, 231, 501));
+        empsupertable->setStyleSheet(QString::fromUtf8("QTableView {\n"
+"    font: 11pt \"Arial\";\n"
+"    background-color: #2f2f2f; /* dark gray */\n"
+"    alternate-row-color: #3f3f3f; /* slightly lighter dark gray */\n"
+"}\n"
+"\n"
+"QTableView::item {\n"
+"    color: white; /* white text */\n"
+"    background-color: #2f2f2f; /* dark gray */\n"
+"    selection-color: white; /* white text on selection */\n"
+"    selection-background-color: #4f4f4f; /* slightly lighter dark gray on selection */\n"
+"}\n"
+"\n"
+"/* Common section styling */\n"
+"QHeaderView::section {\n"
+"    font: bold 11pt \"Arial\"; /* Ensure consistent font settings */\n"
+"    border: 1px solid #1b1b1b; /* Optional: to define the border */\n"
+"}\n"
+"\n"
+"/* Horizontal header styling */\n"
+"QHeaderView::section:horizontal {\n"
+"    color: white; /* white text */\n"
+"    background-color: #1b1b1b; /* black background */\n"
+"}\n"
+"\n"
+"/* Vertical header styling */\n"
+"QHeaderView::section:vertical {\n"
+"    color: white; /* white text */\n"
+"    background-color: #3b3b3b; /* different color for vertica"
+                        "l header */\n"
+"}\n"
+"\n"
+"/* Corner button styling */\n"
+"QTableCornerButton::section {\n"
+"    color: white; /* white text */\n"
+"    background-color: #1b1b1b; /* black background */\n"
+"}\n"
+""));
         label_66 = new QLabel(InserDepartment);
         label_66->setObjectName("label_66");
-        label_66->setGeometry(QRect(840, 210, 161, 31));
-        label_66->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
-        depttitle = new QLineEdit(InserDepartment);
-        depttitle->setObjectName("depttitle");
-        depttitle->setGeometry(QRect(310, 250, 181, 31));
-        depttitle->setStyleSheet(QString::fromUtf8("color:black;\n"
-"background-color: rgba(255,255,255,255);\n"
-""));
-        totalemp = new QLineEdit(InserDepartment);
-        totalemp->setObjectName("totalemp");
-        totalemp->setGeometry(QRect(840, 250, 201, 31));
-        totalemp->setStyleSheet(QString::fromUtf8("color:black;\n"
-"background-color: rgba(255,255,255,255);\n"
-""));
-        deptmanag = new QLineEdit(InserDepartment);
-        deptmanag->setObjectName("deptmanag");
-        deptmanag->setGeometry(QRect(560, 250, 211, 31));
-        deptmanag->setStyleSheet(QString::fromUtf8("color:black;\n"
-"background-color: rgba(255,255,255,255);\n"
-""));
+        label_66->setGeometry(QRect(360, 130, 111, 20));
+        label_66->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_118 = new QLabel(InserDepartment);
+        label_118->setObjectName("label_118");
+        label_118->setGeometry(QRect(610, 130, 111, 20));
+        label_118->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_125 = new QLabel(InserDepartment);
+        label_125->setObjectName("label_125");
+        label_125->setGeometry(QRect(850, 130, 141, 20));
+        label_125->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
         stackedWidget->addWidget(InserDepartment);
         UpdateDepartment = new QWidget();
         UpdateDepartment->setObjectName("UpdateDepartment");
@@ -3618,15 +4586,43 @@ public:
         homebutton_12 = new QPushButton(frame_36);
         homebutton_12->setObjectName("homebutton_12");
         homebutton_12->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_12->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_12->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_26 = new QPushButton(frame_36);
         homebutton_26->setObjectName("homebutton_26");
         homebutton_26->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_26->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_26->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         frame_37 = new QFrame(UpdateDepartment);
         frame_37->setObjectName("frame_37");
         frame_37->setGeometry(QRect(0, 0, 281, 681));
@@ -3638,15 +4634,20 @@ public:
         label_144->setGeometry(QRect(10, 10, 261, 151));
         label_144->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_144->setScaledContents(true);
-        label_146 = new QLabel(frame_37);
-        label_146->setObjectName("label_146");
-        label_146->setGeometry(QRect(50, 180, 201, 21));
-        label_146->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_147 = new QLabel(frame_37);
         label_147->setObjectName("label_147");
         label_147->setGeometry(QRect(90, 640, 121, 31));
         label_147->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_103 = new QLabel(frame_37);
+        label_103->setObjectName("label_103");
+        label_103->setGeometry(QRect(70, 160, 191, 21));
+        label_103->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_214 = new QLabel(frame_37);
+        label_214->setObjectName("label_214");
+        label_214->setGeometry(QRect(110, 130, 101, 31));
+        label_214->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         label_148 = new QLabel(UpdateDepartment);
         label_148->setObjectName("label_148");
         label_148->setGeometry(QRect(300, 50, 141, 20));
@@ -3667,15 +4668,43 @@ public:
         pushButton_55 = new QPushButton(UpdateDepartment);
         pushButton_55->setObjectName("pushButton_55");
         pushButton_55->setGeometry(QRect(840, 70, 91, 29));
-        pushButton_55->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_55->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         pushButton_56 = new QPushButton(UpdateDepartment);
         pushButton_56->setObjectName("pushButton_56");
         pushButton_56->setGeometry(QRect(950, 70, 91, 29));
-        pushButton_56->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_56->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         departmentupdate = new QTableView(UpdateDepartment);
         departmentupdate->setObjectName("departmentupdate");
         departmentupdate->setGeometry(QRect(300, 130, 731, 531));
@@ -3722,16 +4751,11 @@ public:
         Displaydepartment->setObjectName("Displaydepartment");
         label_159 = new QLabel(Displaydepartment);
         label_159->setObjectName("label_159");
-        label_159->setGeometry(QRect(290, 50, 241, 31));
+        label_159->setGeometry(QRect(300, 70, 241, 31));
         label_159->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
 "\n"
 "font: italic 13pt \"Times New Roman\";\n"
 "text-decoration: underline;"));
-        label_158 = new QLabel(Displaydepartment);
-        label_158->setObjectName("label_158");
-        label_158->setGeometry(QRect(300, 100, 121, 20));
-        label_158->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
         frame_39 = new QFrame(Displaydepartment);
         frame_39->setObjectName("frame_39");
         frame_39->setGeometry(QRect(0, 0, 281, 681));
@@ -3743,21 +4767,40 @@ public:
         label_154->setGeometry(QRect(10, 10, 261, 151));
         label_154->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_154->setScaledContents(true);
-        label_156 = new QLabel(frame_39);
-        label_156->setObjectName("label_156");
-        label_156->setGeometry(QRect(50, 180, 201, 21));
-        label_156->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_157 = new QLabel(frame_39);
         label_157->setObjectName("label_157");
         label_157->setGeometry(QRect(90, 640, 121, 31));
         label_157->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_104 = new QLabel(frame_39);
+        label_104->setObjectName("label_104");
+        label_104->setGeometry(QRect(70, 160, 191, 21));
+        label_104->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_215 = new QLabel(frame_39);
+        label_215->setObjectName("label_215");
+        label_215->setGeometry(QRect(110, 130, 91, 31));
+        label_215->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         searchdepbutton = new QPushButton(Displaydepartment);
         searchdepbutton->setObjectName("searchdepbutton");
-        searchdepbutton->setGeometry(QRect(820, 100, 101, 31));
-        searchdepbutton->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        searchdepbutton->setGeometry(QRect(840, 70, 91, 31));
+        searchdepbutton->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         frame_38 = new QFrame(Displaydepartment);
         frame_38->setObjectName("frame_38");
         frame_38->setGeometry(QRect(280, 0, 781, 41));
@@ -3767,28 +4810,56 @@ public:
         homebutton_13 = new QPushButton(frame_38);
         homebutton_13->setObjectName("homebutton_13");
         homebutton_13->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_13->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_13->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_27 = new QPushButton(frame_38);
         homebutton_27->setObjectName("homebutton_27");
         homebutton_27->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_27->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_27->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         displaydeptid = new QPlainTextEdit(Displaydepartment);
         displaydeptid->setObjectName("displaydeptid");
-        displaydeptid->setGeometry(QRect(430, 100, 371, 31));
+        displaydeptid->setGeometry(QRect(540, 70, 291, 31));
         displaydeptid->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
         label_153 = new QLabel(Displaydepartment);
         label_153->setObjectName("label_153");
-        label_153->setGeometry(QRect(550, 60, 181, 20));
+        label_153->setGeometry(QRect(300, 50, 111, 20));
         label_153->setStyleSheet(QString::fromUtf8("color:white;"));
         searchdepartmenttableview = new QTableView(Displaydepartment);
         searchdepartmenttableview->setObjectName("searchdepartmenttableview");
-        searchdepartmenttableview->setGeometry(QRect(300, 150, 731, 511));
+        searchdepartmenttableview->setGeometry(QRect(300, 120, 741, 541));
         searchdepartmenttableview->setStyleSheet(QString::fromUtf8("QTableView {\n"
 "    font: 11pt \"Arial\";\n"
 "    background-color: #2f2f2f; /* dark gray */\n"
@@ -3829,10 +4900,24 @@ public:
 ""));
         pushButton_57 = new QPushButton(Displaydepartment);
         pushButton_57->setObjectName("pushButton_57");
-        pushButton_57->setGeometry(QRect(940, 100, 91, 31));
-        pushButton_57->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_57->setGeometry(QRect(950, 70, 91, 31));
+        pushButton_57->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         stackedWidget->addWidget(Displaydepartment);
         InsertTeam = new QWidget();
         InsertTeam->setObjectName("InsertTeam");
@@ -3854,7 +4939,7 @@ public:
 ""));
         label_162 = new QLabel(InsertTeam);
         label_162->setObjectName("label_162");
-        label_162->setGeometry(QRect(290, 50, 121, 20));
+        label_162->setGeometry(QRect(300, 50, 121, 20));
         label_162->setStyleSheet(QString::fromUtf8("color:white;"));
         label_169 = new QLabel(InsertTeam);
         label_169->setObjectName("label_169");
@@ -3879,15 +4964,20 @@ public:
         label_164->setGeometry(QRect(10, 10, 261, 151));
         label_164->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_164->setScaledContents(true);
-        label_166 = new QLabel(frame_40);
-        label_166->setObjectName("label_166");
-        label_166->setGeometry(QRect(50, 180, 201, 21));
-        label_166->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_167 = new QLabel(frame_40);
         label_167->setObjectName("label_167");
         label_167->setGeometry(QRect(90, 640, 121, 31));
         label_167->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_108 = new QLabel(frame_40);
+        label_108->setObjectName("label_108");
+        label_108->setGeometry(QRect(70, 160, 191, 21));
+        label_108->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_216 = new QLabel(frame_40);
+        label_216->setObjectName("label_216");
+        label_216->setGeometry(QRect(110, 130, 91, 31));
+        label_216->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         insteamID = new QPlainTextEdit(InsertTeam);
         insteamID->setObjectName("insteamID");
         insteamID->setGeometry(QRect(320, 180, 201, 31));
@@ -3915,9 +5005,23 @@ public:
         homebutton_28 = new QPushButton(frame_41);
         homebutton_28->setObjectName("homebutton_28");
         homebutton_28->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_28->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_28->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         label_171 = new QLabel(InsertTeam);
         label_171->setObjectName("label_171");
         label_171->setGeometry(QRect(320, 260, 141, 20));
@@ -3938,21 +5042,16 @@ public:
         stackedWidget->addWidget(InsertTeam);
         UpdateTeam = new QWidget();
         UpdateTeam->setObjectName("UpdateTeam");
-        label_181 = new QLabel(UpdateTeam);
-        label_181->setObjectName("label_181");
-        label_181->setGeometry(QRect(290, 90, 81, 20));
-        label_181->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
         label_176 = new QLabel(UpdateTeam);
         label_176->setObjectName("label_176");
-        label_176->setGeometry(QRect(280, 50, 191, 31));
+        label_176->setGeometry(QRect(290, 80, 191, 31));
         label_176->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
 "\n"
 "font: italic 13pt \"Times New Roman\";\n"
 "text-decoration: underline;"));
         updateteamid = new QPlainTextEdit(UpdateTeam);
         updateteamid->setObjectName("updateteamid");
-        updateteamid->setGeometry(QRect(370, 90, 421, 31));
+        updateteamid->setGeometry(QRect(490, 80, 301, 31));
         updateteamid->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
@@ -3967,15 +5066,20 @@ public:
         label_177->setGeometry(QRect(10, 10, 261, 151));
         label_177->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_177->setScaledContents(true);
-        label_179 = new QLabel(frame_42);
-        label_179->setObjectName("label_179");
-        label_179->setGeometry(QRect(50, 180, 201, 21));
-        label_179->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_180 = new QLabel(frame_42);
         label_180->setObjectName("label_180");
         label_180->setGeometry(QRect(90, 640, 121, 31));
         label_180->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_109 = new QLabel(frame_42);
+        label_109->setObjectName("label_109");
+        label_109->setGeometry(QRect(70, 160, 191, 21));
+        label_109->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_217 = new QLabel(frame_42);
+        label_217->setObjectName("label_217");
+        label_217->setGeometry(QRect(110, 130, 91, 31));
+        label_217->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         frame_43 = new QFrame(UpdateTeam);
         frame_43->setObjectName("frame_43");
         frame_43->setGeometry(QRect(280, 0, 781, 41));
@@ -3985,34 +5089,90 @@ public:
         homebutton_15 = new QPushButton(frame_43);
         homebutton_15->setObjectName("homebutton_15");
         homebutton_15->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_15->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_15->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_29 = new QPushButton(frame_43);
         homebutton_29->setObjectName("homebutton_29");
         homebutton_29->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_29->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_29->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         label_174 = new QLabel(UpdateTeam);
         label_174->setObjectName("label_174");
-        label_174->setGeometry(QRect(550, 50, 121, 20));
+        label_174->setGeometry(QRect(300, 50, 121, 20));
         label_174->setStyleSheet(QString::fromUtf8("color:white;"));
         updteamdisplay = new QPushButton(UpdateTeam);
         updteamdisplay->setObjectName("updteamdisplay");
-        updteamdisplay->setGeometry(QRect(800, 90, 121, 31));
-        updteamdisplay->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        updteamdisplay->setGeometry(QRect(800, 80, 121, 31));
+        updteamdisplay->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         pushButton_26 = new QPushButton(UpdateTeam);
         pushButton_26->setObjectName("pushButton_26");
-        pushButton_26->setGeometry(QRect(942, 90, 111, 31));
-        pushButton_26->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_26->setGeometry(QRect(940, 80, 111, 31));
+        pushButton_26->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         updateamview = new QTableView(UpdateTeam);
         updateamview->setObjectName("updateamview");
-        updateamview->setGeometry(QRect(290, 150, 761, 511));
+        updateamview->setGeometry(QRect(290, 130, 761, 531));
         updateamview->setStyleSheet(QString::fromUtf8("QTableView {\n"
 "    font: 11pt \"Arial\";\n"
 "    background-color: #2f2f2f; /* dark gray */\n"
@@ -4056,7 +5216,7 @@ public:
         RemoveTeam->setObjectName("RemoveTeam");
         label_363 = new QLabel(RemoveTeam);
         label_363->setObjectName("label_363");
-        label_363->setGeometry(QRect(350, 100, 71, 20));
+        label_363->setGeometry(QRect(350, 130, 71, 20));
         label_363->setStyleSheet(QString::fromUtf8("color:white;\n"
 "font: 10pt \"Tahoma\";"));
         frame_87 = new QFrame(RemoveTeam);
@@ -4070,25 +5230,30 @@ public:
         label_364->setGeometry(QRect(10, 10, 261, 151));
         label_364->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_364->setScaledContents(true);
-        label_366 = new QLabel(frame_87);
-        label_366->setObjectName("label_366");
-        label_366->setGeometry(QRect(50, 180, 201, 21));
-        label_366->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_367 = new QLabel(frame_87);
         label_367->setObjectName("label_367");
         label_367->setGeometry(QRect(90, 640, 121, 31));
         label_367->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_111 = new QLabel(frame_87);
+        label_111->setObjectName("label_111");
+        label_111->setGeometry(QRect(70, 160, 161, 21));
+        label_111->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_218 = new QLabel(frame_87);
+        label_218->setObjectName("label_218");
+        label_218->setGeometry(QRect(110, 130, 71, 31));
+        label_218->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         label_368 = new QLabel(RemoveTeam);
         label_368->setObjectName("label_368");
-        label_368->setGeometry(QRect(310, 50, 241, 31));
+        label_368->setGeometry(QRect(300, 90, 241, 31));
         label_368->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
 "\n"
 "font: italic 13pt \"Times New Roman\";\n"
 "text-decoration: underline;"));
         Delsearchteam = new QPushButton(RemoveTeam);
         Delsearchteam->setObjectName("Delsearchteam");
-        Delsearchteam->setGeometry(QRect(870, 100, 151, 31));
+        Delsearchteam->setGeometry(QRect(870, 120, 151, 31));
         Delsearchteam->setStyleSheet(QString::fromUtf8("color:white;\n"
 "background-color:rgba(0,92,73,255);\n"
 "font: 10pt \"Tahoma\";"));
@@ -4112,13 +5277,13 @@ public:
 "color:white;"));
         delteamsearch = new QPlainTextEdit(RemoveTeam);
         delteamsearch->setObjectName("delteamsearch");
-        delteamsearch->setGeometry(QRect(440, 100, 421, 31));
+        delteamsearch->setGeometry(QRect(440, 120, 421, 31));
         delteamsearch->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
         label_369 = new QLabel(RemoveTeam);
         label_369->setObjectName("label_369");
-        label_369->setGeometry(QRect(560, 60, 101, 20));
+        label_369->setGeometry(QRect(300, 50, 101, 20));
         label_369->setStyleSheet(QString::fromUtf8("color:white;"));
         DeleteTeam = new QPushButton(RemoveTeam);
         DeleteTeam->setObjectName("DeleteTeam");
@@ -4138,26 +5303,63 @@ public:
         homebutton_32 = new QPushButton(frame_89);
         homebutton_32->setObjectName("homebutton_32");
         homebutton_32->setGeometry(QRect(670, 0, 111, 41));
-        homebutton_32->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        homebutton_32->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         homebutton_33 = new QPushButton(frame_89);
         homebutton_33->setObjectName("homebutton_33");
         homebutton_33->setGeometry(QRect(0, 0, 121, 41));
-        homebutton_33->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
-        label_376 = new QLabel(DisplayTeams);
-        label_376->setObjectName("label_376");
-        label_376->setGeometry(QRect(300, 100, 111, 20));
-        label_376->setStyleSheet(QString::fromUtf8("color:white;\n"
-"font: 10pt \"Tahoma\";"));
+        homebutton_33->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         searchteambut = new QPushButton(DisplayTeams);
         searchteambut->setObjectName("searchteambut");
-        searchteambut->setGeometry(QRect(810, 100, 111, 31));
-        searchteambut->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        searchteambut->setGeometry(QRect(808, 80, 111, 31));
+        searchteambut->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         frame_90 = new QFrame(DisplayTeams);
         frame_90->setObjectName("frame_90");
         frame_90->setGeometry(QRect(0, 0, 281, 681));
@@ -4169,35 +5371,40 @@ public:
         label_371->setGeometry(QRect(10, 10, 261, 151));
         label_371->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/people.png")));
         label_371->setScaledContents(true);
-        label_373 = new QLabel(frame_90);
-        label_373->setObjectName("label_373");
-        label_373->setGeometry(QRect(50, 180, 201, 21));
-        label_373->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"font: italic 9pt \"Segoe UI\";"));
         label_374 = new QLabel(frame_90);
         label_374->setObjectName("label_374");
         label_374->setGeometry(QRect(90, 640, 121, 31));
         label_374->setStyleSheet(QString::fromUtf8("color:white;"));
+        label_112 = new QLabel(frame_90);
+        label_112->setObjectName("label_112");
+        label_112->setGeometry(QRect(70, 160, 161, 21));
+        label_112->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+"font: italic 9pt \"Segoe UI\";"));
+        label_219 = new QLabel(frame_90);
+        label_219->setObjectName("label_219");
+        label_219->setGeometry(QRect(110, 130, 71, 31));
+        label_219->setStyleSheet(QString::fromUtf8("color: rgb(254, 251, 255);\n"
+"font: 700 11pt \"Arial\";"));
         label_375 = new QLabel(DisplayTeams);
         label_375->setObjectName("label_375");
-        label_375->setGeometry(QRect(310, 50, 241, 31));
+        label_375->setGeometry(QRect(290, 80, 241, 31));
         label_375->setStyleSheet(QString::fromUtf8("color: rgb(80, 151, 225);\n"
 "\n"
 "font: italic 13pt \"Times New Roman\";\n"
 "text-decoration: underline;"));
         searchteam = new QPlainTextEdit(DisplayTeams);
         searchteam->setObjectName("searchteam");
-        searchteam->setGeometry(QRect(410, 100, 381, 31));
+        searchteam->setGeometry(QRect(468, 80, 321, 31));
         searchteam->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
         label_370 = new QLabel(DisplayTeams);
         label_370->setObjectName("label_370");
-        label_370->setGeometry(QRect(560, 60, 101, 20));
+        label_370->setGeometry(QRect(300, 50, 101, 20));
         label_370->setStyleSheet(QString::fromUtf8("color:white;"));
         searchteamtable = new QTableView(DisplayTeams);
         searchteamtable->setObjectName("searchteamtable");
-        searchteamtable->setGeometry(QRect(300, 150, 741, 511));
+        searchteamtable->setGeometry(QRect(300, 130, 741, 531));
         searchteamtable->setStyleSheet(QString::fromUtf8("QTableView {\n"
 "    font: 11pt \"Arial\";\n"
 "    background-color: #2f2f2f; /* dark gray */\n"
@@ -4238,16 +5445,30 @@ public:
 ""));
         pushButton_60 = new QPushButton(DisplayTeams);
         pushButton_60->setObjectName("pushButton_60");
-        pushButton_60->setGeometry(QRect(932, 100, 101, 29));
-        pushButton_60->setStyleSheet(QString::fromUtf8("border-radius:12px;\n"
-"background-color:rgba(0,133,104,255);\n"
-"color:white;"));
+        pushButton_60->setGeometry(QRect(930, 80, 101, 29));
+        pushButton_60->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  /* Light green */\n"
+"  background-color: rgba(0, 133, 104, 255); /* Replaces original blue */\n"
+"  /* Light gray text color */\n"
+"  color: rgb(255, 255, 255);\n"
+"  font: 11pt \"Arial\";\n"
+"  border-radius: 18px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"  background-color: rgba(0, 108, 83, 255); /* #006c53 - Dark green on hover */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"  background-color: rgba(0, 158, 121, 255); /* #009e79 - Greenish on press */\n"
+"}\n"
+""));
         stackedWidget->addWidget(DisplayTeams);
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(6);
+        stackedWidget->setCurrentIndex(13);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -4291,54 +5512,67 @@ public:
         label_65->setText(QString());
         label_68->setText(QCoreApplication::translate("MainWindow", "QML", nullptr));
         label_19->setText(QString());
-        label_21->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_22->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        pushButton_6->setText(QCoreApplication::translate("MainWindow", "        Employees", nullptr));
-        pushButton_9->setText(QCoreApplication::translate("MainWindow", "          Department", nullptr));
+        pushButton_6->setText(QCoreApplication::translate("MainWindow", "       Employees", nullptr));
+        pushButton_9->setText(QCoreApplication::translate("MainWindow", "         Department", nullptr));
         pushButton_10->setText(QCoreApplication::translate("MainWindow", "Teams", nullptr));
         pushButton_8->setText(QCoreApplication::translate("MainWindow", "   Projects", nullptr));
         pushButton_30->setText(QCoreApplication::translate("MainWindow", "                Technology Used", nullptr));
         label_38->setText(QString());
+        label_203->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
+        label_82->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_21->setText(QString());
+        label_24->setText(QString());
+        label_113->setText(QString());
+        label_114->setText(QString());
         label_36->setText(QCoreApplication::translate("MainWindow", "HR VIEW", nullptr));
         label_47->setText(QCoreApplication::translate("MainWindow", "No of Active Employees", nullptr));
         label_48->setText(QCoreApplication::translate("MainWindow", "200", nullptr));
         label_49->setText(QCoreApplication::translate("MainWindow", "No of Departments", nullptr));
         label_50->setText(QCoreApplication::translate("MainWindow", "6", nullptr));
-        label_51->setText(QCoreApplication::translate("MainWindow", "No of Incoming Deadlines", nullptr));
+        label_51->setText(QCoreApplication::translate("MainWindow", "Upcoming Deadlines", nullptr));
         label_52->setText(QCoreApplication::translate("MainWindow", "12", nullptr));
         label_53->setText(QCoreApplication::translate("MainWindow", " Projects Completed ", nullptr));
         label_54->setText(QCoreApplication::translate("MainWindow", "17", nullptr));
-        label_191->setText(QCoreApplication::translate("MainWindow", "SofTimGrow", nullptr));
         pushButton_80->setText(QCoreApplication::translate("MainWindow", "Logout", nullptr));
         label_193->setText(QCoreApplication::translate("MainWindow", "SofTimGrow", nullptr));
         label_20->setText(QString());
-        label_24->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_28->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        pushButton_14->setText(QCoreApplication::translate("MainWindow", "        Department", nullptr));
+        pushButton_14->setText(QCoreApplication::translate("MainWindow", "         Department", nullptr));
         pushButton_31->setText(QCoreApplication::translate("MainWindow", "Team", nullptr));
         pushButton_32->setText(QCoreApplication::translate("MainWindow", "  Project", nullptr));
-        null_2->setText(QCoreApplication::translate("MainWindow", "         Employee", nullptr));
+        null_2->setText(QCoreApplication::translate("MainWindow", "       Employee", nullptr));
+        label_202->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
+        label_81->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_115->setText(QString());
+        label_117->setText(QString());
+        label_121->setText(QString());
+        label_129->setText(QString());
         pushButton_48->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_8->setText(QCoreApplication::translate("MainWindow", "Employee View", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "Insert Records", nullptr));
         pushButton_3->setText(QCoreApplication::translate("MainWindow", "Update Records", nullptr));
         pushButton_4->setText(QCoreApplication::translate("MainWindow", "Delete Records", nullptr));
         pushButton_5->setText(QCoreApplication::translate("MainWindow", "Retrieve Records", nullptr));
-        label_128->setText(QCoreApplication::translate("MainWindow", "Department View", nullptr));
         label_42->setText(QString());
-        label_108->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_120->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        pushButton_33->setText(QCoreApplication::translate("MainWindow", "        Project", nullptr));
-        pushButton_37->setText(QCoreApplication::translate("MainWindow", "              Employee", nullptr));
-        pushButton_40->setText(QCoreApplication::translate("MainWindow", "     Team", nullptr));
-        pushButton_49->setText(QCoreApplication::translate("MainWindow", "              Department", nullptr));
+        pushButton_33->setText(QCoreApplication::translate("MainWindow", "    Project", nullptr));
+        pushButton_37->setText(QCoreApplication::translate("MainWindow", "        Employee", nullptr));
+        pushButton_40->setText(QCoreApplication::translate("MainWindow", "Team", nullptr));
+        pushButton_49->setText(QCoreApplication::translate("MainWindow", "          Department", nullptr));
+        label_80->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_201->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
+        label_145->setText(QString());
+        label_143->setText(QString());
+        label_138->setText(QString());
+        label_116->setText(QString());
         pushButton_47->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         pushButton_15->setText(QCoreApplication::translate("MainWindow", " Update Records", nullptr));
         pushButton_12->setText(QCoreApplication::translate("MainWindow", "Retrieve Records", nullptr));
         label_23->setText(QString());
         label_25->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_26->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        label_192->setText(QCoreApplication::translate("MainWindow", "SofTimGrow", nullptr));
+        label_192->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         pushButton_46->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_55->setText(QCoreApplication::translate("MainWindow", "Personal Details", nullptr));
         label_56->setText(QCoreApplication::translate("MainWindow", "First Name:", nullptr));
@@ -4396,40 +5630,45 @@ public:
         label_79->setText(QCoreApplication::translate("MainWindow", "Salary:", nullptr));
         homebutton_16->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_69->setText(QString());
-        label_71->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_72->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        label_70->setText(QCoreApplication::translate("MainWindow", "SofTimGrow", nullptr));
+        label_83->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_204->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         label_73->setText(QCoreApplication::translate("MainWindow", "Enter Employee ID", nullptr));
         displayempup->setText(QCoreApplication::translate("MainWindow", "Display", nullptr));
         homebutton_3->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         pushButton_7->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
+        pushButton_62->setText(QCoreApplication::translate("MainWindow", "Update Salary,Team or Supervisor", nullptr));
         label_85->setText(QString());
-        label_87->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_88->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        label_86->setText(QCoreApplication::translate("MainWindow", "SofTimGrow", nullptr));
+        label_70->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_205->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         homebutton_17->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         homebutton_4->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         delempbut->setText(QCoreApplication::translate("MainWindow", "Delete ", nullptr));
-        label_78->setText(QCoreApplication::translate("MainWindow", "Employee ID:", nullptr));
+        label_78->setText(QCoreApplication::translate("MainWindow", "Enter Employee ID:", nullptr));
         pushButton_24->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         pushButton_54->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
         label_27->setText(QString());
-        label_29->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_30->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        label_189->setText(QCoreApplication::translate("MainWindow", "SofTimGrow", nullptr));
+        label_71->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_206->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         homebutton_5->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_18->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
-        label_133->setText(QCoreApplication::translate("MainWindow", "Search Employee By ID", nullptr));
-        label_134->setText(QCoreApplication::translate("MainWindow", "Employee ID:", nullptr));
+        label_134->setText(QCoreApplication::translate("MainWindow", "Enter Employee ID:", nullptr));
         pushButton_39->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         searchresetemp->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
         label_137->setText(QString());
-        label_145->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_155->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
         pushButton_41->setText(QCoreApplication::translate("MainWindow", "          Department", nullptr));
         pushButton_42->setText(QCoreApplication::translate("MainWindow", "Team", nullptr));
         pushButton_43->setText(QCoreApplication::translate("MainWindow", "        Employee", nullptr));
-        pushButton_53->setText(QCoreApplication::translate("MainWindow", " Project", nullptr));
+        pushButton_53->setText(QCoreApplication::translate("MainWindow", "    Project", nullptr));
+        label_29->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_207->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
+        label_152->setText(QString());
+        label_150->setText(QString());
+        label_146->setText(QString());
+        label_149->setText(QString());
         homebutton_20->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_165->setText(QCoreApplication::translate("MainWindow", "Project View", nullptr));
         pushButton_16->setText(QCoreApplication::translate("MainWindow", "  Insert Records", nullptr));
@@ -4437,25 +5676,35 @@ public:
         pushButton_18->setText(QCoreApplication::translate("MainWindow", " Delete Records", nullptr));
         pushButton_17->setText(QCoreApplication::translate("MainWindow", "Retrieve Records", nullptr));
         label_194->setText(QString());
-        label_195->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_196->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        pushButton_44->setText(QCoreApplication::translate("MainWindow", "Team", nullptr));
-        pushButton_45->setText(QCoreApplication::translate("MainWindow", "         Department", nullptr));
-        pushButton_51->setText(QCoreApplication::translate("MainWindow", "  Project", nullptr));
-        pushButton_52->setText(QCoreApplication::translate("MainWindow", "        Employee", nullptr));
+        pushButton_44->setText(QCoreApplication::translate("MainWindow", "  Team", nullptr));
+        pushButton_45->setText(QCoreApplication::translate("MainWindow", "             Department", nullptr));
+        pushButton_51->setText(QCoreApplication::translate("MainWindow", "     Project", nullptr));
+        pushButton_52->setText(QCoreApplication::translate("MainWindow", "          Employee", nullptr));
+        label_86->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_208->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
+        label_172->setText(QString());
+        label_161->setText(QString());
+        label_166->setText(QString());
+        label_156->setText(QString());
         label_178->setText(QCoreApplication::translate("MainWindow", "Team View", nullptr));
         homebutton_21->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         pushButton_28->setText(QCoreApplication::translate("MainWindow", "Update Records", nullptr));
         pushButton_25->setText(QCoreApplication::translate("MainWindow", "Retrieve Records", nullptr));
         label_31->setText(QString());
-        label_32->setText(QCoreApplication::translate("MainWindow", "SofTimGrow", nullptr));
-        label_33->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_34->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
         pushButton_19->setText(QCoreApplication::translate("MainWindow", "        Display Employees", nullptr));
         pushButton_20->setText(QCoreApplication::translate("MainWindow", "   Display Projects", nullptr));
-        pushButton_21->setText(QCoreApplication::translate("MainWindow", "          Display Departments", nullptr));
+        pushButton_21->setText(QCoreApplication::translate("MainWindow", "           Display Departments", nullptr));
         pushButton_22->setText(QCoreApplication::translate("MainWindow", "Display Teams", nullptr));
-        pushButton_61->setText(QCoreApplication::translate("MainWindow", "      Technoloygy Used", nullptr));
+        pushButton_61->setText(QCoreApplication::translate("MainWindow", "    Technology Used", nullptr));
+        label_195->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
+        label_87->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_189->setText(QString());
+        label_179->setText(QString());
+        label_173->setText(QString());
+        label_175->setText(QString());
+        label_191->setText(QString());
         label_39->setText(QCoreApplication::translate("MainWindow", "No of Employees", nullptr));
         label_40->setText(QCoreApplication::translate("MainWindow", "300", nullptr));
         label_43->setText(QCoreApplication::translate("MainWindow", "Active Employees", nullptr));
@@ -4466,14 +5715,14 @@ public:
         label_184->setText(QCoreApplication::translate("MainWindow", "210", nullptr));
         label_185->setText(QCoreApplication::translate("MainWindow", "No of Incoming Deadlines", nullptr));
         label_186->setText(QCoreApplication::translate("MainWindow", "12", nullptr));
-        label_187->setText(QCoreApplication::translate("MainWindow", "Total Teams In Development Dept", nullptr));
+        label_187->setText(QCoreApplication::translate("MainWindow", "Development Teams", nullptr));
         label_188->setText(QCoreApplication::translate("MainWindow", "12", nullptr));
         label_41->setText(QString());
-        label_45->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_46->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
+        label_32->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_209->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         homebutton_6->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_19->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
-        label_91->setText(QCoreApplication::translate("MainWindow", "insert project", nullptr));
         label_96->setText(QCoreApplication::translate("MainWindow", "Project  Details", nullptr));
         Projclear->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
         label_99->setText(QCoreApplication::translate("MainWindow", "Client Name", nullptr));
@@ -4491,12 +5740,11 @@ public:
         label_101->setText(QCoreApplication::translate("MainWindow", "Client Address:", nullptr));
         label_102->setText(QCoreApplication::translate("MainWindow", "Client Contact Info:", nullptr));
         label_107->setText(QString());
-        label_109->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_110->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        label_105->setText(QCoreApplication::translate("MainWindow", "Update project", nullptr));
+        label_33->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_210->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         homebutton_7->setText(QCoreApplication::translate("MainWindow", "Back To Home", nullptr));
         label_106->setText(QCoreApplication::translate("MainWindow", "Search Project By ID", nullptr));
-        label_118->setText(QCoreApplication::translate("MainWindow", "Project ID:", nullptr));
         homebutton_8->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_22->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         pushButton_34->setText(QCoreApplication::translate("MainWindow", "Display", nullptr));
@@ -4504,50 +5752,49 @@ public:
         homebutton_9->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_23->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_124->setText(QCoreApplication::translate("MainWindow", "Search Project By ID", nullptr));
-        label_125->setText(QCoreApplication::translate("MainWindow", "Project ID:", nullptr));
         pushButton_35->setText(QCoreApplication::translate("MainWindow", "Complete Project", nullptr));
-        label_123->setText(QCoreApplication::translate("MainWindow", "Remove project", nullptr));
         pushButton_36->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         label_119->setText(QString());
-        label_121->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_122->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
+        label_45->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_211->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         pushButton_58->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
         label_127->setText(QString());
-        label_129->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_130->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
+        label_89->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_212->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         homebutton_10->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_24->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
-        label_126->setText(QCoreApplication::translate("MainWindow", "Display Project", nullptr));
-        label_132->setText(QCoreApplication::translate("MainWindow", "Project ID:", nullptr));
         pushButton_38->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         label_131->setText(QCoreApplication::translate("MainWindow", "Search Project By ID", nullptr));
         pushButton_59->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
         homebutton_11->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_25->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_136->setText(QString());
-        label_138->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_139->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        label_135->setText(QCoreApplication::translate("MainWindow", "Insert Department", nullptr));
-        label_140->setText(QCoreApplication::translate("MainWindow", "Department Details", nullptr));
-        Deptclear_2->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));
-        DeptSubmit_2->setText(QCoreApplication::translate("MainWindow", "Submit", nullptr));
-        label_141->setText(QCoreApplication::translate("MainWindow", "Department Title", nullptr));
-        label_142->setText(QCoreApplication::translate("MainWindow", "Department Manager", nullptr));
-        label_66->setText(QCoreApplication::translate("MainWindow", "Total Employees", nullptr));
+        label_90->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_213->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
+        label_140->setText(QCoreApplication::translate("MainWindow", "Search Employee By ID:", nullptr));
+        pushButton_63->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
+        pushButton_64->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
+        label_66->setText(QCoreApplication::translate("MainWindow", "Employee Team", nullptr));
+        label_118->setText(QCoreApplication::translate("MainWindow", "Employee Salary", nullptr));
+        label_125->setText(QCoreApplication::translate("MainWindow", "Employee Supervisor", nullptr));
         homebutton_12->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_26->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_144->setText(QString());
-        label_146->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_147->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
+        label_103->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_214->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         label_148->setText(QCoreApplication::translate("MainWindow", "Update Department", nullptr));
         label_151->setText(QCoreApplication::translate("MainWindow", "Search Department By ID", nullptr));
         pushButton_55->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         pushButton_56->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
         label_159->setText(QCoreApplication::translate("MainWindow", "Search Department By ID", nullptr));
-        label_158->setText(QCoreApplication::translate("MainWindow", "Department ID:", nullptr));
         label_154->setText(QString());
-        label_156->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_157->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
+        label_104->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_215->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         searchdepbutton->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         homebutton_13->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_27->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
@@ -4555,21 +5802,22 @@ public:
         pushButton_57->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
         label_170->setText(QCoreApplication::translate("MainWindow", "Team ID:", nullptr));
         label_168->setText(QCoreApplication::translate("MainWindow", "Team Title:", nullptr));
-        label_162->setText(QCoreApplication::translate("MainWindow", "insert Team", nullptr));
+        label_162->setText(QCoreApplication::translate("MainWindow", "Insert Team", nullptr));
         label_169->setText(QCoreApplication::translate("MainWindow", "Department ID", nullptr));
         label_163->setText(QCoreApplication::translate("MainWindow", "Team  Details", nullptr));
         label_164->setText(QString());
-        label_166->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_167->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
+        label_108->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_216->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         homebutton_14->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_28->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_171->setText(QCoreApplication::translate("MainWindow", "Team Description:", nullptr));
         teaminsert->setText(QCoreApplication::translate("MainWindow", "Submit", nullptr));
-        label_181->setText(QCoreApplication::translate("MainWindow", "Team ID:", nullptr));
         label_176->setText(QCoreApplication::translate("MainWindow", "Search  Team  By ID:", nullptr));
         label_177->setText(QString());
-        label_179->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_180->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
+        label_109->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_217->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         homebutton_15->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_29->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_174->setText(QCoreApplication::translate("MainWindow", "Update Team", nullptr));
@@ -4577,8 +5825,9 @@ public:
         pushButton_26->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
         label_363->setText(QCoreApplication::translate("MainWindow", "Team ID:", nullptr));
         label_364->setText(QString());
-        label_366->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_367->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
+        label_111->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_218->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
         label_368->setText(QCoreApplication::translate("MainWindow", "Search Team By ID", nullptr));
         Delsearchteam->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         homebutton_30->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
@@ -4587,12 +5836,12 @@ public:
         DeleteTeam->setText(QCoreApplication::translate("MainWindow", "Delete", nullptr));
         homebutton_32->setText(QCoreApplication::translate("MainWindow", "Back ", nullptr));
         homebutton_33->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
-        label_376->setText(QCoreApplication::translate("MainWindow", "Search Teams", nullptr));
         searchteambut->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         label_371->setText(QString());
-        label_373->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
         label_374->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));
-        label_375->setText(QCoreApplication::translate("MainWindow", "Search Teams", nullptr));
+        label_112->setText(QCoreApplication::translate("MainWindow", "Optimizing Work Productivity", nullptr));
+        label_219->setText(QCoreApplication::translate("MainWindow", "OptimSoft", nullptr));
+        label_375->setText(QCoreApplication::translate("MainWindow", "Search Team By ID", nullptr));
         label_370->setText(QCoreApplication::translate("MainWindow", "Search Teams", nullptr));
         pushButton_60->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
     } // retranslateUi

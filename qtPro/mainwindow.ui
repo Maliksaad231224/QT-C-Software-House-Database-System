@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>6</number>
+     <number>13</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -4414,13 +4414,13 @@ QPushButton:pressed {
        </property>
       </widget>
      </widget>
-     <widget class="QLabel" name="label_133">
+     <widget class="QLabel" name="label_134">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>60</y>
-        <width>221</width>
-        <height>31</height>
+        <x>300</x>
+        <y>70</y>
+        <width>181</width>
+        <height>20</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -4430,31 +4430,14 @@ font: italic 13pt &quot;Times New Roman&quot;;
 text-decoration: underline;</string>
       </property>
       <property name="text">
-       <string>Search Employee By ID</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_134">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>110</y>
-        <width>101</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;
-font: 10pt &quot;Tahoma&quot;;</string>
-      </property>
-      <property name="text">
-       <string>Employee ID:</string>
+       <string>Enter Employee ID:</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_39">
       <property name="geometry">
        <rect>
-        <x>820</x>
-        <y>110</y>
+        <x>830</x>
+        <y>60</y>
         <width>101</width>
         <height>31</height>
        </rect>
@@ -4485,9 +4468,9 @@ QPushButton:pressed {
      <widget class="QPlainTextEdit" name="disemp">
       <property name="geometry">
        <rect>
-        <x>450</x>
-        <y>110</y>
-        <width>351</width>
+        <x>480</x>
+        <y>60</y>
+        <width>321</width>
         <height>31</height>
        </rect>
       </property>
@@ -4500,10 +4483,10 @@ background-color: rgba(255,255,255,255);
      <widget class="QTableView" name="searchemptable">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>170</y>
-        <width>711</width>
-        <height>481</height>
+        <x>300</x>
+        <y>120</y>
+        <width>741</width>
+        <height>531</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -4549,8 +4532,8 @@ QTableCornerButton::section {
      <widget class="QPushButton" name="searchresetemp">
       <property name="geometry">
        <rect>
-        <x>940</x>
-        <y>110</y>
+        <x>950</x>
+        <y>60</y>
         <width>91</width>
         <height>31</height>
        </rect>
@@ -6622,22 +6605,6 @@ QPushButton:pressed {
        </property>
       </widget>
      </widget>
-     <widget class="QLabel" name="label_91">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>50</y>
-        <width>121</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Insert project</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_96">
       <property name="geometry">
        <rect>
@@ -7141,22 +7108,6 @@ font: 700 11pt &quot;Arial&quot;;</string>
        </property>
       </widget>
      </widget>
-     <widget class="QLabel" name="label_105">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>50</y>
-        <width>121</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Update Project</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="homebutton_7">
       <property name="geometry">
        <rect>
@@ -7179,7 +7130,7 @@ color:white;</string>
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>80</y>
+        <y>70</y>
         <width>221</width>
         <height>31</height>
        </rect>
@@ -7198,7 +7149,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>490</x>
-        <y>80</y>
+        <y>70</y>
         <width>271</width>
         <height>31</height>
        </rect>
@@ -7302,7 +7253,7 @@ QPushButton:pressed {
       <property name="geometry">
        <rect>
         <x>780</x>
-        <y>80</y>
+        <y>70</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -7386,7 +7337,7 @@ QTableCornerButton::section {
       <property name="geometry">
        <rect>
         <x>920</x>
-        <y>80</y>
+        <y>70</y>
         <width>121</width>
         <height>31</height>
        </rect>
@@ -7440,9 +7391,9 @@ QPushButton:pressed {
       <widget class="QPushButton" name="homebutton_9">
        <property name="geometry">
         <rect>
-         <x>670</x>
+         <x>660</x>
          <y>0</y>
-         <width>111</width>
+         <width>121</width>
          <height>41</height>
         </rect>
        </property>
@@ -7512,7 +7463,7 @@ QPushButton:pressed {
       <property name="geometry">
        <rect>
         <x>290</x>
-        <y>80</y>
+        <y>70</y>
         <width>221</width>
         <height>31</height>
        </rect>
@@ -7562,28 +7513,12 @@ QPushButton:pressed {
        <string>Complete Project</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_123">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>50</y>
-        <width>121</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Remove Project</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButton_36">
       <property name="geometry">
        <rect>
-        <x>780</x>
-        <y>80</y>
-        <width>121</width>
+        <x>830</x>
+        <y>70</y>
+        <width>91</width>
         <height>31</height>
        </rect>
       </property>
@@ -7705,8 +7640,8 @@ font: 700 11pt &quot;Arial&quot;;</string>
       <property name="geometry">
        <rect>
         <x>480</x>
-        <y>80</y>
-        <width>281</width>
+        <y>70</y>
+        <width>341</width>
         <height>31</height>
        </rect>
       </property>
@@ -7719,9 +7654,9 @@ background-color: rgba(255,255,255,255);
      <widget class="QPushButton" name="pushButton_58">
       <property name="geometry">
        <rect>
-        <x>920</x>
-        <y>80</y>
-        <width>121</width>
+        <x>940</x>
+        <y>70</y>
+        <width>101</width>
         <height>29</height>
        </rect>
       </property>
@@ -7976,27 +7911,11 @@ QPushButton:pressed {
        </property>
       </widget>
      </widget>
-     <widget class="QLabel" name="label_126">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>50</y>
-        <width>121</width>
-        <height>20</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:white;</string>
-      </property>
-      <property name="text">
-       <string>Display Project</string>
-      </property>
-     </widget>
      <widget class="QPlainTextEdit" name="projectid">
       <property name="geometry">
        <rect>
         <x>490</x>
-        <y>80</y>
+        <y>70</y>
         <width>311</width>
         <height>31</height>
        </rect>
@@ -8011,7 +7930,7 @@ background-color: rgba(255,255,255,255);
       <property name="geometry">
        <rect>
         <x>820</x>
-        <y>80</y>
+        <y>70</y>
         <width>101</width>
         <height>31</height>
        </rect>
@@ -8046,7 +7965,7 @@ QPushButton:pressed {
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>80</y>
+        <y>70</y>
         <width>191</width>
         <height>31</height>
        </rect>
@@ -8065,7 +7984,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>940</x>
-        <y>80</y>
+        <y>70</y>
         <width>91</width>
         <height>29</height>
        </rect>
@@ -8319,7 +8238,7 @@ font: 700 11pt &quot;Arial&quot;;</string>
       <property name="geometry">
        <rect>
         <x>300</x>
-        <y>80</y>
+        <y>70</y>
         <width>221</width>
         <height>31</height>
        </rect>
@@ -8338,7 +8257,7 @@ text-decoration: underline;</string>
       <property name="geometry">
        <rect>
         <x>530</x>
-        <y>80</y>
+        <y>70</y>
         <width>281</width>
         <height>28</height>
        </rect>
@@ -8353,7 +8272,7 @@ background-color: rgba(255,255,255,255);
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>80</y>
+        <y>70</y>
         <width>91</width>
         <height>29</height>
        </rect>
@@ -8385,7 +8304,7 @@ QPushButton:pressed {
       <property name="geometry">
        <rect>
         <x>932</x>
-        <y>80</y>
+        <y>70</y>
         <width>101</width>
         <height>29</height>
        </rect>
@@ -8514,7 +8433,7 @@ QTableCornerButton::section {
      <widget class="QTableView" name="empsupertable">
       <property name="geometry">
        <rect>
-        <x>800</x>
+        <x>810</x>
         <y>160</y>
         <width>231</width>
         <height>501</height>

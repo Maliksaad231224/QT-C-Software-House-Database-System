@@ -110,14 +110,18 @@ debug/qrc_resource.cpp: ../../../resource.qrc \
 		../../../picture/top_right.png \
 		../../../picture/top_left.png \
 		../../../picture/qt.png \
+		../../../picture/Project.png \
 		../../../picture/people.png \
 		../../../picture/1576847226916.png \
 		../../../picture/bottom\ right.png \
+		../../../picture/Tech.png \
 		../../../picture/css.png \
 		../../../picture/qt_94938.png \
 		../../../picture/png-clipart-qt-creator-qt-quick-the-qt-company-posted-write-text-trademark.png \
 		../../../picture/top_bar.png \
+		../../../picture/Team.png \
 		../../../picture/department.png \
+		../../../picture/Employee.png \
 		../../../picture/cpp.png \
 		../../../picture/mysql.png \
 		../../../picture/d.jpg \
