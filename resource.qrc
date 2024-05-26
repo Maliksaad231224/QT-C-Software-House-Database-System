@@ -21,5 +21,7 @@
         <file>picture/Team.png</file>
         <file>picture/Tech.png</file>
         <file>picture/images.jpg</file>
+        <file>picture/icons8-management-50.png</file>
+        <file>picture/icons8-hr-80.png</file>
     </qresource>
 </RCC>

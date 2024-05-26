@@ -114,12 +114,14 @@ debug/qrc_resource.cpp: ../../../resource.qrc \
 		../../../picture/images.jpg \
 		../../../picture/people.png \
 		../../../picture/1576847226916.png \
+		../../../picture/icons8-management-50.png \
 		../../../picture/bottom\ right.png \
 		../../../picture/Tech.png \
 		../../../picture/css.png \
 		../../../picture/qt_94938.png \
 		../../../picture/png-clipart-qt-creator-qt-quick-the-qt-company-posted-write-text-trademark.png \
 		../../../picture/top_bar.png \
+		../../../picture/icons8-hr-80.png \
 		../../../picture/Team.png \
 		../../../picture/department.png \
 		../../../picture/Employee.png \
@@ -1144,7 +1146,6 @@ debug/mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QTableView \
 		ui_mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QCheckBox \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QComboBox \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QDateEdit \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QFrame \

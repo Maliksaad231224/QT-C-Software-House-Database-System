@@ -16,7 +16,7 @@
 bool manager=false;
 QString empjoin="select e.EmployeeID,e.Fname,e.Lname,e.Birth_date,e.Address,e.Sex,e.email,e.Status,e.Job_Title,e.department,s.salary,t.teamname,es.supervisorname from employee as e inner join emp_team as t on e.EmployeeID=t.emp_id inner join employee_supervisors as es on e.EmployeeID=es.employeeid inner join salary as s on es.employeeid=s.employeeID;";
 QString projteam="SELECT t.TeamID,t.Title AS Team_Title,t.Description AS Team_Description,p.Title AS Working_On_Project,t.Team_Lead,Members,p.start_date,p.deadline,p.Project_Cost,p.status,p.Last_Updated FROM project as p JOIN works_on as w ON p.Proj_ID = w.Project_Proj_ID JOIN team as t ON w.Team_TeamID = t.TeamID order by TeamID ;";
-QString projclient="SELECT p.Proj_ID, p.Title AS Project_Title, p.start_date,p.deadline, p.status,p.Project_Cost,p.Last_Updated,c.Client_ID,c.Name AS Client_Name,c.billing_address,c.contact_info FROM project_client as pc JOIN project as p ON pc.Project_Proj_ID = p.Proj_ID JOIN client as c ON pc.Client_Client_ID = c.Client_ID order by p.Proj_ID asc;";
+QString projclient="SELECT p.Proj_ID, p.Title AS Project_Title, p.start_date,p.deadline, p.status,p.Project_Cost,c.Client_ID,c.Name AS Client_Name,c.billing_address,c.contact_info FROM project_client as pc JOIN project as p ON pc.Project_Proj_ID = p.Proj_ID JOIN client as c ON pc.Client_Client_ID = c.Client_ID order by p.Proj_ID asc;";
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -1284,26 +1284,27 @@ void MainWindow::on_pushButton_13_clicked()
 }
 
 
+
+
 void MainWindow::on_ProjSubmit_clicked()
 {
 
-    db.open();
 
     if (db.open())
     {
-        QMessageBox::information(this,"insertion","DB is Open");
 
-
-        QSqlQuery proqry,client;
-        proqry.prepare("INSERT INTO project(Proj_ID,Title,start_date,delivery_date,Project_Cost,Last_Updated) "
-                       "VALUES (:projid,:title,:sdate,:ddate,:procost,:projupd)");
+        QSqlQuery proqry,client,add;
+        proqry.prepare("INSERT INTO project(Proj_ID,Title,start_date,deadline,Project_Cost) "
+                       "VALUES (:projid,:title,:sdate,:ddate,:procost)");
 
         proqry.bindValue(":projid",ui->projID->toPlainText());
-        proqry.bindValue(":projtitle",ui->projtitle->toPlainText());
+        proqry.bindValue(":title",ui->projtitle->toPlainText());
         proqry.bindValue(":sdate",ui->projsdate->date());
         proqry.bindValue(":ddate",ui->projdelievery->date());
         proqry.bindValue(":procost",ui->projcost->toPlainText());
-        proqry.bindValue(":projupd",ui->projlastupd->date());
+
+        add.prepare("UPDATE project SET status = 'Inomplete' WHERE Proj_ID =:p");
+        add.bindValue(":p", ui->projID->toPlainText());
 
         client.prepare("INSERT INTO client(Client_ID,Name,billing_address,contact_info) "
                        "VALUES (:clientid,:name,:bill,:coninfo)");
@@ -1314,7 +1315,8 @@ void MainWindow::on_ProjSubmit_clicked()
         client.bindValue(":bill",ui->clientaddress->toPlainText());
         client.bindValue(":coninfo",ui->clientinfo->toPlainText());
 
-        if(proqry.exec()&&client.exec()){
+
+        if(proqry.exec()&&client.exec()&&add.exec()){
             QMessageBox::information(this,"insertion","Successful");
         }
         else{
