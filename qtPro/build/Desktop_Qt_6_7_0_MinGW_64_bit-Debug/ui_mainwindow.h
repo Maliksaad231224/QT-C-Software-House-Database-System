@@ -528,10 +528,10 @@ public:
         frame->setFrameShadow(QFrame::Raised);
         label_2 = new QLabel(frame);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(170, 30, 111, 81));
+        label_2->setGeometry(QRect(170, 30, 111, 101));
         label_2->setStyleSheet(QString::fromUtf8("background-color:none;\n"
 "border:none;"));
-        label_2->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/person.png")));
+        label_2->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/icons8-male-user-50.png")));
         label_2->setScaledContents(true);
         label_3 = new QLabel(frame);
         label_3->setObjectName("label_3");
@@ -568,7 +568,7 @@ public:
         pushButton_2->setStyleSheet(QString::fromUtf8("\n"
 "\n"
 "QPushButton {\n"
-"font: 600 9pt \"Tahoma\";\n"
+"font: 600 11pt \"Arial\";\n"
 "color:white;\n"
 "alternate-background-color: rgb(148, 126, 254);\n"
 " border: 1px solid;\n"
@@ -3425,7 +3425,7 @@ public:
 "}"));
         label_377 = new QLabel(Manager);
         label_377->setObjectName("label_377");
-        label_377->setGeometry(QRect(360, 50, 211, 31));
+        label_377->setGeometry(QRect(360, 70, 211, 31));
         label_377->setStyleSheet(QString::fromUtf8("color:white;\n"
 "font: 700 14pt \"Arial\";"));
         frame_44 = new QFrame(Manager);
@@ -3466,7 +3466,7 @@ public:
 "font: 700 29pt \"Arial\";"));
         label_8 = new QLabel(Manager);
         label_8->setObjectName("label_8");
-        label_8->setGeometry(QRect(310, 50, 41, 31));
+        label_8->setGeometry(QRect(310, 70, 41, 31));
         label_8->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/icons8-management-50.png")));
         label_8->setScaledContents(true);
         stackedWidget->addWidget(Manager);

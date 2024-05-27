@@ -110,9 +110,11 @@ release/qrc_resource.cpp: ../../../resource.qrc \
 		../../../picture/top_right.png \
 		../../../picture/top_left.png \
 		../../../picture/qt.png \
+		../../../picture/icons8-male-user-64.png \
 		../../../picture/Project.png \
 		../../../picture/images.jpg \
 		../../../picture/people.png \
+		../../../picture/icons8-male-user-50.png \
 		../../../picture/1576847226916.png \
 		../../../picture/icons8-management-50.png \
 		../../../picture/bottom\ right.png \

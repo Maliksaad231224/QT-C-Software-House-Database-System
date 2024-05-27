@@ -110,7 +110,7 @@ background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0,
          <x>170</x>
          <y>30</y>
          <width>111</width>
-         <height>81</height>
+         <height>101</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -121,7 +121,7 @@ border:none;</string>
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="../resource.qrc">:/pics/picture/person.png</pixmap>
+        <pixmap resource="../resource.qrc">:/pics/picture/icons8-male-user-50.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -214,7 +214,7 @@ background-color: none;</string>
         <string notr="true">
 
 QPushButton {
-font: 600 9pt &quot;Tahoma&quot;;
+font: 600 11pt &quot;Arial&quot;;
 color:white;
 alternate-background-color: rgb(148, 126, 254);
  border: 1px solid;
@@ -6191,7 +6191,7 @@ QPushButton:pressed {
       <property name="geometry">
        <rect>
         <x>360</x>
-        <y>50</y>
+        <y>70</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -6322,7 +6322,7 @@ font: 700 29pt &quot;Arial&quot;;</string>
       <property name="geometry">
        <rect>
         <x>310</x>
-        <y>50</y>
+        <y>70</y>
         <width>41</width>
         <height>31</height>
        </rect>

@@ -23,5 +23,7 @@
         <file>picture/images.jpg</file>
         <file>picture/icons8-management-50.png</file>
         <file>picture/icons8-hr-80.png</file>
+        <file>picture/icons8-male-user-64.png</file>
+        <file>picture/icons8-male-user-50.png</file>
     </qresource>
 </RCC>
