@@ -40,7 +40,6 @@ public:
     QTextEdit *loginuser;
     QLabel *label_5;
     QLabel *label_6;
-    QLabel *label_4;
     QPushButton *pushButton_2;
     QLineEdit *loginpassword;
     QWidget *ChangePassword;
@@ -177,7 +176,6 @@ public:
     QLineEdit *lastname;
     QLineEdit *email;
     QLineEdit *address;
-    QLineEdit *statusemp;
     QComboBox *designation;
     QComboBox *insdept;
     QLineEdit *supername;
@@ -187,6 +185,7 @@ public:
     QLineEdit *empid;
     QLabel *label_79;
     QLineEdit *salary;
+    QComboBox *statusemp;
     QWidget *UpdateEmployee;
     QFrame *frame_24;
     QPushButton *homebutton_16;
@@ -516,7 +515,7 @@ public:
         label->setScaledContents(true);
         frame = new QFrame(Login);
         frame->setObjectName("frame");
-        frame->setGeometry(QRect(320, 60, 461, 531));
+        frame->setGeometry(QRect(320, 70, 441, 501));
         frame->setStyleSheet(QString::fromUtf8("border-right: 1px solid #8b2a9a;  /* Define red border on right side (adjust width as needed) */\n"
 "border-top: 1px solid #8b2a9a;\n"
 "border-radius: 69px;\n"
@@ -529,21 +528,21 @@ public:
         frame->setFrameShadow(QFrame::Raised);
         label_2 = new QLabel(frame);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(170, 20, 111, 81));
+        label_2->setGeometry(QRect(170, 30, 111, 101));
         label_2->setStyleSheet(QString::fromUtf8("background-color:none;\n"
 "border:none;"));
-        label_2->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/person.png")));
+        label_2->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/icons8-male-user-50.png")));
         label_2->setScaledContents(true);
         label_3 = new QLabel(frame);
         label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(150, 110, 221, 41));
+        label_3->setGeometry(QRect(150, 130, 221, 41));
         label_3->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
 "border:none;\n"
 "font: 700 16pt \"Tahoma\";\n"
 "background-color:none;"));
         loginuser = new QTextEdit(frame);
         loginuser->setObjectName("loginuser");
-        loginuser->setGeometry(QRect(190, 230, 251, 41));
+        loginuser->setGeometry(QRect(60, 240, 321, 41));
         loginuser->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 90, 163);\n"
 "border-radius: 12px;\n"
 "font: 13pt \"Arial\";\n"
@@ -551,32 +550,25 @@ public:
 "color:white;"));
         label_5 = new QLabel(frame);
         label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(20, 230, 111, 31));
+        label_5->setGeometry(QRect(70, 190, 111, 31));
         label_5->setStyleSheet(QString::fromUtf8("border:none;\n"
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
 "background-color: none;"));
         label_6 = new QLabel(frame);
         label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(20, 310, 101, 31));
+        label_6->setGeometry(QRect(70, 300, 101, 31));
         label_6->setStyleSheet(QString::fromUtf8("border:none;\n"
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
 "background-color: none;"));
-        label_4 = new QLabel(frame);
-        label_4->setObjectName("label_4");
-        label_4->setGeometry(QRect(140, 160, 211, 20));
-        label_4->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
-"border:none;\n"
-"font: 700 10pt \"Tahoma\";\n"
-"background-color:none;"));
         pushButton_2 = new QPushButton(frame);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(190, 410, 101, 41));
+        pushButton_2->setGeometry(QRect(180, 440, 101, 41));
         pushButton_2->setStyleSheet(QString::fromUtf8("\n"
 "\n"
 "QPushButton {\n"
-"font: 600 9pt \"Tahoma\";\n"
+"font: 600 11pt \"Arial\";\n"
 "color:white;\n"
 "alternate-background-color: rgb(148, 126, 254);\n"
 " border: 1px solid;\n"
@@ -594,7 +586,7 @@ public:
 "}"));
         loginpassword = new QLineEdit(frame);
         loginpassword->setObjectName("loginpassword");
-        loginpassword->setGeometry(QRect(190, 310, 251, 41));
+        loginpassword->setGeometry(QRect(60, 350, 321, 41));
         loginpassword->setStyleSheet(QString::fromUtf8("background-color: rgb(30, 90, 163);\n"
 "border-radius: 12px;\n"
 "font: 13pt \"Arial\";\n"
@@ -1927,12 +1919,6 @@ public:
         address->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
-        statusemp = new QLineEdit(InsertEmployee);
-        statusemp->setObjectName("statusemp");
-        statusemp->setGeometry(QRect(320, 570, 201, 31));
-        statusemp->setStyleSheet(QString::fromUtf8("color:black;\n"
-"background-color: rgba(255,255,255,255);\n"
-""));
         designation = new QComboBox(InsertEmployee);
         designation->addItem(QString());
         designation->addItem(QString());
@@ -2012,6 +1998,14 @@ public:
         salary->setObjectName("salary");
         salary->setGeometry(QRect(830, 570, 191, 28));
         salary->setStyleSheet(QString::fromUtf8("color:black;\n"
+"background-color: rgba(255,255,255,255);\n"
+""));
+        statusemp = new QComboBox(InsertEmployee);
+        statusemp->addItem(QString());
+        statusemp->addItem(QString());
+        statusemp->setObjectName("statusemp");
+        statusemp->setGeometry(QRect(320, 570, 201, 31));
+        statusemp->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
         stackedWidget->addWidget(InsertEmployee);
@@ -3431,7 +3425,7 @@ public:
 "}"));
         label_377 = new QLabel(Manager);
         label_377->setObjectName("label_377");
-        label_377->setGeometry(QRect(360, 50, 211, 31));
+        label_377->setGeometry(QRect(360, 70, 211, 31));
         label_377->setStyleSheet(QString::fromUtf8("color:white;\n"
 "font: 700 14pt \"Arial\";"));
         frame_44 = new QFrame(Manager);
@@ -3472,7 +3466,7 @@ public:
 "font: 700 29pt \"Arial\";"));
         label_8 = new QLabel(Manager);
         label_8->setObjectName("label_8");
-        label_8->setGeometry(QRect(310, 50, 41, 31));
+        label_8->setGeometry(QRect(310, 70, 41, 31));
         label_8->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/icons8-management-50.png")));
         label_8->setScaledContents(true);
         stackedWidget->addWidget(Manager);
@@ -5420,7 +5414,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(3);
+        stackedWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -5434,7 +5428,6 @@ public:
         label_3->setText(QCoreApplication::translate("MainWindow", "Member Login", nullptr));
         label_5->setText(QCoreApplication::translate("MainWindow", "Username:", nullptr));
         label_6->setText(QCoreApplication::translate("MainWindow", "Password:", nullptr));
-        label_4->setText(QCoreApplication::translate("MainWindow", "Good To Have You Back", nullptr));
         pushButton_2->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
         label_35->setText(QString());
         label_182->setText(QString());
@@ -5579,6 +5572,9 @@ public:
 
         label_37->setText(QCoreApplication::translate("MainWindow", "Employee ID:", nullptr));
         label_79->setText(QCoreApplication::translate("MainWindow", "Salary:", nullptr));
+        statusemp->setItemText(0, QCoreApplication::translate("MainWindow", "Active", nullptr));
+        statusemp->setItemText(1, QCoreApplication::translate("MainWindow", "Inactive", nullptr));
+
         homebutton_16->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_69->setText(QString());
         label_72->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));

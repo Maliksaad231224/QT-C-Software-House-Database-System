@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -83,9 +83,9 @@
       <property name="geometry">
        <rect>
         <x>320</x>
-        <y>60</y>
-        <width>461</width>
-        <height>531</height>
+        <y>70</y>
+        <width>441</width>
+        <height>501</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -108,9 +108,9 @@ background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0,
        <property name="geometry">
         <rect>
          <x>170</x>
-         <y>20</y>
+         <y>30</y>
          <width>111</width>
-         <height>81</height>
+         <height>101</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -121,7 +121,7 @@ border:none;</string>
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="../resource.qrc">:/pics/picture/person.png</pixmap>
+        <pixmap resource="../resource.qrc">:/pics/picture/icons8-male-user-50.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -131,7 +131,7 @@ border:none;</string>
        <property name="geometry">
         <rect>
          <x>150</x>
-         <y>110</y>
+         <y>130</y>
          <width>221</width>
          <height>41</height>
         </rect>
@@ -149,9 +149,9 @@ background-color:none;</string>
       <widget class="QTextEdit" name="loginuser">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>230</y>
-         <width>251</width>
+         <x>60</x>
+         <y>240</y>
+         <width>321</width>
          <height>41</height>
         </rect>
        </property>
@@ -166,8 +166,8 @@ color:white;</string>
       <widget class="QLabel" name="label_5">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>230</y>
+         <x>70</x>
+         <y>190</y>
          <width>111</width>
          <height>31</height>
         </rect>
@@ -185,8 +185,8 @@ background-color: none;</string>
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>310</y>
+         <x>70</x>
+         <y>300</y>
          <width>101</width>
          <height>31</height>
         </rect>
@@ -201,30 +201,11 @@ background-color: none;</string>
         <string>Password:</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_4">
-       <property name="geometry">
-        <rect>
-         <x>140</x>
-         <y>160</y>
-         <width>211</width>
-         <height>20</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-border:none;
-font: 700 10pt &quot;Tahoma&quot;;
-background-color:none;</string>
-       </property>
-       <property name="text">
-        <string>Good To Have You Back</string>
-       </property>
-      </widget>
       <widget class="QPushButton" name="pushButton_2">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>410</y>
+         <x>180</x>
+         <y>440</y>
          <width>101</width>
          <height>41</height>
         </rect>
@@ -233,7 +214,7 @@ background-color:none;</string>
         <string notr="true">
 
 QPushButton {
-font: 600 9pt &quot;Tahoma&quot;;
+font: 600 11pt &quot;Arial&quot;;
 color:white;
 alternate-background-color: rgb(148, 126, 254);
  border: 1px solid;
@@ -257,9 +238,9 @@ QPushButton:pressed {
       <widget class="QLineEdit" name="loginpassword">
        <property name="geometry">
         <rect>
-         <x>190</x>
-         <y>310</y>
-         <width>251</width>
+         <x>60</x>
+         <y>350</y>
+         <width>321</width>
          <height>41</height>
         </rect>
        </property>
@@ -3207,21 +3188,6 @@ background-color: rgba(255,255,255,255);
 </string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="statusemp">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>570</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
      <widget class="QComboBox" name="designation">
       <property name="geometry">
        <rect>
@@ -3513,6 +3479,31 @@ font: 10pt &quot;Tahoma&quot;;</string>
 background-color: rgba(255,255,255,255);
 </string>
       </property>
+     </widget>
+     <widget class="QComboBox" name="statusemp">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>570</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:black;
+background-color: rgba(255,255,255,255);
+</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Active</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Inactive</string>
+       </property>
+      </item>
      </widget>
     </widget>
     <widget class="QWidget" name="UpdateEmployee">
@@ -6200,7 +6191,7 @@ QPushButton:pressed {
       <property name="geometry">
        <rect>
         <x>360</x>
-        <y>50</y>
+        <y>70</y>
         <width>211</width>
         <height>31</height>
        </rect>
@@ -6331,7 +6322,7 @@ font: 700 29pt &quot;Arial&quot;;</string>
       <property name="geometry">
        <rect>
         <x>310</x>
-        <y>50</y>
+        <y>70</y>
         <width>41</width>
         <height>31</height>
        </rect>
