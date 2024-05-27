@@ -14,8 +14,11 @@
 #include <QDir>
 #include <QDebug>
 bool manager=false;
+
+QString username ;
+QString password ;
 QString empjoin="select e.EmployeeID,e.Fname,e.Lname,e.Birth_date,e.Address,e.Sex,e.email,e.Status,e.Job_Title,e.department,s.salary,t.teamname,es.supervisorname from employee as e inner join emp_team as t on e.EmployeeID=t.emp_id inner join employee_supervisors as es on e.EmployeeID=es.employeeid inner join salary as s on es.employeeid=s.employeeID;";
-QString projteam="SELECT t.TeamID,t.Title AS Team_Title,t.Description AS Team_Description,p.Title AS Working_On_Project,t.Team_Lead,Members,p.start_date,p.deadline,p.Project_Cost,p.status,p.Last_Updated FROM project as p JOIN works_on as w ON p.Proj_ID = w.Project_Proj_ID JOIN team as t ON w.Team_TeamID = t.TeamID order by TeamID ;";
+QString projteam="SELECT t.TeamID,t.Title AS Team_Title,t.Description AS Team_Description,p.Title AS Working_On_Project,t.Team_Lead,Members,p.start_date as Start_Date,p.deadline as Deadline,p.Project_Cost,p.status as Status  FROM project as p JOIN works_on as w ON p.Proj_ID = w.Project_Proj_ID JOIN team as t ON w.Team_TeamID = t.TeamID order by TeamID ;";
 QString projclient="SELECT p.Proj_ID, p.Title AS Project_Title, p.start_date,p.deadline, p.status,p.Project_Cost,c.Client_ID,c.Name AS Client_Name,c.billing_address,c.contact_info FROM project_client as pc JOIN project as p ON pc.Project_Proj_ID = p.Proj_ID JOIN client as c ON pc.Client_Client_ID = c.Client_ID order by p.Proj_ID asc;";
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -103,8 +106,8 @@ void MainWindow::on_pushButton_2_clicked()
 
 
 
-    QString username = ui->loginuser->toPlainText();
-    QString password = ui->loginpassword->text();
+ username = ui->loginuser->toPlainText();
+  password = ui->loginpassword->text();
     QString HR = "HR";
     QString M = "Manager";
     QString hrusername="hruser";
@@ -245,6 +248,58 @@ void MainWindow::on_pushButton_3_clicked()
 void MainWindow::homenaviagte()
 {
     ui->stackedWidget->setCurrentIndex(3);
+    if (db.open()) {
+        QSqlQuery query(db);
+        query.prepare("SELECT count(EmployeeID) FROM employee Where Status='Active';");
+        query.exec();
+        if (query.next()) {
+            int count = query.value(0).toInt();
+            ui->noactiveemp->setNum(count);
+            ui->mangactiveep->setNum(count);
+        }
+        //deadlines
+        QSqlQuery quer(db);
+        quer.prepare("SELECT COUNT(deadline) FROM project WHERE deadline > CURDATE();");
+        quer.exec();
+
+        int count = quer.size();
+        ui->deadline->setNum(count);
+        ui->mdeadline->setNum(count);
+
+        //total teams
+        QSqlQuery que(db);
+        que.prepare("SELECT COUNT(TeamID) FROM team ;");
+        que.exec();
+        if (que.next()) {
+            int count = que.value(0).toInt();
+            ui->managdevteam->setNum(count);
+
+        }
+        //inactive employees
+        QSqlQuery qu(db);
+        qu.prepare("SELECT count(EmployeeID) FROM employee Where Status='Inactive';");
+        qu.exec();
+        if (qu.next()) {
+            int count = qu.value(0).toInt();
+            ui->inactiveemp->setNum(count);
+
+        }
+
+
+        //complete
+        QSqlQuery q(db);
+        q.prepare("SELECT count(Proj_ID) from project where status='Complete';");
+        q.exec();
+        if (q.next()) {
+            int count = q.value(0).toInt();
+            ui->projectcomplete->setNum(count);
+            ui->mprojcomplete->setNum(count);
+
+        }
+
+
+    }
+
 
 }
 
@@ -433,6 +488,8 @@ void MainWindow::on_pushButton_79_clicked()
 {
 ui->stackedWidget->setCurrentIndex(0);
     manager=false;
+username = " ";
+password = " ";
 }
 
 
@@ -471,7 +528,7 @@ void MainWindow::teamviewtable()
 
 void MainWindow::on_pushButton_10_clicked()///////////
 {
-       ui->stackedWidget->setCurrentIndex(11);
+    ui->stackedWidget->setCurrentIndex(11);
 teamviewtable();
 
 
@@ -630,6 +687,10 @@ void MainWindow::on_pushButton_22_clicked()
 void MainWindow::on_pushButton_80_clicked()
 {
      ui->stackedWidget->setCurrentIndex(0);
+
+ username = " ";
+     password = " ";
+
 }
 
 
@@ -1140,12 +1201,68 @@ void MainWindow::managerview()
 void MainWindow::on_pushButton_47_clicked()
 {
     homenaviagte();
+
 }
 
 
 void MainWindow::on_pushButton_48_clicked()
 {
     homenaviagte();
+
+
+    //active employee
+    if (db.open()) {
+        QSqlQuery query(db);
+        query.prepare("SELECT count(EmployeeID) FROM employee Where Status='Active';");
+        query.exec();
+        if (query.next()) {
+            int count = query.value(0).toInt();
+            ui->noactiveemp->setNum(count);
+            ui->mangactiveep->setNum(count);
+        }
+        //deadlines
+        QSqlQuery quer(db);
+        quer.prepare("SELECT COUNT(deadline) FROM project WHERE deadline > CURDATE();");
+        quer.exec();
+
+        int count = quer.size();
+        ui->deadline->setNum(count);
+        ui->mdeadline->setNum(count);
+
+        //total teams
+        QSqlQuery que(db);
+        que.prepare("SELECT COUNT(TeamID) FROM team ;");
+        que.exec();
+        if (que.next()) {
+            int count = que.value(0).toInt();
+            ui->managdevteam->setNum(count);
+
+        }
+        //inactive employees
+        QSqlQuery qu(db);
+        qu.prepare("SELECT count(EmployeeID) FROM employee Where Status='Inactive';");
+        qu.exec();
+        if (qu.next()) {
+            int count = qu.value(0).toInt();
+            ui->inactiveemp->setNum(count);
+
+        }
+
+
+        //complete
+        QSqlQuery q(db);
+        q.prepare("SELECT count(Proj_ID) from project where status='Complete';");
+        q.exec();
+        if (q.next()) {
+            int count = q.value(0).toInt();
+            ui->projectcomplete->setNum(count);
+            ui->mprojcomplete->setNum(count);
+
+        }
+
+
+    }
+
 }
 
 
@@ -1186,7 +1303,41 @@ void MainWindow::on_pushButton_11_clicked()
     db.open();
 
     if (db.open())
-    {
+ {
+        bool sss=false;
+        bool eid=false;
+        bool fname=false;
+        bool sname=false;
+        bool lname=false;
+        int ff=ui->firstname->text().toInt(&fname);
+        int ll=ui->lastname->text().toInt(&lname);
+        int sn=ui->supername->text().toInt(&sname);
+        int ss=ui->salary->text().toInt(&sss);
+        int eee=ui->empid->text().toInt(&eid);
+        if(sss==false){
+            QMessageBox::information(this,"Incorrect Salary Format ","Salary Must Contain Numbers");
+        }
+        if(eid==false){
+            QMessageBox::information(this,"Incorrect Employee ID Format ","Employee ID Must Contain Numbers");
+        }
+
+        if(fname==true)
+        {
+          QMessageBox::information(this,"Incorrect First Name ","First Name Cannot Contain Numbers");
+        }
+        if(lname==true){
+            QMessageBox::information(this,"Incorrect Last Name ","Last Name Cannot Contain Numbers");
+        }
+
+        if(sname==true){
+            QMessageBox::information(this,"Incorrect Supervisor Name ","Supervisor Name Cannot Contain Numbers");
+        }
+
+
+
+        if(sss==true&&eid==true&&lname==false&&fname==false&&sname==false)
+        {
+
         QSqlQuery empqry,empteamqry,salqry;
      QSqlQuery empsup;
    empqry.prepare("INSERT INTO employee(EmployeeID,Fname,Lname,Address,Sex,email,Birth_date,Status,Job_Title,department) "
@@ -1199,7 +1350,7 @@ void MainWindow::on_pushButton_11_clicked()
     empqry.bindValue(":add",ui->address->text());
    empqry.bindValue(":se",ui->gender->currentText());
     empqry.bindValue(":emai",ui->email->text());
-        empqry.bindValue(":status",ui->statusemp->text());
+        empqry.bindValue(":status",ui->statusemp->currentText());
         empqry.bindValue(":title",ui->designation->currentText());
         empqry.bindValue(":dept",ui->insdept->currentText());
 
@@ -1228,8 +1379,10 @@ void MainWindow::on_pushButton_11_clicked()
 
 
 
-    }
-    else
+      }
+
+     }
+  else
     {
         QMessageBox::critical(this, "Connection", "Failed to connect to the database: " );
 
@@ -1275,10 +1428,10 @@ void MainWindow::on_pushButton_13_clicked()
    ui->email->clear();
 
   ui->address->clear();
-
+   ui->salary->clear();
 
    ui->empid->clear();
-   ui->statusemp->clear();
+
 
 
 }
@@ -1293,6 +1446,30 @@ void MainWindow::on_ProjSubmit_clicked()
     if (db.open())
     {
 
+        bool pid=false;
+        bool pcost=false;
+        bool cid=false;
+        bool ptitle=false;
+        int a=ui->clientname->toPlainText().toInt(&ptitle);
+        int g=ui->clientid->toPlainText().toInt(&cid);
+            int i=ui->projID->toPlainText().toInt(&pid);
+        int c=ui->projcost->toPlainText().toInt(&pcost);
+            if(ptitle==true){
+             QMessageBox::information(this,"Incorrect Client Name Format","Client Name must be Not be Numeric");
+        }
+            if(g==false){
+               QMessageBox::information(this,"Incorrect Client ID Format","Client ID must be Numeric");
+        }
+            if(pcost==false){
+              QMessageBox::information(this,"Incorrect Project Cost Format","Project Cost must be Numeric");
+        }
+        if(pid==false){
+              QMessageBox::information(this,"Incorrect Project ID Format","Project ID must be Numeric");
+        }
+        if(pid==true&&pcost==true&&cid==true&&ptitle==false)
+
+
+        {
         QSqlQuery proqry,client,add;
         proqry.prepare("INSERT INTO project(Proj_ID,Title,start_date,deadline,Project_Cost) "
                        "VALUES (:projid,:title,:sdate,:ddate,:procost)");
@@ -1317,12 +1494,12 @@ void MainWindow::on_ProjSubmit_clicked()
 
 
         if(proqry.exec()&&client.exec()&&add.exec()){
-            QMessageBox::information(this,"insertion","Successful");
+            QMessageBox::information(this,"insertion","Project has been successfully Inserted");
         }
         else{
-            QMessageBox::information(this,"insertion","unsuccessful");
+            QMessageBox::information(this,"insertion","Either the project ID or Client ID already Exists");
         }
-
+        }
 
     }
     else

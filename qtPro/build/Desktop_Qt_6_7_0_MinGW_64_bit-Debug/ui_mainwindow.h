@@ -177,7 +177,6 @@ public:
     QLineEdit *lastname;
     QLineEdit *email;
     QLineEdit *address;
-    QLineEdit *statusemp;
     QComboBox *designation;
     QComboBox *insdept;
     QLineEdit *supername;
@@ -187,6 +186,7 @@ public:
     QLineEdit *empid;
     QLabel *label_79;
     QLineEdit *salary;
+    QComboBox *statusemp;
     QWidget *UpdateEmployee;
     QFrame *frame_24;
     QPushButton *homebutton_16;
@@ -551,14 +551,14 @@ public:
 "color:white;"));
         label_5 = new QLabel(frame);
         label_5->setObjectName("label_5");
-        label_5->setGeometry(QRect(20, 230, 111, 31));
+        label_5->setGeometry(QRect(60, 230, 111, 31));
         label_5->setStyleSheet(QString::fromUtf8("border:none;\n"
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
 "background-color: none;"));
         label_6 = new QLabel(frame);
         label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(20, 310, 101, 31));
+        label_6->setGeometry(QRect(60, 310, 101, 31));
         label_6->setStyleSheet(QString::fromUtf8("border:none;\n"
 "color:white;\n"
 "font: 700 11pt \"Tahoma\";\n"
@@ -1927,12 +1927,6 @@ public:
         address->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
-        statusemp = new QLineEdit(InsertEmployee);
-        statusemp->setObjectName("statusemp");
-        statusemp->setGeometry(QRect(320, 570, 201, 31));
-        statusemp->setStyleSheet(QString::fromUtf8("color:black;\n"
-"background-color: rgba(255,255,255,255);\n"
-""));
         designation = new QComboBox(InsertEmployee);
         designation->addItem(QString());
         designation->addItem(QString());
@@ -2012,6 +2006,14 @@ public:
         salary->setObjectName("salary");
         salary->setGeometry(QRect(830, 570, 191, 28));
         salary->setStyleSheet(QString::fromUtf8("color:black;\n"
+"background-color: rgba(255,255,255,255);\n"
+""));
+        statusemp = new QComboBox(InsertEmployee);
+        statusemp->addItem(QString());
+        statusemp->addItem(QString());
+        statusemp->setObjectName("statusemp");
+        statusemp->setGeometry(QRect(320, 570, 201, 31));
+        statusemp->setStyleSheet(QString::fromUtf8("color:black;\n"
 "background-color: rgba(255,255,255,255);\n"
 ""));
         stackedWidget->addWidget(InsertEmployee);
@@ -5579,6 +5581,9 @@ public:
 
         label_37->setText(QCoreApplication::translate("MainWindow", "Employee ID:", nullptr));
         label_79->setText(QCoreApplication::translate("MainWindow", "Salary:", nullptr));
+        statusemp->setItemText(0, QCoreApplication::translate("MainWindow", "Active", nullptr));
+        statusemp->setItemText(1, QCoreApplication::translate("MainWindow", "Inactive", nullptr));
+
         homebutton_16->setText(QCoreApplication::translate("MainWindow", "Home", nullptr));
         label_69->setText(QString());
         label_72->setText(QCoreApplication::translate("MainWindow", "App Version v1.0", nullptr));

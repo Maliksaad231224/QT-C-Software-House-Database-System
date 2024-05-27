@@ -166,7 +166,7 @@ color:white;</string>
       <widget class="QLabel" name="label_5">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>60</x>
          <y>230</y>
          <width>111</width>
          <height>31</height>
@@ -185,7 +185,7 @@ background-color: none;</string>
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>60</x>
          <y>310</y>
          <width>101</width>
          <height>31</height>
@@ -3207,21 +3207,6 @@ background-color: rgba(255,255,255,255);
 </string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="statusemp">
-      <property name="geometry">
-       <rect>
-        <x>320</x>
-        <y>570</y>
-        <width>201</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color:black;
-background-color: rgba(255,255,255,255);
-</string>
-      </property>
-     </widget>
      <widget class="QComboBox" name="designation">
       <property name="geometry">
        <rect>
@@ -3513,6 +3498,31 @@ font: 10pt &quot;Tahoma&quot;;</string>
 background-color: rgba(255,255,255,255);
 </string>
       </property>
+     </widget>
+     <widget class="QComboBox" name="statusemp">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>570</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:black;
+background-color: rgba(255,255,255,255);
+</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Active</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Inactive</string>
+       </property>
+      </item>
      </widget>
     </widget>
     <widget class="QWidget" name="UpdateEmployee">
