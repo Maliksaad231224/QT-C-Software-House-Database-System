@@ -57,7 +57,7 @@
      <string notr="true">background-color:rgba(45,45,45,255);</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="Login">
      <widget class="QLabel" name="label">
@@ -585,9 +585,9 @@ background-color: none;</string>
       <property name="geometry">
        <rect>
         <x>230</x>
-        <y>230</y>
+        <y>240</y>
         <width>161</width>
-        <height>221</height>
+        <height>191</height>
        </rect>
       </property>
       <property name="text">
@@ -606,7 +606,7 @@ background-color: none;</string>
         <x>30</x>
         <y>260</y>
         <width>161</width>
-        <height>181</height>
+        <height>161</height>
        </rect>
       </property>
       <property name="text">
@@ -623,9 +623,9 @@ background-color: none;</string>
       <property name="geometry">
        <rect>
         <x>460</x>
-        <y>220</y>
+        <y>240</y>
         <width>161</width>
-        <height>281</height>
+        <height>221</height>
        </rect>
       </property>
       <property name="text">
@@ -696,7 +696,7 @@ font: 700 16pt &quot;Arial&quot;;</string>
         <x>670</x>
         <y>270</y>
         <width>181</width>
-        <height>201</height>
+        <height>171</height>
        </rect>
       </property>
       <property name="text">
@@ -822,7 +822,7 @@ font: 700 17pt &quot;Arial&quot;;</string>
         <x>880</x>
         <y>270</y>
         <width>161</width>
-        <height>191</height>
+        <height>161</height>
        </rect>
       </property>
       <property name="styleSheet">

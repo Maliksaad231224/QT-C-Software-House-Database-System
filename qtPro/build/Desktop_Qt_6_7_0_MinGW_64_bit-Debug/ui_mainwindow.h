@@ -726,17 +726,17 @@ public:
         label_11->setScaledContents(true);
         label_12 = new QLabel(TechnologyUsed);
         label_12->setObjectName("label_12");
-        label_12->setGeometry(QRect(230, 230, 161, 221));
+        label_12->setGeometry(QRect(230, 240, 161, 191));
         label_12->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/cpp.png")));
         label_12->setScaledContents(true);
         label_13 = new QLabel(TechnologyUsed);
         label_13->setObjectName("label_13");
-        label_13->setGeometry(QRect(30, 260, 161, 181));
+        label_13->setGeometry(QRect(30, 260, 161, 161));
         label_13->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/css.png")));
         label_13->setScaledContents(true);
         label_15 = new QLabel(TechnologyUsed);
         label_15->setObjectName("label_15");
-        label_15->setGeometry(QRect(460, 220, 161, 281));
+        label_15->setGeometry(QRect(460, 240, 161, 221));
         label_15->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/qt_94938.png")));
         label_15->setScaledContents(true);
         label_16 = new QLabel(TechnologyUsed);
@@ -755,7 +755,7 @@ public:
 "font: 700 16pt \"Arial\";"));
         label_14 = new QLabel(TechnologyUsed);
         label_14->setObjectName("label_14");
-        label_14->setGeometry(QRect(670, 270, 181, 201));
+        label_14->setGeometry(QRect(670, 270, 181, 171));
         label_14->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/mysql.png")));
         label_14->setScaledContents(true);
         pushButton_29 = new QPushButton(TechnologyUsed);
@@ -807,7 +807,7 @@ public:
 "font: 700 17pt \"Arial\";"));
         label_65 = new QLabel(TechnologyUsed);
         label_65->setObjectName("label_65");
-        label_65->setGeometry(QRect(880, 270, 161, 191));
+        label_65->setGeometry(QRect(880, 270, 161, 161));
         label_65->setStyleSheet(QString::fromUtf8("background-color:none;"));
         label_65->setPixmap(QPixmap(QString::fromUtf8(":/pics/picture/1576847226916.png")));
         label_65->setScaledContents(true);
@@ -5414,7 +5414,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
