@@ -1,0 +1,185 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+-- -----------------------------------------------------
+-- Schema project
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema project
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `project` DEFAULT CHARACTER SET utf8mb3 ;
+USE `project` ;
+
+-- -----------------------------------------------------
+-- Table `project`.`client`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`client` (
+  `Client_ID` INT NOT NULL AUTO_INCREMENT,
+  `Name` TEXT NULL DEFAULT NULL,
+  `billing_address` TEXT NULL DEFAULT NULL,
+  `contact_info` TEXT NULL DEFAULT NULL,
+  PRIMARY KEY (`Client_ID`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 8766
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`department`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`department` (
+  `Dpt_no` INT NOT NULL AUTO_INCREMENT,
+  `Name` TEXT NULL DEFAULT NULL,
+  `manager` TEXT NULL DEFAULT NULL,
+  `emp_number` INT NULL DEFAULT NULL,
+  PRIMARY KEY (`Dpt_no`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 10
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`emp_team`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`emp_team` (
+  `emp_id` INT NOT NULL,
+  `teamname` TEXT NULL DEFAULT NULL,
+  PRIMARY KEY (`emp_id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`employee`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`employee` (
+  `EmployeeID` INT NOT NULL AUTO_INCREMENT,
+  `Fname` TEXT NULL DEFAULT NULL,
+  `Lname` TEXT NULL DEFAULT NULL,
+  `Birth_date` DATE NULL DEFAULT NULL,
+  `Address` LONGTEXT NULL DEFAULT NULL,
+  `Sex` TEXT NULL DEFAULT NULL,
+  `email` TEXT NULL DEFAULT NULL,
+  `Status` TEXT NULL DEFAULT NULL,
+  `Job_Title` TEXT NULL DEFAULT NULL,
+  `department` TEXT NULL DEFAULT NULL,
+  PRIMARY KEY (`EmployeeID`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 100000001
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`employee_supervisors`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`employee_supervisors` (
+  `employeeid` INT NOT NULL,
+  `supervisorname` TEXT NULL DEFAULT NULL,
+  PRIMARY KEY (`employeeid`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`login credentials`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`login credentials` (
+  `username` TEXT NULL DEFAULT NULL,
+  `password` TEXT NULL DEFAULT NULL)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`project`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`project` (
+  `Proj_ID` INT NOT NULL AUTO_INCREMENT,
+  `Title` TEXT NULL DEFAULT NULL,
+  `start_date` DATE NULL DEFAULT NULL,
+  `deadline` DATE NULL DEFAULT NULL,
+  `Project_Cost` DOUBLE NULL DEFAULT NULL,
+  `status` TEXT NULL DEFAULT NULL,
+  PRIMARY KEY (`Proj_ID`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 98766
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`project_client`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`project_client` (
+  `Client_Client_ID` INT NOT NULL,
+  `Project_Proj_ID` INT NOT NULL,
+  PRIMARY KEY (`Client_Client_ID`, `Project_Proj_ID`),
+  INDEX `fk_Project_Client_Client1_idx` (`Client_Client_ID` ASC) VISIBLE,
+  INDEX `fk_Project_Client_Project1` (`Project_Proj_ID` ASC) VISIBLE,
+  CONSTRAINT `fk_Project_Client_Client1`
+    FOREIGN KEY (`Client_Client_ID`)
+    REFERENCES `project`.`client` (`Client_ID`),
+  CONSTRAINT `fk_Project_Client_Project1`
+    FOREIGN KEY (`Project_Proj_ID`)
+    REFERENCES `project`.`project` (`Proj_ID`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`salary`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`salary` (
+  `employeeID` INT NOT NULL,
+  `salary` INT NULL DEFAULT NULL,
+  PRIMARY KEY (`employeeID`),
+  CONSTRAINT `salary_ibfk_1`
+    FOREIGN KEY (`employeeID`)
+    REFERENCES `project`.`employee` (`EmployeeID`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`team`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`team` (
+  `TeamID` INT NOT NULL AUTO_INCREMENT,
+  `Title` TEXT NULL DEFAULT NULL,
+  `Description` TEXT NULL DEFAULT NULL,
+  `Team_Lead` TEXT NULL DEFAULT NULL,
+  `Members` INT NULL DEFAULT NULL,
+  PRIMARY KEY (`TeamID`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 8
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+-- -----------------------------------------------------
+-- Table `project`.`works_on`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `project`.`works_on` (
+  `Team_TeamID` INT NOT NULL,
+  `Project_Proj_ID` INT NOT NULL,
+  PRIMARY KEY (`Team_TeamID`, `Project_Proj_ID`),
+  INDEX `fk_Works_on_Team1_idx` (`Team_TeamID` ASC) VISIBLE,
+  INDEX `fk_Works_on_Project1_idx` (`Project_Proj_ID` ASC) VISIBLE,
+  CONSTRAINT `fk_Works_on_Project1`
+    FOREIGN KEY (`Project_Proj_ID`)
+    REFERENCES `project`.`project` (`Proj_ID`),
+  CONSTRAINT `fk_Works_on_Team1`
+    FOREIGN KEY (`Team_TeamID`)
+    REFERENCES `project`.`team` (`TeamID`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb3;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
